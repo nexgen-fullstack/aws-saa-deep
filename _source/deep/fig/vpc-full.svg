@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 330" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="4" y="30" width="392" height="296" rx="14"/>
+<text class="fg-tb fg-xs" x="14" y="48">Регіон · VPC 10.0.0.0/16</text>
+<rect class="fg-net" x="150" y="4" width="100" height="26" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="22">🌐 Internet GW</text>
+<text class="fg-c" x="330" y="22" font-size="14">🙋🙋 клієнти</text>
+<rect class="fg-box" x="12" y="56" width="184" height="262" rx="12"/>
+<text class="fg-tb fg-xs" x="22" y="74">AZ a</text>
+<rect class="fg-sto" x="20" y="82" width="168" height="62" rx="8"/>
+<text class="fg-xs fg-tb" x="26" y="98">публічна 10.0.1.0/24</text>
+<text class="fg-xs fg-t" x="26" y="118">⚖️ балансувальник</text>
+<text class="fg-xs fg-t" x="26" y="136">↗ NAT Gateway</text>
+<rect class="fg-cmp" x="20" y="156" width="168" height="62" rx="8"/>
+<text class="fg-xs fg-tb" x="26" y="172">приватна 10.0.11.0/24</text>
+<text class="fg-xs fg-t" x="26" y="194">🖥️ сервери сайту</text>
+<text class="fg-m fg-xs" x="26" y="210">вихід: через NAT своєї AZ</text>
+<rect class="fg-db" x="20" y="230" width="168" height="78" rx="8"/>
+<text class="fg-xs fg-tb" x="26" y="246">приватна 10.0.21.0/24</text>
+<text class="fg-xs fg-t" x="26" y="268">🛢️ база (основна)</text>
+<text class="fg-m fg-xs" x="26" y="290">без маршруту в інтернет</text>
+<line class="fg-la" x1="104" y1="144" x2="104" y2="154" marker-end="url(#aha)"/>
+<line class="fg-la" x1="104" y1="218" x2="104" y2="228" marker-end="url(#aha)"/>
+<rect class="fg-box" x="204" y="56" width="184" height="262" rx="12"/>
+<text class="fg-tb fg-xs" x="214" y="74">AZ b</text>
+<rect class="fg-sto" x="212" y="82" width="168" height="62" rx="8"/>
+<text class="fg-xs fg-tb" x="218" y="98">публічна 10.0.2.0/24</text>
+<text class="fg-xs fg-t" x="218" y="118">⚖️ балансувальник</text>
+<text class="fg-xs fg-t" x="218" y="136">↗ NAT Gateway</text>
+<rect class="fg-cmp" x="212" y="156" width="168" height="62" rx="8"/>
+<text class="fg-xs fg-tb" x="218" y="172">приватна 10.0.12.0/24</text>
+<text class="fg-xs fg-t" x="218" y="194">🖥️ сервери сайту</text>
+<text class="fg-m fg-xs" x="218" y="210">вихід: через NAT своєї AZ</text>
+<rect class="fg-db" x="212" y="230" width="168" height="78" rx="8"/>
+<text class="fg-xs fg-tb" x="218" y="246">приватна 10.0.22.0/24</text>
+<text class="fg-xs fg-t" x="218" y="268">🛢️ база (запасна копія)</text>
+<text class="fg-m fg-xs" x="218" y="290">без маршруту в інтернет</text>
+<line class="fg-la" x1="296" y1="144" x2="296" y2="154" marker-end="url(#aha)"/>
+<line class="fg-la" x1="296" y1="218" x2="296" y2="228" marker-end="url(#aha)"/>
+<line class="fg-la" x1="200" y1="30" x2="100" y2="80" marker-end="url(#aha)"/>
+<line class="fg-la" x1="200" y1="30" x2="296" y2="80" marker-end="url(#aha)"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 252" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="30" width="388" height="176" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="50">квартал = підмережа</text>
+<rect class="fg-warn" x="4" y="100" width="48" height="36" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="28" y="116">NACL</text>
+<text class="fg-xs fg-c fg-t" x="28" y="130">🚧</text>
+<text class="fg-c" x="28" y="92" font-size="16">🚗</text>
+<line class="fg-la" x1="54" y1="118" x2="96" y2="118" marker-end="url(#aha)"/>
+<rect class="fg-box" x="100" y="70" width="120" height="100" rx="10"/>
+<text class="fg-c" x="160" y="112" font-size="26">🖥️</text>
+<text class="fg-xs fg-c fg-tb" x="160" y="136">сервер</text>
+<rect class="fg-accs" x="92" y="104" width="30" height="30" rx="6"/>
+<text class="fg-xs fg-c fg-tb" x="107" y="124">SG</text>
+<rect class="fg-box" x="250" y="70" width="120" height="100" rx="10"/>
+<text class="fg-c" x="310" y="112" font-size="26">🛢️</text>
+<text class="fg-xs fg-c fg-tb" x="310" y="136">база</text>
+<rect class="fg-accs" x="242" y="104" width="30" height="30" rx="6"/>
+<text class="fg-xs fg-c fg-tb" x="257" y="124">SG</text>
+<text class="fg-tb fg-xs fg-twarn" x="16" y="226">🚧 NACL — шлагбаум кварталу: не пам'ятає, Allow і Deny</text>
+<text class="fg-tb fg-xs fg-tacc" x="16" y="244">💂 SG — охоронець дверей: пам'ятає, лише Allow</text>
+<text class="fg-m fg-xs" x="16" y="20">пакет проходить обох: спершу шлагбаум, потім двері</text>
+</svg>

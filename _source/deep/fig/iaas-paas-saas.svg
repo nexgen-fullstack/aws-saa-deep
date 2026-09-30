@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 302" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs fg-c" x="159.0" y="24">On-prem</text>
+<text class="fg-tb fg-xs fg-c" x="225.0" y="24">IaaS</text>
+<text class="fg-tb fg-xs fg-c" x="291.0" y="24">PaaS</text>
+<text class="fg-tb fg-xs fg-c" x="357.0" y="24">SaaS</text>
+<text class="fg-t fg-xs" x="6" y="62">Дані й доступи</text>
+<rect class="fg-accs" x="128" y="40" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="60">ти</text>
+<rect class="fg-accs" x="194" y="40" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="225.0" y="60">ти</text>
+<rect class="fg-accs" x="260" y="40" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="291.0" y="60">ти</text>
+<rect class="fg-accs" x="326" y="40" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="357.0" y="60">ти</text>
+<text class="fg-t fg-xs" x="6" y="98">Програма, код</text>
+<rect class="fg-accs" x="128" y="76" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="96">ти</text>
+<rect class="fg-accs" x="194" y="76" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="225.0" y="96">ти</text>
+<rect class="fg-accs" x="260" y="76" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="291.0" y="96">ти</text>
+<rect class="fg-ok" x="326" y="76" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="357.0" y="96">провайдер</text>
+<text class="fg-t fg-xs" x="6" y="134">Платформа, бази</text>
+<rect class="fg-accs" x="128" y="112" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="132">ти</text>
+<rect class="fg-accs" x="194" y="112" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="225.0" y="132">ти</text>
+<rect class="fg-ok" x="260" y="112" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="291.0" y="132">провайдер</text>
+<rect class="fg-ok" x="326" y="112" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="357.0" y="132">провайдер</text>
+<text class="fg-t fg-xs" x="6" y="170">Операційна система</text>
+<rect class="fg-accs" x="128" y="148" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="168">ти</text>
+<rect class="fg-accs" x="194" y="148" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="225.0" y="168">ти</text>
+<rect class="fg-ok" x="260" y="148" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="291.0" y="168">провайдер</text>
+<rect class="fg-ok" x="326" y="148" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="357.0" y="168">провайдер</text>
+<text class="fg-t fg-xs" x="6" y="206">Віртуалізація</text>
+<rect class="fg-accs" x="128" y="184" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="204">ти</text>
+<rect class="fg-ok" x="194" y="184" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="225.0" y="204">провайдер</text>
+<rect class="fg-ok" x="260" y="184" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="291.0" y="204">провайдер</text>
+<rect class="fg-ok" x="326" y="184" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="357.0" y="204">провайдер</text>
+<text class="fg-t fg-xs" x="6" y="242">Залізо, мережа, будівля</text>
+<rect class="fg-accs" x="128" y="220" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tacc fg-tb" x="159.0" y="240">ти</text>
+<rect class="fg-ok" x="194" y="220" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="225.0" y="240">провайдер</text>
+<rect class="fg-ok" x="260" y="220" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="291.0" y="240">провайдер</text>
+<rect class="fg-ok" x="326" y="220" width="62" height="32" rx="6"/>
+<text class="fg-c fg-xs fg-tok" x="357.0" y="240">провайдер</text>
+<text class="fg-m fg-xs" x="6" y="274">Приклади AWS:</text>
+<text class="fg-m fg-xs fg-c" x="225" y="274">EC2</text>
+<text class="fg-m fg-xs fg-c" x="291" y="274">Beanstalk</text>
+<text class="fg-m fg-xs fg-c" x="357" y="274">пошта</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="294">Дані й доступи — завжди твої, навіть у SaaS</text>
+</svg>

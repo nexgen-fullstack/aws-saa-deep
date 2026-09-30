@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 224" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="6" width="124" height="190" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="68" y="26">DDoS</text>
+<text class="fg-c" x="68" y="62" font-size="16">🤖🤖🤖🤖</text>
+<text class="fg-c" x="68" y="84" font-size="16">🤖🤖🤖🤖</text>
+<line class="fg-lbad" x1="68" y1="92" x2="68" y2="112" marker-end="url(#ahbad)"/>
+<text class="fg-c" x="68" y="136" font-size="20">🚪</text>
+<text class="fg-c" x="96" y="136" font-size="14">🙋✗</text>
+<text class="fg-t fg-xs fg-c" x="68" y="164">натовп перекрив</text>
+<text class="fg-t fg-xs fg-c" x="68" y="180">вхід справжнім</text>
+<rect class="fg-warn" x="138" y="6" width="124" height="190" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="26">SQL injection</text>
+<rect class="fg-box" x="148" y="40" width="104" height="58" rx="6"/>
+<text class="fg-m fg-xs" x="154" y="56">Ім'я:</text>
+<text class="fg-mono" x="154" y="74">Оля'; DROP</text>
+<text class="fg-mono" x="154" y="90">TABLE orders</text>
+<text class="fg-c" x="200" y="128" font-size="20">🗄️💥</text>
+<text class="fg-t fg-xs fg-c" x="200" y="164">команда в полі</text>
+<text class="fg-t fg-xs fg-c" x="200" y="180">форми для бази</text>
+<rect class="fg-int" x="270" y="6" width="124" height="190" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="332" y="26">XSS</text>
+<rect class="fg-box" x="280" y="40" width="104" height="58" rx="6"/>
+<text class="fg-m fg-xs" x="286" y="56">Відгук:</text>
+<text class="fg-mono" x="286" y="74">Смачно!</text>
+<text class="fg-mono" x="286" y="90">&lt;script&gt;…</text>
+<text class="fg-c" x="332" y="128" font-size="20">👥📱</text>
+<text class="fg-t fg-xs fg-c" x="332" y="164">скрипт виконують</text>
+<text class="fg-t fg-xs fg-c" x="332" y="180">браузери інших</text>
+<text class="fg-m fg-xs fg-c" x="200" y="216">від усіх трьох на рівні сайту захищає AWS WAF (DDoS — ще й Shield)</text>
+</svg>

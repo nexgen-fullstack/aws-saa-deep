@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 242" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="6" width="180" height="170" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="26">VPC постачальника</text>
+<text class="fg-c" x="96" y="70" font-size="24">🥐🖥️</text>
+<text class="fg-xs fg-c fg-t" x="96" y="92">сервіс замовлень</text>
+<rect class="fg-accs" x="46" y="108" width="100" height="30" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="96" y="128">NLB</text>
+<text class="fg-m fg-xs fg-c" x="96" y="160">endpoint service</text>
+<rect class="fg-net" x="214" y="6" width="180" height="80" rx="12"/>
+<text class="fg-tb fg-xs" x="224" y="26">VPC клієнта 1 · 10.0.0.0/16</text>
+<rect class="fg-int" x="300" y="38" width="84" height="40" rx="8"/><text class="fg-xs fg-c fg-tb" x="342" y="62">🪟 endpoint</text>
+<rect class="fg-net" x="214" y="96" width="180" height="80" rx="12"/>
+<text class="fg-tb fg-xs" x="224" y="116">VPC клієнта 2 · 10.0.0.0/16</text>
+<rect class="fg-int" x="300" y="128" width="84" height="40" rx="8"/><text class="fg-xs fg-c fg-tb" x="342" y="152">🪟 endpoint</text>
+<line class="fg-la" x1="148" y1="118" x2="296" y2="58" marker-start="url(#aha)"/>
+<line class="fg-la" x1="148" y1="126" x2="296" y2="148" marker-start="url(#aha)"/>
+<text class="fg-m fg-xs" x="8" y="198">• клієнти бачать лише сервіс, а не всю мережу</text>
+<text class="fg-m fg-xs" x="8" y="216">• однакові адреси (обидва 10.0.0.0/16) — не заважають</text>
+<text class="fg-m fg-xs" x="8" y="234">• клієнтів можуть бути тисячі</text>
+</svg>

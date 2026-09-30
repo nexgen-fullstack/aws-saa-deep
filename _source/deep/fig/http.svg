@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 236" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="34" y="44" font-size="26">💻</text>
+<text class="fg-tb fg-c fg-s" x="34" y="66">браузер</text>
+<text class="fg-c" x="366" y="44" font-size="26">🖥️</text>
+<text class="fg-tb fg-c fg-s" x="366" y="66">сервер</text>
+<rect class="fg-accs" x="72" y="14" width="232" height="58" rx="12"/>
+<text class="fg-m fg-xs" x="86" y="32">ЗАПИТ</text>
+<text class="fg-tb" x="86" y="52" font-family="Consolas, monospace">GET /menu</text>
+<text class="fg-m fg-xs" x="86" y="66">«дай, будь ласка, сторінку меню»</text>
+<line class="fg-la" x1="306" y1="44" x2="338" y2="44" marker-end="url(#aha)"/>
+<rect class="fg-ok" x="96" y="98" width="232" height="84" rx="12"/>
+<text class="fg-m fg-xs" x="110" y="116">ВІДПОВІДЬ</text>
+<text class="fg-tb fg-tok" x="110" y="136" font-family="Consolas, monospace">200 OK</text>
+<text class="fg-t fg-s" x="110" y="156">+ сторінка: HTML, CSS,</text>
+<text class="fg-t fg-s" x="110" y="172">картинки, JavaScript</text>
+<line class="fg-lok" x1="94" y1="140" x2="62" y2="140" marker-end="url(#ahok)"/>
+<text class="fg-m fg-xs fg-c" x="200" y="206">Інші відповіді: 404 — немає такої сторінки,</text>
+<text class="fg-m fg-xs fg-c" x="200" y="222">429 — забагато запитів, 503 — сервер недоступний</text>
+</svg>

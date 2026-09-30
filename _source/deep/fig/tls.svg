@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="30" y="40" font-size="24">💻</text><text class="fg-xs fg-c fg-m" x="30" y="60">браузер</text>
+<text class="fg-c" x="370" y="40" font-size="24">🖥️</text><text class="fg-xs fg-c fg-m" x="370" y="60">сайт</text>
+<rect class="fg-accs" x="60" y="74" width="280" height="32" rx="8"/>
+<text class="fg-tb fg-xs" x="72" y="95">1. 📜 сайт показує сертифікат-«паспорт»</text>
+<rect class="fg-accs" x="60" y="114" width="280" height="32" rx="8"/>
+<text class="fg-tb fg-xs" x="72" y="135">2. 🔍 браузер перевіряє: видав довірений CA?</text>
+<rect class="fg-accs" x="60" y="154" width="280" height="32" rx="8"/>
+<text class="fg-tb fg-xs" x="72" y="175">3. 🤝 безпечно домовилися про спільний ключ</text>
+<rect class="fg-ok" x="60" y="194" width="280" height="32" rx="8"/>
+<text class="fg-tb fg-xs" x="72" y="215">4. 🔒 далі вся розмова — швидким шифром</text>
+<line class="fg-l" x1="30" y1="70" x2="30" y2="232"/>
+<line class="fg-l" x1="370" y1="70" x2="370" y2="232"/>
+<text class="fg-m fg-xs fg-c" x="200" y="252">асиметричне — щоб домовитися, симетричне — щоб говорити</text>
+</svg>

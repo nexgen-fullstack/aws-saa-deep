@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="6" y="6" width="191" height="58" rx="10"/>
+<text x="16" y="43" font-size="22">🧍</text>
+<text class="fg-tb fg-xs" x="50" y="28">WAF — фейс-контроль</text>
+<text class="fg-m fg-xs" x="50" y="46">перевіряє кожен запит</text>
+<rect class="fg-box" x="203" y="6" width="191" height="58" rx="10"/>
+<text x="213" y="43" font-size="22">🌊</text>
+<text class="fg-tb fg-xs" x="247" y="28">Shield — дамба</text>
+<text class="fg-m fg-xs" x="247" y="46">від натовпу (DDoS)</text>
+<rect class="fg-box" x="6" y="72" width="191" height="58" rx="10"/>
+<text x="16" y="109" font-size="22">📹</text>
+<text class="fg-tb fg-xs" x="50" y="94">GuardDuty — камери</text>
+<text class="fg-m fg-xs" x="50" y="112">помічають загрози</text>
+<rect class="fg-box" x="203" y="72" width="191" height="58" rx="10"/>
+<text x="213" y="109" font-size="22">🔧</text>
+<text class="fg-tb fg-xs" x="247" y="94">Inspector — технагляд</text>
+<text class="fg-m fg-xs" x="247" y="112">шукає вразливості</text>
+<rect class="fg-box" x="6" y="138" width="191" height="58" rx="10"/>
+<text x="16" y="175" font-size="22">🐕</text>
+<text class="fg-tb fg-xs" x="50" y="160">Macie — пес-шукач</text>
+<text class="fg-m fg-xs" x="50" y="178">чутливі дані в S3</text>
+<rect class="fg-box" x="203" y="138" width="191" height="58" rx="10"/>
+<text x="213" y="175" font-size="22">🕵️</text>
+<text class="fg-tb fg-xs" x="247" y="160">Detective — слідчий</text>
+<text class="fg-m fg-xs" x="247" y="178">першопричина</text>
+<rect class="fg-box" x="6" y="204" width="191" height="58" rx="10"/>
+<text x="16" y="241" font-size="22">🖥️</text>
+<text class="fg-tb fg-xs" x="50" y="226">Security Hub — пульт</text>
+<text class="fg-m fg-xs" x="50" y="244">усі тривоги разом</text>
+<rect class="fg-box" x="203" y="204" width="191" height="58" rx="10"/>
+<text x="213" y="241" font-size="22">🎥</text>
+<text class="fg-tb fg-xs" x="247" y="226">CloudTrail — реєстратор</text>
+<text class="fg-m fg-xs" x="247" y="244">хто що зробив</text>
+</svg>

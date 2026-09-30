@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-cmp" x="6" y="6" width="190" height="140" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="26">🔑 Ключ-значення</text>
+<rect class="fg-box" x="18" y="40" width="46" height="44" rx="6"/><text class="fg-tb fg-xs fg-c" x="41" y="58">17</text><text class="fg-c" x="41" y="77" font-size="13">🧥</text>
+<rect class="fg-box" x="70" y="40" width="46" height="44" rx="6"/><text class="fg-tb fg-xs fg-c" x="93" y="58">18</text><text class="fg-c" x="93" y="77" font-size="13">👜</text>
+<rect class="fg-box" x="122" y="40" width="46" height="44" rx="6"/><text class="fg-tb fg-xs fg-c" x="145" y="58">19</text><text class="fg-c" x="145" y="77" font-size="13">☂️</text>
+<text class="fg-m fg-xs" x="16" y="106">номер → вміст, миттєво</text>
+<text class="fg-m fg-xs" x="16" y="122">кошики, сесії, профілі</text>
+<text class="fg-m fg-xs" x="16" y="138">на мільйонах запитів</text>
+<rect class="fg-sto" x="204" y="6" width="190" height="140" rx="12"/>
+<text class="fg-tb fg-s" x="214" y="26">📄 Документи</text>
+<g class="fg-mono">
+<text x="216" y="46">{"name": "Торт",</text>
+<text x="222" y="60">"layers": 3}</text>
+<text x="216" y="80">{"name": "Кава",</text>
+<text x="222" y="94">"roast": "темна"}</text>
+</g>
+<text class="fg-m fg-xs" x="214" y="118">у кожного запису</text>
+<text class="fg-m fg-xs" x="214" y="134">свій набір полів</text>
+<rect class="fg-net" x="6" y="154" width="190" height="140" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="174">🕸️ Графи</text>
+<line class="fg-lt" x1="50" y1="206" x2="100" y2="196"/><line class="fg-lt" x1="100" y1="196" x2="150" y2="214"/>
+<line class="fg-lt" x1="50" y1="206" x2="80" y2="240"/><line class="fg-lt" x1="80" y1="240" x2="150" y2="214"/>
+<line class="fg-lt" x1="100" y1="196" x2="80" y2="240"/>
+<circle class="fg-accs" cx="50" cy="206" r="10"/><circle class="fg-accs" cx="100" cy="196" r="10"/>
+<circle class="fg-accs" cx="150" cy="214" r="10"/><circle class="fg-accs" cx="80" cy="240" r="10"/>
+<text class="fg-m fg-xs" x="16" y="270">головне — зв'язки:</text>
+<text class="fg-m fg-xs" x="16" y="286">друзі друзів, шахраї</text>
+<rect class="fg-ana" x="204" y="154" width="190" height="140" rx="12"/>
+<text class="fg-tb fg-s" x="214" y="174">📈 Часові ряди</text>
+<polyline class="fg-la" points="216,246 238,230 258,236 278,210 300,218 320,200 342,206 364,190 380,196"/>
+<line class="fg-lt" x1="214" y1="252" x2="384" y2="252"/>
+<text class="fg-m fg-xs" x="214" y="270">показник + час:</text>
+<text class="fg-m fg-xs" x="214" y="286">датчики, температура печі</text>
+</svg>

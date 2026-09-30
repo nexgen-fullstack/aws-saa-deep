@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 262" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-c" x="98" y="20">Моноліт</text>
+<rect class="fg-cmp" x="8" y="30" width="180" height="150" rx="14"/>
+<text class="fg-c" x="98" y="66" font-size="24">🥐 🍰</text>
+<text class="fg-c" x="98" y="104" font-size="24">☕ 🚚</text>
+<text class="fg-m fg-xs fg-c" x="98" y="134">одна програма,</text>
+<text class="fg-m fg-xs fg-c" x="98" y="149">усе переплетено</text>
+<text class="fg-m fg-xs fg-c" x="98" y="166">одна команда</text>
+<text class="fg-tb fg-c" x="302" y="20">Мікросервіси</text>
+<rect class="fg-sto" x="222" y="34" width="68" height="54" rx="10"/><text class="fg-c" x="256" y="62" font-size="20">🥐</text><text class="fg-xs fg-c fg-t" x="256" y="80">випічка</text>
+<rect class="fg-sto" x="316" y="34" width="68" height="54" rx="10"/><text class="fg-c" x="350" y="62" font-size="20">☕</text><text class="fg-xs fg-c fg-t" x="350" y="80">кава</text>
+<rect class="fg-sto" x="222" y="124" width="68" height="54" rx="10"/><text class="fg-c" x="256" y="152" font-size="20">💳</text><text class="fg-xs fg-c fg-t" x="256" y="170">оплата</text>
+<rect class="fg-sto" x="316" y="124" width="68" height="54" rx="10"/><text class="fg-c" x="350" y="152" font-size="20">🚚</text><text class="fg-xs fg-c fg-t" x="350" y="170">доставка</text>
+<line class="fg-la fg-dash" x1="292" y1="61" x2="314" y2="61"/>
+<line class="fg-la fg-dash" x1="292" y1="151" x2="314" y2="151"/>
+<line class="fg-la fg-dash" x1="256" y1="90" x2="256" y2="122"/>
+<line class="fg-la fg-dash" x1="350" y1="90" x2="350" y2="122"/>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="303" y="110">API</text>
+<rect class="fg-bgb" x="8" y="196" width="180" height="58" rx="10"/>
+<text class="fg-t fg-xs" x="16" y="216">+ простий на старті</text>
+<text class="fg-t fg-xs" x="16" y="232">− змінити одне — чіпаєш усе</text>
+<text class="fg-t fg-xs" x="16" y="248">− розширюєш усю кухню</text>
+<rect class="fg-bgb" x="212" y="196" width="180" height="58" rx="10"/>
+<text class="fg-t fg-xs" x="220" y="216">+ кожен оновлюється окремо</text>
+<text class="fg-t fg-xs" x="220" y="232">+ кава впала — випічка працює</text>
+<text class="fg-t fg-xs" x="220" y="248">− більше частин для нагляду</text>
+</svg>

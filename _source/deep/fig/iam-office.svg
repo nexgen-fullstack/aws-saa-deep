@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 274" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="388" height="262" rx="14"/>
+<text class="fg-tb fg-s" x="18" y="28">🏢 IAM — офісний центр акаунта</text>
+<rect class="fg-bad" x="18" y="40" width="112" height="84" rx="10"/>
+<text class="fg-c" x="74" y="68" font-size="22">👑</text>
+<text class="fg-tb fg-xs fg-c" x="74" y="88">root</text>
+<text class="fg-m fg-xs fg-c" x="74" y="103">майстер-ключ,</text>
+<text class="fg-m fg-xs fg-c" x="74" y="117">під MFA, у сейфі</text>
+<rect class="fg-net" x="142" y="40" width="240" height="84" rx="10"/>
+<text class="fg-tb fg-xs" x="152" y="58">Групи = відділи</text>
+<rect class="fg-box" x="152" y="66" width="70" height="48" rx="8"/><text class="fg-xs fg-c fg-t" x="187" y="84">Адміни</text><text class="fg-c" x="187" y="104" font-size="13">🧑‍💻</text>
+<rect class="fg-box" x="228" y="66" width="70" height="48" rx="8"/><text class="fg-xs fg-c fg-t" x="263" y="84">Замовлення</text><text class="fg-c" x="263" y="104" font-size="13">🧑</text>
+<rect class="fg-box" x="304" y="66" width="70" height="48" rx="8"/><text class="fg-xs fg-c fg-t" x="339" y="84">Бухгалтерія</text><text class="fg-c" x="339" y="104" font-size="13">👩</text>
+<rect class="fg-story" x="18" y="136" width="176" height="120" rx="10"/>
+<text class="fg-tb fg-xs" x="28" y="156">🎫 Ролі — гостьові бейджі</text>
+<text class="fg-m fg-xs" x="28" y="176">без пароля, на кілька годин</text>
+<text class="fg-m fg-xs" x="28" y="194">для серверів, функцій,</text>
+<text class="fg-m fg-xs" x="28" y="210">інших акаунтів</text>
+<text class="fg-c" x="106" y="244" font-size="18">🤖🎫 ⏳</text>
+<rect class="fg-ok" x="206" y="136" width="176" height="120" rx="10"/>
+<text class="fg-tb fg-xs" x="216" y="156">📋 Політики — таблички</text>
+<rect class="fg-box" x="216" y="166" width="156" height="78" rx="6"/>
+<g class="fg-mono">
+<text x="224" y="184">Effect: Allow</text>
+<text x="224" y="200">Action: s3:GetObject</text>
+<text x="224" y="216">Resource: …photos/*</text>
+<text x="224" y="232">Condition: з офісу</text>
+</g>
+</svg>

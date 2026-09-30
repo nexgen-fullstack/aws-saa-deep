@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-warn" x="30" y="60" width="350" height="140"/>
+<polygon class="fg-accs" points="30,200 30,130 62,135 94,125 125,120 157,122 189,128 221,130 253,126 285,118 316,110 348,18 380,82 380,200"/>
+<polygon class="fg-bad" points="333.4,60 348,18 369,60"/>
+<line class="fg-lbad" x1="30" y1="60" x2="380" y2="60"/>
+<line class="fg-lt" x1="30" y1="200" x2="384" y2="200"/>
+<text class="fg-tbad fg-xs fg-tb" x="34" y="54">куплені сервери — фіксовано</text>
+<text class="fg-twarn fg-s fg-tb" x="120" y="94">💸 гроші на вітер</text>
+<text class="fg-twarn fg-xs" x="120" y="110">сервери простоюють</text>
+<text class="fg-tacc fg-xs fg-tb" x="60" y="182">реальний попит</text>
+<text class="fg-tbad fg-xs fg-tb fg-r" x="340" y="16">Чорна п'ятниця:</text>
+<text class="fg-tbad fg-xs fg-tb fg-r" x="340" y="30">сайт падає!</text>
+<text class="fg-m fg-xs" x="30" y="216">січень</text>
+<text class="fg-m fg-xs fg-c" x="348" y="216">листопад</text>
+<text class="fg-m fg-xs fg-c" x="200" y="234">Власні сервери купують під пік — і платять за них увесь рік</text>
+</svg>

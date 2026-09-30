@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 258" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-db" x="150" y="6" width="100" height="64" rx="12"/>
+<text class="fg-c" x="200" y="34" font-size="18">🏭</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="52">origin</text>
+<text class="fg-m fg-xs fg-c" x="200" y="64">Франкфурт</text>
+<rect class="fg-story" x="10" y="110" width="100" height="60" rx="10"/>
+<text class="fg-c" x="60" y="136" font-size="16">🏪</text>
+<text class="fg-tb fg-xs fg-c" x="60" y="156">edge Торонто</text>
+<line class="fg-l fg-dash" x1="200" y1="72" x2="60" y2="108" marker-end="url(#ah)"/>
+<text class="fg-c" x="42" y="206" font-size="16">🙋</text><text class="fg-c" x="74" y="206" font-size="16">🙋</text>
+<line class="fg-lok" x1="60" y1="172" x2="60" y2="188" marker-end="url(#ahok)"/>
+<rect class="fg-story" x="150" y="110" width="100" height="60" rx="10"/>
+<text class="fg-c" x="200" y="136" font-size="16">🏪</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="156">edge Варшава</text>
+<line class="fg-l fg-dash" x1="200" y1="72" x2="200" y2="108" marker-end="url(#ah)"/>
+<text class="fg-c" x="182" y="206" font-size="16">🙋</text><text class="fg-c" x="214" y="206" font-size="16">🙋</text>
+<line class="fg-lok" x1="200" y1="172" x2="200" y2="188" marker-end="url(#ahok)"/>
+<rect class="fg-story" x="290" y="110" width="100" height="60" rx="10"/>
+<text class="fg-c" x="340" y="136" font-size="16">🏪</text>
+<text class="fg-tb fg-xs fg-c" x="340" y="156">edge Токіо</text>
+<line class="fg-l fg-dash" x1="200" y1="72" x2="340" y2="108" marker-end="url(#ah)"/>
+<text class="fg-c" x="322" y="206" font-size="16">🙋</text><text class="fg-c" x="354" y="206" font-size="16">🙋</text>
+<line class="fg-lok" x1="340" y1="172" x2="340" y2="188" marker-end="url(#ahok)"/>
+<text class="fg-m fg-xs" x="262" y="24">1-й раз — cache miss:</text><text class="fg-m fg-xs" x="262" y="40">копію везуть з origin</text>
+<text class="fg-tok fg-xs fg-tb fg-c" x="200" y="232">далі: cache hit — копія з найближчого кіоску, миттєво</text>
+<text class="fg-m fg-xs fg-c" x="200" y="250">копія живе TTL; S3 за CloudFront закривають через OAC</text>
+</svg>

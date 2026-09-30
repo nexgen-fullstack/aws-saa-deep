@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 274" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="6" width="388" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="18" y="31">1. Явний Deny будь-де?</text>
+<text class="fg-tb fg-xs fg-r" x="382" y="31">так → ❌</text>
+<rect class="fg-warn" x="14" y="56" width="372" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="26" y="81">2. Стеля SCP організації дозволяє?</text>
+<text class="fg-tb fg-xs fg-r" x="374" y="81">ні → ❌</text>
+<rect class="fg-story" x="22" y="106" width="356" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="34" y="131">3. Межа прав (boundary) дозволяє?</text>
+<text class="fg-tb fg-xs fg-r" x="366" y="131">ні → ❌</text>
+<rect class="fg-ok" x="30" y="156" width="340" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="42" y="181">4. Політика людини чи ресурсу дає Allow?</text>
+<text class="fg-tb fg-xs fg-r" x="358" y="181">так → ✅</text>
+<rect class="fg-bgb" x="38" y="206" width="324" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="50" y="231">5. Нічого не дозволило</text>
+<text class="fg-tb fg-xs fg-r" x="350" y="231">❌ заборонено</text>
+<text class="fg-m fg-xs fg-c" x="200" y="266">Запит проходить крізь фільтри згори донизу</text>
+</svg>

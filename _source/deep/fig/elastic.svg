@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-lbad fg-dash" x1="30" y1="30" x2="380" y2="30"/>
+<text class="fg-tbad fg-xs fg-tb" x="34" y="22">власні сервери: фіксовано під пік</text>
+<polyline class="fg-lok" points="30,150 59,150 59,150 88,150 88,150 118,150 118,150 147,150 147,130 176,130 176,90 205,90 205,70 234,70 234,50 263,50 263,50 292,50 292,50 322,50 322,30 351,30 351,70 380,70 380,110 380,110"/>
+<polyline class="fg-la" points="30,160 59,170 88,172 118,165 147,140 176,105 205,80 234,70 263,75 292,60 322,50 351,90 380,130"/>
+<line class="fg-lt" x1="30" y1="200" x2="384" y2="200"/>
+<text class="fg-tok fg-xs fg-tb" x="170" y="166">хмара: потужність</text>
+<text class="fg-tok fg-xs fg-tb" x="170" y="180">іде слідом за попитом</text>
+<text class="fg-tacc fg-xs fg-tb" x="36" y="182">попит</text>
+<text class="fg-m fg-xs" x="30" y="216">ніч</text>
+<text class="fg-m fg-xs fg-c" x="200" y="216">день</text>
+<text class="fg-m fg-xs fg-r" x="380" y="216">вечір</text>
+<text class="fg-m fg-xs fg-c" x="200" y="234">платиш за зелену лінію, а не за червону</text>
+</svg>

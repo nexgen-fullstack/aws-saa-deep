@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 262" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="6" y="8" width="388" height="40" rx="20"/>
+<text x="20" y="33" font-size="13">🔒</text>
+<g font-family="Consolas, 'Cascadia Mono', monospace" font-size="11.2">
+<text x="40" y="32"><tspan class="fg-tnet">https://</tspan><tspan class="fg-tcmp">www.khmarynka.ua</tspan><tspan class="fg-tsto">/menu/croissants</tspan><tspan class="fg-tint">?size=big</tspan></text>
+</g>
+<rect class="fg-net" x="6" y="64" width="388" height="42" rx="10"/>
+<text class="fg-tb fg-tnet" x="18" y="82">https://</text>
+<text class="fg-t fg-s" x="126" y="82">протокол — мова розмови</text>
+<text class="fg-m fg-xs" x="126" y="98">«s» — secure, захищено</text>
+<rect class="fg-cmp" x="6" y="114" width="388" height="42" rx="10"/>
+<text class="fg-tb fg-tcmp" x="18" y="132">khmarynka.ua</text>
+<text class="fg-t fg-s" x="126" y="132">домен — ім'я сайту</text>
+<text class="fg-m fg-xs" x="126" y="148">для людей; DNS знайде IP-адресу</text>
+<rect class="fg-sto" x="6" y="164" width="388" height="42" rx="10"/>
+<text class="fg-tb fg-tsto" x="18" y="182">/menu/…</text>
+<text class="fg-t fg-s" x="126" y="182">шлях — яка сторінка чи файл</text>
+<text class="fg-m fg-xs" x="126" y="198">як номер полиці</text>
+<rect class="fg-int" x="6" y="214" width="388" height="42" rx="10"/>
+<text class="fg-tb fg-tint" x="18" y="232">?size=big</text>
+<text class="fg-t fg-s" x="126" y="232">параметри — уточнення</text>
+<text class="fg-m fg-xs" x="126" y="248">«розмір — великий»</text>
+</svg>

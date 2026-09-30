@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 222" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="60" width="96" height="92" rx="12"/>
+<text class="fg-c" x="54" y="92" font-size="22">🧑‍💻</text>
+<text class="fg-xs fg-c fg-t" x="54" y="114">програма:</text>
+<text class="fg-xs fg-c fg-t" x="54" y="130">«зашифруй</text>
+<text class="fg-xs fg-c fg-t" x="54" y="144">ось це»</text>
+<rect class="fg-net" x="136" y="20" width="160" height="172" rx="14"/>
+<text class="fg-tb fg-c" x="216" y="44">🏦 KMS</text>
+<text class="fg-m fg-xs fg-c" x="216" y="62">банк ключів</text>
+<rect class="fg-box" x="160" y="74" width="112" height="60" rx="8"/>
+<text class="fg-c" x="216" y="104" font-size="20">🔑🔑🔑</text>
+<text class="fg-xs fg-c fg-tb" x="216" y="124">ключі не виходять</text>
+<text class="fg-xs fg-c fg-t" x="216" y="156">шифрує й розшифровує</text>
+<text class="fg-xs fg-c fg-t" x="216" y="172">всередині банку</text>
+<line class="fg-la" x1="104" y1="96" x2="132" y2="96" marker-end="url(#aha)"/>
+<line class="fg-lok" x1="132" y1="126" x2="104" y2="126" marker-end="url(#ahok)"/>
+<rect class="fg-ok" x="318" y="60" width="76" height="92" rx="12"/>
+<text class="fg-c" x="356" y="92" font-size="20">📜</text>
+<text class="fg-xs fg-c fg-t" x="356" y="114">CloudTrail:</text>
+<text class="fg-xs fg-c fg-t" x="356" y="130">хто, коли,</text>
+<text class="fg-xs fg-c fg-t" x="356" y="144">яким ключем</text>
+<line class="fg-l fg-dash" x1="298" y1="106" x2="314" y2="106" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs fg-c" x="200" y="214">key policy вирішує, хто може користуватися ключем</text>
+</svg>

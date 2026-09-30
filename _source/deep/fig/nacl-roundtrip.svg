@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 258" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="34" y="44" font-size="24">💻</text>
+<text class="fg-xs fg-c fg-m" x="34" y="64">клієнт</text>
+<text class="fg-c" x="366" y="44" font-size="24">🖥️</text>
+<text class="fg-xs fg-c fg-m" x="366" y="64">сайт</text>
+<rect class="fg-warn" x="160" y="16" width="30" height="170" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="175" y="206">NACL</text>
+<rect class="fg-accs" x="250" y="16" width="30" height="170" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="265" y="206">SG</text>
+<line class="fg-la" x1="60" y1="84" x2="340" y2="84" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-tb" x="64" y="78">запит → порт 443</text>
+<text class="fg-tok fg-xs" x="196" y="104">✓ вхід 443</text>
+<line class="fg-lok" x1="340" y1="140" x2="60" y2="140" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="224" y="160">відповідь → порт 51932</text>
+<text class="fg-tok fg-xs" x="286" y="130">SG пам'ятає ✓</text>
+<text class="fg-twarn fg-xs fg-tb" x="64" y="124">NACL: вихід</text>
+<text class="fg-twarn fg-xs fg-tb" x="64" y="176">1024–65535?</text>
+<text class="fg-m fg-xs fg-c" x="200" y="232">51932 — тимчасовий «зворотний» порт клієнта (ephemeral)</text>
+<text class="fg-m fg-xs fg-c" x="200" y="250">без правила на вихід відповідь застрягне біля шлагбаума</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<path class="fg-box" d="M40 12 H360 V270 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 l-16 12 l-16 -12 Z"/>
+<text class="fg-h fg-c" x="200" y="42">🧾 Замовлення в AWS</text>
+<text class="fg-m fg-c" x="200" y="62">віртуальний комп'ютер</text>
+<line class="fg-lt fg-dash" x1="58" y1="76" x2="342" y2="76"/>
+<text class="fg-t" x="60" y="102">Процесор</text>
+<text class="fg-tb fg-r" x="340" y="102">2 vCPU</text>
+<text class="fg-m fg-xs" x="60" y="118">двоє «кухарів»</text>
+<text class="fg-t" x="60" y="146">Пам'ять</text>
+<text class="fg-tb fg-r" x="340" y="146">8 GB RAM</text>
+<text class="fg-m fg-xs" x="60" y="162">«робочий стіл»</text>
+<text class="fg-t" x="60" y="190">Диск</text>
+<text class="fg-tb fg-r" x="340" y="190">50 GB SSD</text>
+<text class="fg-m fg-xs" x="60" y="206">«комора»</text>
+<text class="fg-t" x="60" y="234">Система</text>
+<text class="fg-tb fg-r" x="340" y="234">Linux</text>
+<line class="fg-lt fg-dash" x1="58" y1="248" x2="342" y2="248"/>
+<text class="fg-tacc fg-c fg-s" x="200" y="265">оплата — за кожну секунду роботи</text>
+</svg>

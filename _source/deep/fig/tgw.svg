@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 238" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs fg-c" x="100" y="16">5 VPC через peering</text>
+<text class="fg-tb fg-xs fg-c" x="300" y="16">5 VPC через Transit Gateway</text>
+<line class="fg-lbad" x1="100" y1="40" x2="167" y2="88" stroke-width="1.5"/>
+<line class="fg-lbad" x1="100" y1="40" x2="141" y2="167" stroke-width="1.5"/>
+<line class="fg-lbad" x1="100" y1="40" x2="59" y2="167" stroke-width="1.5"/>
+<line class="fg-lbad" x1="100" y1="40" x2="33" y2="88" stroke-width="1.5"/>
+<line class="fg-lbad" x1="167" y1="88" x2="141" y2="167" stroke-width="1.5"/>
+<line class="fg-lbad" x1="167" y1="88" x2="59" y2="167" stroke-width="1.5"/>
+<line class="fg-lbad" x1="167" y1="88" x2="33" y2="88" stroke-width="1.5"/>
+<line class="fg-lbad" x1="141" y1="167" x2="59" y2="167" stroke-width="1.5"/>
+<line class="fg-lbad" x1="141" y1="167" x2="33" y2="88" stroke-width="1.5"/>
+<line class="fg-lbad" x1="59" y1="167" x2="33" y2="88" stroke-width="1.5"/>
+<circle class="fg-net" cx="100" cy="40" r="15"/><text class="fg-c fg-xs fg-tb" x="100" y="44">VPC</text>
+<circle class="fg-net" cx="167" cy="88" r="15"/><text class="fg-c fg-xs fg-tb" x="167" y="92">VPC</text>
+<circle class="fg-net" cx="141" cy="167" r="15"/><text class="fg-c fg-xs fg-tb" x="141" y="171">VPC</text>
+<circle class="fg-net" cx="59" cy="167" r="15"/><text class="fg-c fg-xs fg-tb" x="59" y="171">VPC</text>
+<circle class="fg-net" cx="33" cy="88" r="15"/><text class="fg-c fg-xs fg-tb" x="33" y="92">VPC</text>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="100" y="206">10 мостів, і ростуть квадратично</text>
+<line class="fg-lok" x1="300" y1="110" x2="300" y2="40" stroke-width="2.5"/>
+<line class="fg-lok" x1="300" y1="110" x2="367" y2="88" stroke-width="2.5"/>
+<line class="fg-lok" x1="300" y1="110" x2="341" y2="167" stroke-width="2.5"/>
+<line class="fg-lok" x1="300" y1="110" x2="259" y2="167" stroke-width="2.5"/>
+<line class="fg-lok" x1="300" y1="110" x2="233" y2="88" stroke-width="2.5"/>
+<circle class="fg-net" cx="300" cy="40" r="15"/><text class="fg-c fg-xs fg-tb" x="300" y="44">VPC</text>
+<circle class="fg-net" cx="367" cy="88" r="15"/><text class="fg-c fg-xs fg-tb" x="367" y="92">VPC</text>
+<circle class="fg-net" cx="341" cy="167" r="15"/><text class="fg-c fg-xs fg-tb" x="341" y="171">VPC</text>
+<circle class="fg-net" cx="259" cy="167" r="15"/><text class="fg-c fg-xs fg-tb" x="259" y="171">VPC</text>
+<circle class="fg-net" cx="233" cy="88" r="15"/><text class="fg-c fg-xs fg-tb" x="233" y="92">VPC</text>
+<circle class="fg-ok" cx="300" cy="110" r="24"/>
+<text class="fg-c fg-tb fg-xs" x="300" y="114">TGW</text>
+<text class="fg-tok fg-xs fg-tb fg-c" x="300" y="206">5 підключень, транзитивно</text>
+<text class="fg-m fg-xs fg-c" x="200" y="230">до розв'язки можна підключити ще й VPN і Direct Connect</text>
+</svg>

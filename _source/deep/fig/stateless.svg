@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 290" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="8" width="388" height="124" rx="12"/>
+<text class="fg-tb" x="18" y="30">Stateful — «пам'ятає сам»</text>
+<text x="30" y="84" font-size="30">🤵</text>
+<rect class="fg-box" x="70" y="46" width="130" height="36" rx="16"/>
+<text class="fg-t fg-xs fg-c" x="135" y="68">💭 кошик Олі: 3 🥐</text>
+<text class="fg-m fg-xs" x="18" y="112">тільки цей офіціант знає замовлення</text>
+<text x="252" y="84" font-size="30">🏠</text>
+<text class="fg-tbad fg-tb fg-s" x="292" y="66">пішов додому →</text>
+<text class="fg-tbad fg-tb fg-s" x="292" y="84">кошик зник ✗</text>
+<rect class="fg-ok" x="6" y="144" width="388" height="140" rx="12"/>
+<text class="fg-tb" x="18" y="166">Stateless — «записи на спільній дошці»</text>
+<text x="20" y="214" font-size="26">🤵</text>
+<text x="56" y="214" font-size="26">🤵</text>
+<text x="92" y="214" font-size="26">🤵</text>
+<text class="fg-m fg-xs" x="18" y="238">будь-який обслужить</text>
+<line class="fg-lok" x1="130" y1="204" x2="186" y2="204" marker-start="url(#ahok)" marker-end="url(#ahok)"/>
+<rect class="fg-box" x="192" y="180" width="118" height="52" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="251" y="200">📋 дошка</text>
+<text class="fg-t fg-xs fg-c" x="251" y="220">№17: 3 🥐</text>
+<text x="330" y="214" font-size="24">🙋</text>
+<text class="fg-t fg-xs" x="322" y="236">номерок</text>
+<text class="fg-tb fg-xs" x="330" y="252">🎟️ №17</text>
+<text class="fg-tok fg-xs fg-tb" x="18" y="272">офіціантів можна додавати й прибирати — нічого не губиться</text>
+</svg>

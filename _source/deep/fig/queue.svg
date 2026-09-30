@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 214" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="6" y="30" width="96" height="120" rx="12"/>
+<text class="fg-tb fg-c fg-s" x="54" y="50">зала</text>
+<text class="fg-c" x="54" y="86" font-size="20">🙋🙋</text>
+<text class="fg-c" x="54" y="114" font-size="20">🙋🙋</text>
+<text class="fg-m fg-xs fg-c" x="54" y="138">кладуть завдання</text>
+<line class="fg-la" x1="104" y1="90" x2="124" y2="90" marker-end="url(#aha)"/>
+<rect class="fg-int" x="128" y="44" width="150" height="92" rx="10"/>
+<text class="fg-tb fg-c fg-s" x="203" y="62">черга («рейка»)</text>
+<line class="fg-lt" x1="140" y1="76" x2="266" y2="76"/>
+<rect class="fg-box" x="142" y="80" width="20" height="28" rx="2"/>
+<rect class="fg-box" x="166" y="80" width="20" height="28" rx="2"/>
+<rect class="fg-box" x="190" y="80" width="20" height="28" rx="2"/>
+<rect class="fg-box" x="214" y="80" width="20" height="28" rx="2"/>
+<rect class="fg-box" x="238" y="80" width="20" height="28" rx="2"/>
+<text class="fg-m fg-xs fg-c" x="203" y="126">чекають, не губляться</text>
+<line class="fg-la" x1="280" y1="90" x2="300" y2="90" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="304" y="30" width="90" height="120" rx="12"/>
+<text class="fg-tb fg-c fg-s" x="349" y="50">кухня</text>
+<text class="fg-c" x="349" y="98" font-size="22">🧑‍🍳🧑‍🍳</text>
+<text class="fg-m fg-xs fg-c" x="349" y="124">бере по одному,</text>
+<text class="fg-m fg-xs fg-c" x="349" y="138">у своєму темпі</text>
+<text class="fg-tacc fg-s fg-c fg-tb" x="200" y="178">Пік замовлень → черга довша, але нічого не зникло</text>
+<text class="fg-m fg-xs fg-c" x="200" y="198">зала й кухня не залежать від швидкості одна одної (decoupling)</text>
+</svg>

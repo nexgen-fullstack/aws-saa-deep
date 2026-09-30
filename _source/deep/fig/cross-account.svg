@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 226" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="6" y="6" width="150" height="190" rx="14"/>
+<text class="fg-tb fg-s" x="16" y="28">Акаунт A</text>
+<text class="fg-m fg-xs" x="16" y="44">111122223333</text>
+<text class="fg-c" x="81" y="92" font-size="30">🧑‍💻</text>
+<text class="fg-t fg-xs fg-c" x="81" y="116">Тарас</text>
+<rect class="fg-box" x="16" y="128" width="130" height="56" rx="8"/>
+<text class="fg-xs fg-t" x="24" y="146">його політика:</text>
+<text class="fg-xs fg-tb" x="24" y="162">Allow sts:AssumeRole</text>
+<text class="fg-xs fg-t" x="24" y="177">на роль у B</text>
+<rect class="fg-sto" x="244" y="6" width="150" height="190" rx="14"/>
+<text class="fg-tb fg-s" x="254" y="28">Акаунт B</text>
+<text class="fg-m fg-xs" x="254" y="44">444455556666</text>
+<rect class="fg-story" x="254" y="54" width="130" height="62" rx="8"/>
+<text class="fg-xs fg-tb" x="262" y="72">🎫 роль «аудит»</text>
+<text class="fg-xs fg-t" x="262" y="90">trust: довіряю</text>
+<text class="fg-xs fg-t" x="262" y="105">акаунту A</text>
+<rect class="fg-box" x="254" y="128" width="130" height="56" rx="8"/>
+<text class="fg-c" x="276" y="162" font-size="18">🪣</text>
+<text class="fg-xs fg-t" x="294" y="152">ресурси B:</text>
+<text class="fg-xs fg-t" x="294" y="168">читати звіти</text>
+<path class="fg-la" d="M110 84 C 170 60 200 60 250 76" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="200" y="56">1. «прийняти роль»</text>
+<path class="fg-lok" d="M254 100 C 210 120 180 120 120 104" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-c fg-tb" x="190" y="140">2. STS: тимчасові ключі</text>
+<text class="fg-m fg-xs fg-c" x="200" y="218">3. з тимчасовими ключами Тарас працює в B з правами ролі</text>
+</svg>

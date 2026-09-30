@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 256" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="130" y="6" width="140" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="26">🏛️ Management</text>
+<text class="fg-m fg-xs fg-c" x="200" y="42">головний офіс, рахунок</text>
+<line class="fg-l" x1="200" y1="56" x2="70" y2="82"/>
+<rect class="fg-net" x="8" y="84" width="124" height="34" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="70" y="106">OU «Робочі»</text>
+<line class="fg-l" x1="70" y1="120" x2="38" y2="140"/>
+<rect class="fg-box" x="10" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="38" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="38" y="178">сайт</text>
+<line class="fg-l" x1="70" y1="120" x2="102" y2="140"/>
+<rect class="fg-box" x="74" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="102" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="102" y="178">API</text>
+<line class="fg-l" x1="200" y1="56" x2="200" y2="82"/>
+<rect class="fg-net" x="138" y="84" width="124" height="34" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="106">OU «Тести»</text>
+<line class="fg-l" x1="200" y1="120" x2="168" y2="140"/>
+<rect class="fg-box" x="140" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="168" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="168" y="178">dev</text>
+<line class="fg-l" x1="200" y1="120" x2="232" y2="140"/>
+<rect class="fg-box" x="204" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="232" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="232" y="178">qa</text>
+<line class="fg-l" x1="200" y1="56" x2="330" y2="82"/>
+<rect class="fg-net" x="268" y="84" width="124" height="34" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="330" y="106">OU «Безпека»</text>
+<line class="fg-l" x1="330" y1="120" x2="298" y2="140"/>
+<rect class="fg-box" x="270" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="298" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="298" y="178">журнали</text>
+<line class="fg-l" x1="330" y1="120" x2="362" y2="140"/>
+<rect class="fg-box" x="334" y="142" width="56" height="44" rx="8"/>
+<text class="fg-c" x="362" y="162" font-size="13">📦</text>
+<text class="fg-xs fg-c fg-t" x="362" y="178">аудит</text>
+<rect class="fg-lbad fg-dash" x="4" y="78" width="132" height="116" rx="12"/>
+<text class="fg-tbad fg-xs fg-tb" x="8" y="212">SCP на OU «Робочі»: «не вимикати CloudTrail» —</text>
+<text class="fg-tbad fg-xs fg-tb" x="8" y="228">діє на всі акаунти гілки, навіть на їхніх адмінів</text>
+<text class="fg-m fg-xs" x="8" y="248">Один рахунок за всіх (consolidated billing)</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 206" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="6" width="388" height="40" rx="10"/>
+<text class="fg-tb fg-c" x="200" y="31">🎫 Роль «сайт-фото»</text>
+<rect class="fg-net" x="6" y="56" width="190" height="142" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="78">🤝 Trust policy</text>
+<text class="fg-m fg-xs" x="16" y="96">ХТО може взяти бейдж</text>
+<text class="fg-t fg-xs" x="16" y="122">✓ сервіс EC2</text>
+<text class="fg-t fg-xs" x="16" y="140">✓ акаунт 111122223333</text>
+<text class="fg-t fg-xs" x="16" y="158">✗ усі інші</text>
+<text class="fg-m fg-xs" x="16" y="186">Principal + sts:AssumeRole</text>
+<rect class="fg-ok" x="204" y="56" width="190" height="142" rx="12"/>
+<text class="fg-tb fg-s" x="214" y="78">🔓 Permissions policy</text>
+<text class="fg-m fg-xs" x="214" y="96">ЩО бейдж відчиняє</text>
+<text class="fg-t fg-xs" x="214" y="122">✓ класти фото</text>
+<text class="fg-t fg-xs" x="214" y="140">   у khmarynka-photos</text>
+<text class="fg-t fg-xs" x="214" y="158">✗ нічого більше</text>
+<text class="fg-m fg-xs" x="214" y="186">Effect, Action, Resource</text>
+</svg>

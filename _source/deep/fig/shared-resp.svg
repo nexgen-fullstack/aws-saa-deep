@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 268" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs fg-c" x="191" y="22">EC2</text>
+<text class="fg-tb fg-xs fg-c" x="273" y="22">Керована база</text>
+<text class="fg-tb fg-xs fg-c" x="355" y="22">Lambda, S3</text>
+<text class="fg-t fg-xs" x="6" y="56">Дані, доступи, ключі</text>
+<rect class="fg-accs" x="152" y="34" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="191.0" y="55">клієнт</text>
+<rect class="fg-accs" x="234" y="34" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="273.0" y="55">клієнт</text>
+<rect class="fg-accs" x="316" y="34" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="355.0" y="55">клієнт</text>
+<text class="fg-t fg-xs" x="6" y="94">Код і налаштування</text>
+<rect class="fg-accs" x="152" y="72" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="191.0" y="93">клієнт</text>
+<rect class="fg-accs" x="234" y="72" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="273.0" y="93">клієнт</text>
+<rect class="fg-accs" x="316" y="72" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="355.0" y="93">клієнт</text>
+<text class="fg-t fg-xs" x="6" y="132">ОС і патчі</text>
+<rect class="fg-accs" x="152" y="110" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="191.0" y="131">клієнт</text>
+<rect class="fg-ok" x="234" y="110" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="273.0" y="131">AWS</text>
+<rect class="fg-ok" x="316" y="110" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="355.0" y="131">AWS</text>
+<text class="fg-t fg-xs" x="6" y="170">Рушій бази, середовище</text>
+<rect class="fg-accs" x="152" y="148" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tacc fg-tb" x="191.0" y="169">клієнт</text>
+<rect class="fg-ok" x="234" y="148" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="273.0" y="169">AWS</text>
+<rect class="fg-ok" x="316" y="148" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="355.0" y="169">AWS</text>
+<text class="fg-t fg-xs" x="6" y="208">Залізо, дата-центри</text>
+<rect class="fg-ok" x="152" y="186" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="191.0" y="207">AWS</text>
+<rect class="fg-ok" x="234" y="186" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="273.0" y="207">AWS</text>
+<rect class="fg-ok" x="316" y="186" width="78" height="34" rx="6"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="355.0" y="207">AWS</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="242">IN the cloud — клієнт: дані, доступи, налаштування</text>
+<text class="fg-tok fg-xs fg-tb" x="6" y="260">OF the cloud — AWS: залізо, дата-центри, внутрішня «кухня»</text>
+</svg>

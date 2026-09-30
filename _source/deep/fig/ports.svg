@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 262" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="150" y="10" width="240" height="244" rx="14"/>
+<rect class="fg-accs" x="150" y="10" width="240" height="40" rx="14"/>
+<text class="fg-tb fg-c" x="270" y="36">🖥️ сервер 52.95.110.1</text>
+<rect class="fg-net" x="166" y="62" width="208" height="38" rx="8"/>
+<text class="fg-tb" x="178" y="86">443</text><text class="fg-t" x="222" y="86">🌐 сайт (HTTPS)</text>
+<rect class="fg-box" x="166" y="108" width="208" height="38" rx="8"/>
+<text class="fg-tb" x="178" y="132">80</text><text class="fg-t" x="222" y="132">🌐 сайт (HTTP)</text>
+<rect class="fg-box" x="166" y="154" width="208" height="38" rx="8"/>
+<text class="fg-tb" x="178" y="178">22</text><text class="fg-t" x="222" y="178">🔧 SSH (керування)</text>
+<rect class="fg-box" x="166" y="200" width="208" height="38" rx="8"/>
+<text class="fg-tb" x="178" y="224">3306</text><text class="fg-t" x="222" y="224">🗄️ база MySQL</text>
+<rect class="fg-story" x="8" y="62" width="112" height="38" rx="8"/>
+<text class="fg-c" x="30" y="86" font-size="16">📦</text>
+<text class="fg-tb fg-s" x="44" y="80">до .110.1</text>
+<text class="fg-tb fg-s" x="44" y="95">порт 443</text>
+<line class="fg-la" x1="122" y1="81" x2="162" y2="81" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="8" y="126">IP — адреса</text>
+<text class="fg-m fg-xs" x="8" y="141">поштомата,</text>
+<text class="fg-m fg-xs" x="8" y="156">порт — номер</text>
+<text class="fg-m fg-xs" x="8" y="171">комірки</text>
+</svg>

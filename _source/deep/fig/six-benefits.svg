@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 262" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="6" y="6" width="191" height="76" rx="12"/>
+<text x="20" y="52" font-size="26">💸</text>
+<text class="fg-tb fg-s" x="62" y="40">1. Змінні витрати</text>
+<text class="fg-m fg-xs" x="62" y="58">замість вкладень наперед</text>
+<rect class="fg-accs" x="203" y="6" width="191" height="76" rx="12"/>
+<text x="217" y="52" font-size="26">🏭</text>
+<text class="fg-tb fg-s" x="259" y="40">2. Економія</text>
+<text class="fg-m fg-xs" x="259" y="58">на масштабі AWS</text>
+<rect class="fg-accs" x="6" y="90" width="191" height="76" rx="12"/>
+<text x="20" y="136" font-size="26">🎯</text>
+<text class="fg-tb fg-s" x="62" y="124">3. Не вгадувати</text>
+<text class="fg-m fg-xs" x="62" y="142">потужність</text>
+<rect class="fg-accs" x="203" y="90" width="191" height="76" rx="12"/>
+<text x="217" y="136" font-size="26">⚡</text>
+<text class="fg-tb fg-s" x="259" y="124">4. Швидкість</text>
+<text class="fg-m fg-xs" x="259" y="142">і гнучкість</text>
+<rect class="fg-accs" x="6" y="174" width="191" height="76" rx="12"/>
+<text x="20" y="220" font-size="26">🧹</text>
+<text class="fg-tb fg-s" x="62" y="208">5. Без утримання</text>
+<text class="fg-m fg-xs" x="62" y="226">дата-центрів</text>
+<rect class="fg-accs" x="203" y="174" width="191" height="76" rx="12"/>
+<text x="217" y="220" font-size="26">🌍</text>
+<text class="fg-tb fg-s" x="259" y="208">6. Глобально</text>
+<text class="fg-m fg-xs" x="259" y="226">за хвилини</text>
+</svg>

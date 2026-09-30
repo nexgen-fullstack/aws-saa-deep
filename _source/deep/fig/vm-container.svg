@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 224" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-c fg-s" x="100" y="18">Віртуальні машини</text>
+<text class="fg-tb fg-c fg-s" x="300" y="18">Контейнери</text>
+<rect class="fg-sto" x="10" y="30" width="56" height="34" rx="6"/><text class="fg-xs fg-c fg-t" x="38" y="51">програма</text>
+<rect class="fg-net" x="10" y="68" width="56" height="44" rx="6"/><text class="fg-xs fg-c fg-tb" x="38" y="87">своя</text><text class="fg-xs fg-c fg-tb" x="38" y="102">ОС</text>
+<rect class="fg-sto" x="72" y="30" width="56" height="34" rx="6"/><text class="fg-xs fg-c fg-t" x="100" y="51">програма</text>
+<rect class="fg-net" x="72" y="68" width="56" height="44" rx="6"/><text class="fg-xs fg-c fg-tb" x="100" y="87">своя</text><text class="fg-xs fg-c fg-tb" x="100" y="102">ОС</text>
+<rect class="fg-sto" x="134" y="30" width="56" height="34" rx="6"/><text class="fg-xs fg-c fg-t" x="162" y="51">програма</text>
+<rect class="fg-net" x="134" y="68" width="56" height="44" rx="6"/><text class="fg-xs fg-c fg-tb" x="162" y="87">своя</text><text class="fg-xs fg-c fg-tb" x="162" y="102">ОС</text>
+<rect class="fg-accs" x="10" y="118" width="180" height="26" rx="6"/><text class="fg-xs fg-c fg-t" x="100" y="135">гіпервізор</text>
+<rect class="fg-cmp" x="10" y="148" width="180" height="26" rx="6"/><text class="fg-xs fg-c fg-t" x="100" y="165">залізо</text>
+<rect class="fg-sto" x="212" y="68" width="40" height="44" rx="6"/><text class="fg-xs fg-c fg-t" x="232" y="87">про-</text><text class="fg-xs fg-c fg-t" x="232" y="102">грама</text>
+<rect class="fg-sto" x="257" y="68" width="40" height="44" rx="6"/><text class="fg-xs fg-c fg-t" x="277" y="87">про-</text><text class="fg-xs fg-c fg-t" x="277" y="102">грама</text>
+<rect class="fg-sto" x="302" y="68" width="40" height="44" rx="6"/><text class="fg-xs fg-c fg-t" x="322" y="87">про-</text><text class="fg-xs fg-c fg-t" x="322" y="102">грама</text>
+<rect class="fg-sto" x="347" y="68" width="40" height="44" rx="6"/><text class="fg-xs fg-c fg-t" x="367" y="87">про-</text><text class="fg-xs fg-c fg-t" x="367" y="102">грама</text>
+<rect class="fg-net" x="210" y="118" width="182" height="26" rx="6"/><text class="fg-xs fg-c fg-tb" x="301" y="135">одна спільна ОС</text>
+<rect class="fg-cmp" x="210" y="148" width="182" height="26" rx="6"/><text class="fg-xs fg-c fg-t" x="301" y="165">залізо</text>
+<text class="fg-tbad fg-xs fg-c fg-tb" x="100" y="196">гігабайти · старт — хвилини</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="301" y="196">мегабайти · старт — секунди</text>
+<text class="fg-m fg-xs fg-c" x="100" y="214">сильна ізоляція, будь-яка ОС</text>
+<text class="fg-m fg-xs fg-c" x="301" y="214">легкі, однаково працюють будь-де</text>
+<text class="fg-c" x="301" y="46" font-size="18">📦📦📦📦</text>
+</svg>

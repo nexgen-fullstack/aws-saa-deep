@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 268" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb" x="8" y="18">clients — клієнти</text>
+<rect class="fg-box" x="8" y="26" width="200" height="100" rx="8"/>
+<rect class="fg-accs" x="8" y="26" width="200" height="26" rx="8"/>
+<text class="fg-tb fg-xs" x="16" y="43">🔑 client_id</text><text class="fg-tb fg-xs" x="96" y="43">name</text><text class="fg-tb fg-xs" x="154" y="43">city</text>
+<rect class="fg-warn" x="10" y="56" width="196" height="22" rx="4"/>
+<text class="fg-t fg-xs fg-tb" x="16" y="71">17</text><text class="fg-t fg-xs" x="96" y="71">Ірина</text><text class="fg-t fg-xs" x="154" y="71">Львів</text>
+<text class="fg-t fg-xs" x="16" y="95">18</text><text class="fg-t fg-xs" x="96" y="95">Андрій</text><text class="fg-t fg-xs" x="154" y="95">Київ</text>
+<text class="fg-t fg-xs" x="16" y="117">19</text><text class="fg-t fg-xs" x="96" y="117">Марта</text><text class="fg-t fg-xs" x="154" y="117">Львів</text>
+<text class="fg-tb" x="176" y="150">orders — замовлення</text>
+<rect class="fg-box" x="176" y="158" width="216" height="100" rx="8"/>
+<rect class="fg-accs" x="176" y="158" width="216" height="26" rx="8"/>
+<text class="fg-tb fg-xs" x="184" y="175">🔑 order_id</text><text class="fg-tb fg-xs" x="258" y="175">client_id</text><text class="fg-tb fg-xs" x="326" y="175">item</text>
+<rect class="fg-warn" x="178" y="188" width="212" height="22" rx="4"/>
+<text class="fg-t fg-xs" x="184" y="203">501</text><text class="fg-t fg-xs fg-tb" x="258" y="203">17</text><text class="fg-t fg-xs" x="326" y="203">круасан</text>
+<text class="fg-t fg-xs" x="184" y="227">502</text><text class="fg-t fg-xs" x="258" y="227">18</text><text class="fg-t fg-xs" x="326" y="227">торт</text>
+<rect class="fg-warn" x="178" y="234" width="212" height="22" rx="4"/>
+<text class="fg-t fg-xs" x="184" y="249">503</text><text class="fg-t fg-xs fg-tb" x="258" y="249">17</text><text class="fg-t fg-xs" x="326" y="249">кава</text>
+<path class="fg-la" d="M176 199 C 120 199 60 160 34 82" marker-end="url(#aha)"/>
+<path class="fg-la fg-dash" d="M176 245 C 100 245 30 200 22 82" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs" x="224" y="62">замовлення посилаються</text>
+<text class="fg-tacc fg-xs" x="224" y="78">на клієнта №17 за номером —</text>
+<text class="fg-tacc fg-xs" x="224" y="94">ім'я й місто не дублюються</text>
+</svg>

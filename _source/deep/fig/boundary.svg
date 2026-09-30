@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 208" xmlns="http://www.w3.org/2000/svg">
+<ellipse class="fg-accs" cx="150" cy="100" rx="120" ry="78" opacity=".85"/>
+<ellipse class="fg-story" cx="250" cy="100" rx="120" ry="78" opacity=".85"/>
+<text class="fg-tb fg-xs fg-c" x="92" y="60">політика дозволяє</text>
+<text class="fg-m fg-xs fg-c" x="86" y="100">EC2, IAM,</text>
+<text class="fg-m fg-xs fg-c" x="86" y="116">видаляти все</text>
+<text class="fg-tb fg-xs fg-c" x="308" y="60">межа дозволяє</text>
+<text class="fg-m fg-xs fg-c" x="316" y="100">лише тести,</text>
+<text class="fg-m fg-xs fg-c" x="316" y="116">без IAM-адміна</text>
+<text class="fg-tok fg-tb fg-s fg-c" x="200" y="96">✓ фактичні</text>
+<text class="fg-tok fg-tb fg-s fg-c" x="200" y="114">права</text>
+<text class="fg-m fg-xs fg-c" x="200" y="200">Працює лише те, що вміщується в обидва кола</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 184" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="6" y="30" width="110" height="96" rx="12"/>
+<text class="fg-c" x="61" y="66" font-size="24">🏛️</text>
+<text class="fg-tb fg-xs fg-c" x="61" y="90">STS</text>
+<text class="fg-m fg-xs fg-c" x="61" y="106">видає бейджі</text>
+<line class="fg-la" x1="118" y1="78" x2="150" y2="78" marker-end="url(#aha)"/>
+<rect class="fg-story" x="156" y="20" width="150" height="116" rx="14"/>
+<rect class="fg-box" x="211" y="12" width="40" height="14" rx="4"/>
+<text class="fg-tb fg-s fg-c" x="231" y="52">🎫 роль «сайт-фото»</text>
+<text class="fg-t fg-xs fg-c" x="231" y="74">можна: класти фото</text>
+<text class="fg-t fg-xs fg-c" x="231" y="90">у сховище</text>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="231" y="116">⏳ діє 1 годину</text>
+<line class="fg-l fg-dash" x1="308" y1="78" x2="334" y2="78" marker-end="url(#ah)"/>
+<rect class="fg-bgb" x="338" y="40" width="56" height="76" rx="10"/>
+<text class="fg-c" x="366" y="74" font-size="20">🎫</text>
+<text class="fg-tbad fg-xs fg-c fg-tb" x="366" y="98">минув</text>
+<text class="fg-tbad fg-xs fg-c fg-tb" x="366" y="110">строк ✗</text>
+<text class="fg-m fg-xs fg-c" x="200" y="160">Власного пароля в ролі немає. Її «приймають» на час,</text>
+<text class="fg-m fg-xs fg-c" x="200" y="176">і STS видає тимчасові ключі, що самі перестають діяти.</text>
+</svg>

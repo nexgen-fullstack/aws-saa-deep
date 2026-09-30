@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 274" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="40" y="6" width="320" height="50" rx="10"/>
+<text x="54" y="39" font-size="20">🌍</text>
+<text class="fg-tb fg-xs" x="86" y="28">Інтернет</text>
+<text class="fg-t fg-xs" x="86" y="46">будь-хто</text>
+<line class="fg-la" x1="200" y1="58" x2="200" y2="66" marker-end="url(#aha)"/>
+<rect class="fg-sto" x="40" y="68" width="320" height="50" rx="10"/>
+<text x="54" y="101" font-size="20">⚖️</text>
+<text class="fg-tb fg-xs" x="86" y="90">SG балансувальника</text>
+<text class="fg-t fg-xs" x="86" y="108">вхід: 443 з 0.0.0.0/0</text>
+<line class="fg-la" x1="200" y1="120" x2="200" y2="128" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="40" y="130" width="320" height="50" rx="10"/>
+<text x="54" y="163" font-size="20">🖥️</text>
+<text class="fg-tb fg-xs" x="86" y="152">SG серверів</text>
+<text class="fg-t fg-xs" x="86" y="170">вхід: 8080 з SG балансув.</text>
+<line class="fg-la" x1="200" y1="182" x2="200" y2="190" marker-end="url(#aha)"/>
+<rect class="fg-db" x="40" y="192" width="320" height="50" rx="10"/>
+<text x="54" y="225" font-size="20">🛢️</text>
+<text class="fg-tb fg-xs" x="86" y="214">SG бази</text>
+<text class="fg-t fg-xs" x="86" y="232">вхід: 5432 з SG серверів</text>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="200" y="266">порт 22 (SSH) не відкритий нікому</text>
+</svg>

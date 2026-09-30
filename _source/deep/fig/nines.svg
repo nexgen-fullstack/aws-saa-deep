@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 246" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-s" x="8" y="18">Простій за рік</text>
+<text class="fg-m fg-xs fg-r" x="392" y="18">ціна архітектури</text>
+<text class="fg-tb" x="8" y="52">99%</text>
+<text class="fg-m fg-xs" x="8" y="68">дві дев'ятки</text>
+<rect class="fg-bad" x="86" y="36" width="257" height="26" rx="6"/>
+<text class="fg-t fg-xs" x="94" y="54">≈ 3,65 дня на рік</text>
+<text class="fg-xs fg-r" x="392" y="54">💲</text>
+<text class="fg-tb" x="8" y="102">99,9%</text>
+<text class="fg-m fg-xs" x="8" y="118">три</text>
+<rect class="fg-warn" x="86" y="86" width="187" height="26" rx="6"/>
+<text class="fg-t fg-xs" x="279" y="104">≈ 8,8 години</text>
+<text class="fg-xs fg-r" x="392" y="104">💲💲</text>
+<text class="fg-tb" x="8" y="152">99,99%</text>
+<text class="fg-m fg-xs" x="8" y="168">чотири</text>
+<rect class="fg-accs" x="86" y="136" width="117" height="26" rx="6"/>
+<text class="fg-t fg-xs" x="209" y="154">≈ 53 хвилини</text>
+<text class="fg-xs fg-r" x="392" y="154">💲💲💲</text>
+<text class="fg-tb" x="8" y="202">99,999%</text>
+<text class="fg-m fg-xs" x="8" y="218">п'ять</text>
+<rect class="fg-ok" x="86" y="186" width="47" height="26" rx="6"/>
+<text class="fg-t fg-xs" x="139" y="204">≈ 5 хвилин</text>
+<text class="fg-xs fg-r" x="392" y="204">💲💲💲💲</text>
+<text class="fg-m fg-xs fg-c" x="200" y="238">шкала умовна: кожна дев'ятка — удесятеро менше простою</text>
+</svg>

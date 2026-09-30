@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 212" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="6" y="6" width="190" height="200" rx="14"/>
+<text class="fg-tb fg-s" x="16" y="28">Симетричне</text>
+<text class="fg-m fg-xs" x="16" y="44">один ключ на двох</text>
+<text class="fg-c" x="101" y="94" font-size="30">🔑</text>
+<text class="fg-t fg-xs fg-c" x="60" y="124">замикає</text>
+<text class="fg-t fg-xs fg-c" x="142" y="124">відмикає</text>
+<text class="fg-c" x="60" y="152" font-size="20">🔒</text>
+<text class="fg-c" x="142" y="152" font-size="20">🔓</text>
+<text class="fg-tok fg-xs fg-tb" x="16" y="180">+ дуже швидко (AES-256)</text>
+<text class="fg-tbad fg-xs fg-tb" x="16" y="196">− як передати ключ?</text>
+<rect class="fg-story" x="204" y="6" width="190" height="200" rx="14"/>
+<text class="fg-tb fg-s" x="214" y="28">Асиметричне</text>
+<text class="fg-m fg-xs" x="214" y="44">пара ключів</text>
+<text class="fg-c" x="299" y="98" font-size="34">📫</text>
+<text class="fg-t fg-xs fg-c" x="299" y="122">скринька з щілиною</text>
+<text class="fg-t fg-xs" x="214" y="146">📨 вкинути може будь-хто —</text>
+<text class="fg-t fg-xs" x="214" y="162">   публічний ключ</text>
+<text class="fg-t fg-xs" x="214" y="180">🗝️ відчинити — лише власник</text>
+<text class="fg-t fg-xs" x="214" y="196">   приватний ключ</text>
+</svg>

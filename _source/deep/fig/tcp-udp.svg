@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 276" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="4" y="6" width="392" height="128" rx="12"/>
+<text class="fg-h" x="16" y="30">TCP</text>
+<text class="fg-m" x="58" y="30">посилка з відстеженням</text>
+<text class="fg-c" x="30" y="84" font-size="24">💻</text>
+<text class="fg-c" x="370" y="84" font-size="24">🖥️</text>
+<text class="fg-m fg-xs" x="56" y="48">1) «Привіт, поговоримо?» → «Так!» → «Домовились»</text>
+<rect class="fg-accs" x="70" y="66" width="24" height="22" rx="4"/><text class="fg-tb fg-c fg-s" x="82" y="82">1</text>
+<rect class="fg-bad" x="112" y="66" width="24" height="22" rx="4"/><text class="fg-tbad fg-tb fg-c fg-s" x="124" y="82">2</text>
+<rect class="fg-accs" x="154" y="66" width="24" height="22" rx="4"/><text class="fg-tb fg-c fg-s" x="166" y="82">3</text>
+<line class="fg-la" x1="186" y1="77" x2="340" y2="77" marker-end="url(#aha)"/>
+<text class="fg-tbad fg-tb" x="118" y="62">✗</text>
+<path class="fg-lok" d="M340 98 C280 118 170 118 128 96" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-c" x="236" y="126">«1 і 3 є, 2 немає» → 2 досилають</text>
+<rect class="fg-int" x="4" y="146" width="392" height="124" rx="12"/>
+<text class="fg-h" x="16" y="170">UDP</text>
+<text class="fg-m" x="58" y="170">листівки без відстеження</text>
+<text class="fg-c" x="30" y="222" font-size="24">🎮</text>
+<text class="fg-c" x="370" y="222" font-size="24">🖥️</text>
+<rect class="fg-accs" x="70" y="204" width="24" height="22" rx="4"/><text class="fg-tb fg-c fg-s" x="82" y="220">1</text>
+<rect class="fg-accs" x="112" y="204" width="24" height="22" rx="4"/><text class="fg-tb fg-c fg-s" x="124" y="220">2</text>
+<rect class="fg-bad" x="154" y="204" width="24" height="22" rx="4" opacity=".55"/><text class="fg-tbad fg-tb fg-c fg-s" x="166" y="220">3</text>
+<rect class="fg-accs" x="196" y="204" width="24" height="22" rx="4"/><text class="fg-tb fg-c fg-s" x="208" y="220">4</text>
+<line class="fg-la" x1="228" y1="215" x2="340" y2="215" marker-end="url(#aha)"/>
+<text class="fg-tbad fg-tb" x="160" y="199">✗</text>
+<text class="fg-m fg-xs fg-c" x="200" y="252">одна загубилась — і нехай: швидкість важливіша</text>
+</svg>

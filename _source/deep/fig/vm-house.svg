@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 288" xmlns="http://www.w3.org/2000/svg">
+<polygon class="fg-bgb" points="20,54 200,8 380,54"/>
+<text class="fg-tb fg-c fg-s" x="200" y="44">🏢 фізичний сервер</text>
+<rect class="fg-bgb" x="20" y="54" width="360" height="150"/>
+<rect class="fg-story" x="32" y="64" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="84" y="86">🐧 Linux</text>
+<text class="fg-m fg-xs fg-c" x="84" y="104">сайт «Хмаринки»</text>
+<rect class="fg-net" x="148" y="64" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="86">🪟 Windows</text>
+<text class="fg-m fg-xs fg-c" x="200" y="104">бухгалтерія</text>
+<rect class="fg-box" x="264" y="64" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="316" y="86">🐧 Linux</text>
+<text class="fg-m fg-xs fg-c" x="316" y="104">чужа компанія</text>
+<rect class="fg-db" x="32" y="132" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="84" y="154">🐧 Linux</text>
+<text class="fg-m fg-xs fg-c" x="84" y="172">база даних</text>
+<rect class="fg-box" x="148" y="132" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="154">🐧 Linux</text>
+<text class="fg-m fg-xs fg-c" x="200" y="172">інший клієнт</text>
+<rect class="fg-box" x="264" y="132" width="104" height="58" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="316" y="154">🪟 Windows</text>
+<text class="fg-m fg-xs fg-c" x="316" y="172">ще хтось</text>
+<rect class="fg-accs" x="20" y="204" width="360" height="30"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="224">🧑‍💼 гіпервізор — «керуючий»: ділить ресурси, не пускає сусідів</text>
+<rect class="fg-cmp" x="20" y="234" width="360" height="30"/>
+<text class="fg-t fg-xs fg-c" x="200" y="254">залізо: процесори · пам'ять · диски · мережа</text>
+<text class="fg-m fg-xs fg-c" x="200" y="280">кожна «квартира» — віртуальна машина зі своєю ОС і замком</text>
+</svg>

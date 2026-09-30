@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 276" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="200" y="24" font-size="18">🙋 клієнт</text>
+<line class="fg-l" x1="200" y1="32" x2="200" y2="48" marker-end="url(#ah)"/>
+<rect class="fg-net" x="20" y="52" width="360" height="56" rx="12"/>
+<text x="36" y="87" font-size="22">🪟</text>
+<text class="fg-tb" x="72" y="76">Фронтенд — «зала»</text>
+<text class="fg-m" x="72" y="96">сайт, мобільний застосунок, кнопки</text>
+<line class="fg-l" x1="200" y1="110" x2="200" y2="126" marker-end="url(#ah)"/>
+<rect class="fg-cmp" x="20" y="130" width="360" height="56" rx="12"/>
+<text x="36" y="165" font-size="22">🧑‍🍳</text>
+<text class="fg-tb" x="72" y="154">Бекенд — «кухня»</text>
+<text class="fg-m" x="72" y="174">перевіряє, рахує, оформлює замовлення</text>
+<line class="fg-l" x1="200" y1="188" x2="200" y2="204" marker-end="url(#ah)"/>
+<rect class="fg-db" x="20" y="208" width="360" height="56" rx="12"/>
+<text x="36" y="243" font-size="22">🗄️</text>
+<text class="fg-tb" x="72" y="232">Дані — «комора»</text>
+<text class="fg-m" x="72" y="252">база даних, файли (фото тортів, чеки)</text>
+</svg>

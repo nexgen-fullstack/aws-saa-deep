@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 204" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="40" y="40" font-size="18">🎮</text><text class="fg-xs fg-m fg-c" x="40" y="58">гравець</text>
+<rect class="fg-accs" x="80" y="18" width="104" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="132" y="38">🚪 найближча</text>
+<text class="fg-xs fg-c fg-t" x="132" y="54">точка входу</text>
+<line class="fg-la" x1="56" y1="42" x2="78" y2="42" marker-end="url(#aha)"/>
+<rect class="fg-story" x="80" y="80" width="104" height="44" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="132" y="98">2 статичні IP</text>
+<text class="fg-xs fg-c fg-m" x="132" y="114">anycast, на весь світ</text>
+<path class="fg-lok" d="M186 42 C 240 42 250 60 300 60" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="200" y="30">приватна мережа AWS</text>
+<rect class="fg-ok" x="304" y="30" width="90" height="56" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="349" y="52">✅ регіон 1</text>
+<text class="fg-xs fg-c fg-t" x="349" y="70">здоровий</text>
+<rect class="fg-bad" x="304" y="98" width="90" height="56" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="349" y="120">❌ регіон 2</text>
+<text class="fg-xs fg-c fg-t" x="349" y="138">хворий — обхід</text>
+<text class="fg-m fg-xs" x="6" y="178">• TCP і UDP · • нічого не кешує · • failover без DNS-кешу</text>
+<text class="fg-m fg-xs" x="6" y="196">образ: VIP-коридор в аеропорту з двома постійними входами</text>
+</svg>

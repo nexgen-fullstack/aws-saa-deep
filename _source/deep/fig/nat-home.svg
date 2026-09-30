@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 286" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="10" width="150" height="190" rx="14"/>
+<text class="fg-tb fg-s" x="16" y="32">🏠 вдома</text>
+<text class="fg-m fg-xs" x="80" y="32">(приватні)</text>
+<rect class="fg-box" x="16" y="44" width="130" height="36" rx="8"/>
+<text x="24" y="68" font-size="15">📱</text><text class="fg-t fg-s" x="46" y="67">192.168.1.10</text>
+<rect class="fg-box" x="16" y="88" width="130" height="36" rx="8"/>
+<text x="24" y="112" font-size="15">💻</text><text class="fg-t fg-s" x="46" y="111">192.168.1.11</text>
+<rect class="fg-box" x="16" y="132" width="130" height="36" rx="8"/>
+<text x="24" y="156" font-size="15">📺</text><text class="fg-t fg-s" x="46" y="155">192.168.1.12</text>
+<text class="fg-m fg-xs" x="16" y="190">такі ж — у мільйонах квартир</text>
+<rect class="fg-net" x="178" y="58" width="96" height="104" rx="12"/>
+<text class="fg-c" x="226" y="86" font-size="22">📶</text>
+<text class="fg-tb fg-c fg-s" x="226" y="106">роутер</text>
+<text class="fg-tb fg-c fg-xs" x="226" y="121">(NAT)</text>
+<text class="fg-m fg-xs fg-c" x="226" y="138">публічна:</text>
+<text class="fg-tnet fg-xs fg-c fg-tb" x="226" y="153">93.170.5.9</text>
+<line class="fg-la" x1="148" y1="62" x2="174" y2="86" marker-end="url(#aha)"/>
+<line class="fg-la" x1="148" y1="106" x2="174" y2="108" marker-end="url(#aha)"/>
+<line class="fg-la" x1="148" y1="150" x2="174" y2="130" marker-end="url(#aha)"/>
+<ellipse class="fg-bgb" cx="346" cy="110" rx="48" ry="38"/>
+<text class="fg-c" x="346" y="106" font-size="20">🌍</text>
+<text class="fg-tb fg-c fg-xs" x="346" y="126">інтернет</text>
+<line class="fg-la" x1="276" y1="96" x2="294" y2="96" marker-end="url(#aha)"/>
+<line class="fg-lok" x1="296" y1="124" x2="278" y2="124" marker-end="url(#ahok)"/>
+<text class="fg-tacc fg-xs fg-c" x="286" y="84">запит</text>
+<text class="fg-tok fg-xs fg-c" x="286" y="144">відповідь</text>
+<path class="fg-lbad fg-dash" d="M330 150 C 300 205 230 222 160 190" marker-end="url(#ahbad)"/>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="276" y="214">✗ зайти ззовні напряму — не можна</text>
+<rect class="fg-bgb" x="6" y="230" width="388" height="48" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="250">📋 журнал роутера:</text>
+<text class="fg-m fg-xs" x="16" y="268">«запит від 📱 .10 до сайту → відповідь сайту віддати 📱»</text>
+</svg>

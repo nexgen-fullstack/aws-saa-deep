@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 292" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb" x="8" y="20">Пропускна здатність — ширина дороги</text>
+<rect class="fg-bgb" x="8" y="32" width="170" height="20" rx="4"/>
+<text x="20" y="47" font-size="13">🚗</text>
+<text class="fg-m fg-xs" x="8" y="68">1 смуга: мало даних за секунду</text>
+<rect class="fg-bgb" x="210" y="32" width="182" height="64" rx="4"/>
+<line class="fg-lt fg-dash" x1="210" y1="48" x2="392" y2="48"/>
+<line class="fg-lt fg-dash" x1="210" y1="64" x2="392" y2="64"/>
+<line class="fg-lt fg-dash" x1="210" y1="80" x2="392" y2="80"/>
+<text x="222" y="45" font-size="12">🚗 🚚 🚗</text>
+<text x="256" y="61" font-size="12">🚗 🚗 🚚</text>
+<text x="232" y="77" font-size="12">🚚 🚗 🚗</text>
+<text x="280" y="93" font-size="12">🚗 🚗</text>
+<text class="fg-m fg-xs" x="210" y="112">4 смуги: більше за секунду</text>
+<line class="fg-lt" x1="8" y1="130" x2="392" y2="130"/>
+<text class="fg-tb" x="8" y="156">Затримка — довжина дороги</text>
+<circle class="fg-acc" cx="30" cy="196" r="7"/>
+<text class="fg-tb fg-s" x="16" y="222">Львів</text>
+<path class="fg-la" d="M40 196 H118" marker-end="url(#aha)"/>
+<circle class="fg-net" cx="128" cy="196" r="7"/>
+<text class="fg-s fg-t" x="100" y="222">Франкфурт</text>
+<text class="fg-tok fg-xs fg-tb" x="62" y="186">≈ 30 мс</text>
+<path class="fg-la fg-dash" d="M40 204 C120 250 300 250 372 206" marker-end="url(#aha)"/>
+<circle class="fg-cmp" cx="378" cy="196" r="7"/>
+<text class="fg-s fg-t fg-r" x="392" y="182">Токіо</text>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="210" y="262">≈ 250 мс туди й назад — навіть на найширшій дорозі</text>
+<text class="fg-m fg-xs fg-c" x="210" y="284">Ближче сервер до людей — швидша відповідь</text>
+</svg>

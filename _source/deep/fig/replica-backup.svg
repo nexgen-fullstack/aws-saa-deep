@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 318" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ok" x="6" y="6" width="388" height="86" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="26">🔁 Синхронна репліка</text>
+<text class="fg-c" x="46" y="66" font-size="22">🗄️</text><text class="fg-m fg-xs fg-c" x="46" y="84">основна</text>
+<text class="fg-c" x="168" y="66" font-size="22">🗄️</text><text class="fg-m fg-xs fg-c" x="168" y="84">копія</text>
+<line class="fg-lok" x1="66" y1="58" x2="146" y2="58" marker-end="url(#ahok)"/>
+<text class="fg-t fg-xs" x="206" y="52">«збережено» — лише коли</text>
+<text class="fg-t fg-xs" x="206" y="67">записали обидві</text>
+<text class="fg-tok fg-xs fg-tb" x="206" y="84">копія завжди точна</text>
+<rect class="fg-warn" x="6" y="100" width="388" height="86" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="120">⏩ Асинхронна репліка</text>
+<text class="fg-c" x="46" y="160" font-size="22">🗄️</text><text class="fg-m fg-xs fg-c" x="46" y="178">основна</text>
+<text class="fg-c" x="168" y="160" font-size="22">🗄️</text><text class="fg-m fg-xs fg-c" x="168" y="178">копія</text>
+<line class="fg-l fg-dash" x1="66" y1="152" x2="146" y2="152" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs fg-c" x="106" y="144">трохи пізніше</text>
+<text class="fg-t fg-xs" x="206" y="146">швидко; з копії можна читати</text>
+<text class="fg-twarn fg-xs fg-tb" x="206" y="163">при аварії — останні секунди</text>
+<text class="fg-twarn fg-xs fg-tb" x="206" y="178">можуть не встигнути</text>
+<rect class="fg-net" x="6" y="194" width="388" height="84" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="214">📸 Бекап — фото на момент часу</text>
+<line class="fg-lt" x1="24" y1="248" x2="376" y2="248"/>
+<circle class="fg-accs" cx="60" cy="248" r="9"/><text class="fg-m fg-xs fg-c" x="60" y="270">пн</text>
+<circle class="fg-accs" cx="150" cy="248" r="9"/><text class="fg-m fg-xs fg-c" x="150" y="270">вт</text>
+<circle class="fg-accs" cx="240" cy="248" r="9"/><text class="fg-m fg-xs fg-c" x="240" y="270">ср</text>
+<text class="fg-tbad fg-xs fg-tb" x="272" y="240">чт: «ой, видалили!»</text>
+<path class="fg-la" d="M300 252 C 290 272 258 272 246 256" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-tb" x="304" y="270">повернутись</text>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="200" y="300">Видалення таблиці репліки повторять миттєво.</text>
+<text class="fg-tok fg-xs fg-tb fg-c" x="200" y="314">Від помилок рятує лише бекап.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 400 256" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-h fg-c" x="200" y="22">🏭 Дата-центр</text>
+<rect class="fg-bgb" x="6" y="32" width="388" height="196" rx="12"/>
+<rect class="fg-box" x="18" y="50" width="38" height="160" rx="4"/>
+<rect class="fg-accs" x="22" y="58" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="64.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="76" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="82.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="94" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="100.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="112" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="118.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="130" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="136.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="148" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="154.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="166" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="172.5" r="2.2"/>
+<rect class="fg-accs" x="22" y="184" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="47" cy="190.5" r="2.2"/>
+<rect class="fg-box" x="62" y="50" width="38" height="160" rx="4"/>
+<rect class="fg-accs" x="66" y="58" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="64.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="76" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="82.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="94" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="100.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="112" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="118.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="130" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="136.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="148" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="154.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="166" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="172.5" r="2.2"/>
+<rect class="fg-accs" x="66" y="184" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="91" cy="190.5" r="2.2"/>
+<rect class="fg-box" x="106" y="50" width="38" height="160" rx="4"/>
+<rect class="fg-accs" x="110" y="58" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="64.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="76" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="82.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="94" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="100.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="112" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="118.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="130" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="136.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="148" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="154.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="166" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="172.5" r="2.2"/>
+<rect class="fg-accs" x="110" y="184" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="135" cy="190.5" r="2.2"/>
+<rect class="fg-box" x="150" y="50" width="38" height="160" rx="4"/>
+<rect class="fg-accs" x="154" y="58" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="64.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="76" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="82.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="94" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="100.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="112" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="118.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="130" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="136.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="148" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="154.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="166" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="172.5" r="2.2"/>
+<rect class="fg-accs" x="154" y="184" width="30" height="13" rx="2"/>
+<circle class="fg-ok" cx="179" cy="190.5" r="2.2"/>
+<text class="fg-m fg-xs fg-c" x="103" y="222">стійки з серверами</text>
+<text x="206" y="66" font-size="14">⚡</text><text class="fg-t fg-xs" x="228" y="65">дві лінії живлення</text>
+<text x="206" y="89" font-size="14">🔋</text><text class="fg-t fg-xs" x="228" y="88">акумулятори — на секунди</text>
+<text x="206" y="112" font-size="14">⛽</text><text class="fg-t fg-xs" x="228" y="111">генератори — на години</text>
+<text x="206" y="135" font-size="14">❄️</text><text class="fg-t fg-xs" x="228" y="134">охолодження</text>
+<text x="206" y="158" font-size="14">🌐</text><text class="fg-t fg-xs" x="228" y="157">кілька каналів мережі</text>
+<text x="206" y="181" font-size="14">👮</text><text class="fg-t fg-xs" x="228" y="180">охорона й камери</text>
+<text x="206" y="204" font-size="14">🧯</text><text class="fg-t fg-xs" x="228" y="203">гасіння без води</text>
+<text class="fg-m fg-xs fg-c" x="200" y="248">тисячі стійок у будівлі — і все продубльовано</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 322" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-la" x1="20" y1="306" x2="20" y2="14" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-c" transform="translate(11 160) rotate(-90)">більше</text>
+<rect class="fg-accs" x="34" y="276" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="298">біт</text>
+<text class="fg-t" x="170" y="290">0 або 1 — як вимикач</text>
+<text class="fg-m" x="170" y="306">найменша цеглинка</text>
+<rect class="fg-accs" x="34" y="232" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="254">байт = 8 бітів</text>
+<text class="fg-t" x="170" y="246">одна літера чи цифра</text>
+<text class="fg-m" x="170" y="262">українська літера — 2 байти</text>
+<rect class="fg-accs" x="34" y="188" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="210">KB кілобайт</text>
+<text class="fg-t" x="170" y="202">≈ 1 000 байтів</text>
+<text class="fg-m" x="170" y="218">абзац тексту</text>
+<rect class="fg-accs" x="34" y="144" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="166">MB мегабайт</text>
+<text class="fg-t" x="170" y="158">≈ 1 000 KB</text>
+<text class="fg-m" x="170" y="174">фото з телефона — 3–5 MB</text>
+<rect class="fg-accs" x="34" y="100" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="122">GB гігабайт</text>
+<text class="fg-t" x="170" y="114">≈ 1 000 MB</text>
+<text class="fg-m" x="170" y="130">фільм — 1–5 GB</text>
+<rect class="fg-accs" x="34" y="56" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="78">TB терабайт</text>
+<text class="fg-t" x="170" y="70">≈ 1 000 GB</text>
+<text class="fg-m" x="170" y="86">≈ 250 000 фото</text>
+<rect class="fg-accs" x="34" y="12" width="124" height="34" rx="17"/>
+<text class="fg-tb fg-c" x="96" y="34">PB петабайт</text>
+<text class="fg-t" x="170" y="26">≈ 1 000 TB</text>
+<text class="fg-m" x="170" y="42">архів великої компанії</text>
+</svg>

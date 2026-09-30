@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 254" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="6" y="8" width="388" height="58" rx="12"/>
+<circle class="fg-acc" cx="32" cy="37" r="15"/><text class="fg-inv fg-c" x="32" y="42">1</text>
+<text class="fg-tb fg-s" x="58" y="33">Є явний Deny хоч в одній політиці?</text>
+<text class="fg-tbad fg-s fg-tb" x="58" y="53">так → ❌ заборонено</text>
+<line class="fg-l" x1="200" y1="68" x2="200" y2="84" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs" x="208" y="80">ні</text>
+<rect class="fg-box" x="6" y="86" width="388" height="58" rx="12"/>
+<circle class="fg-acc" cx="32" cy="115" r="15"/><text class="fg-inv fg-c" x="32" y="120">2</text>
+<text class="fg-tb fg-s" x="58" y="111">Є Allow, що дозволяє цю дію?</text>
+<text class="fg-tok fg-s fg-tb" x="58" y="131">так → ✅ дозволено</text>
+<line class="fg-l" x1="200" y1="146" x2="200" y2="162" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs" x="208" y="158">ні</text>
+<rect class="fg-box" x="6" y="164" width="388" height="58" rx="12"/>
+<circle class="fg-acc" cx="32" cy="193" r="15"/><text class="fg-inv fg-c" x="32" y="198">3</text>
+<text class="fg-tb fg-s" x="58" y="189">Нічого не знайдено</text>
+<text class="fg-tbad fg-s fg-tb" x="58" y="209">❌ заборонено за замовчуванням</text>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="200" y="246">Deny б'є все · нічого не сказано — не можна</text>
+</svg>

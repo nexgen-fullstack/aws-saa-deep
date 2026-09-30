@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 222" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="6" width="388" height="100" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="26">Старий шлях: бастіон</text>
+<text class="fg-c" x="36" y="70" font-size="22">🧑‍💻</text>
+<line class="fg-lbad" x1="56" y1="64" x2="120" y2="64" marker-end="url(#ahbad)"/>
+<text class="fg-tbad fg-xs fg-tb" x="60" y="56">SSH :22</text>
+<rect class="fg-box" x="124" y="40" width="100" height="50" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="174" y="60">🏰 бастіон</text>
+<text class="fg-xs fg-c fg-m" x="174" y="78">публічна підмережа</text>
+<line class="fg-l" x1="226" y1="64" x2="290" y2="64" marker-end="url(#ah)"/>
+<text class="fg-c" x="330" y="72" font-size="22">🖥️</text>
+<text class="fg-m fg-xs" x="16" y="100">відкритий порт, ключі, ще один сервер під нагляд</text>
+<rect class="fg-ok" x="6" y="116" width="388" height="100" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="136">Новий шлях: SSM Session Manager</text>
+<text class="fg-c" x="36" y="180" font-size="22">🧑‍💻</text>
+<line class="fg-lok" x1="56" y1="174" x2="120" y2="174" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="60" y="166">IAM ✓</text>
+<rect class="fg-box" x="124" y="150" width="100" height="50" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="174" y="170">🧰 Systems</text>
+<text class="fg-xs fg-c fg-tb" x="174" y="186">Manager</text>
+<line class="fg-lok" x1="226" y1="174" x2="290" y2="174" marker-end="url(#ahok)"/>
+<text class="fg-c" x="330" y="182" font-size="22">🖥️</text>
+<text class="fg-m fg-xs" x="16" y="210">жодних відкритих портів і ключів; кожна сесія — в журналі</text>
+</svg>

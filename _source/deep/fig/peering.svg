@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 236" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-lok" x1="80" y1="60" x2="200" y2="170" stroke-width="5"/>
+<line class="fg-lok" x1="320" y1="60" x2="200" y2="170" stroke-width="5"/>
+<line class="fg-lbad fg-dash" x1="100" y1="60" x2="300" y2="60"/>
+<text class="fg-tbad fg-tb fg-c fg-s" x="200" y="18">A ↔ C через B — не проїхати ✗</text>
+<text class="fg-tok fg-xs fg-tb" x="100" y="130">міст A–B ✓</text>
+<text class="fg-tok fg-xs fg-tb fg-r" x="300" y="130">міст B–C ✓</text>
+<circle class="fg-net" cx="80" cy="60" r="30"/>
+<text class="fg-h fg-c" x="80" y="62">A</text>
+<text class="fg-m fg-xs fg-c" x="80" y="78">VPC</text>
+<circle class="fg-net" cx="200" cy="170" r="30"/>
+<text class="fg-h fg-c" x="200" y="172">B</text>
+<text class="fg-m fg-xs fg-c" x="200" y="188">VPC</text>
+<circle class="fg-net" cx="320" cy="60" r="30"/>
+<text class="fg-h fg-c" x="320" y="62">C</text>
+<text class="fg-m fg-xs fg-c" x="320" y="78">VPC</text>
+<text class="fg-m fg-xs fg-c" x="200" y="228">Кожній парі — окремий міст. Адреси мереж не повинні перетинатися.</text>
+</svg>

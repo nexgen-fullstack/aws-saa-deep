@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 186" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-lt" x1="10" y1="90" x2="390" y2="90"/>
+<circle class="fg-accs" cx="60" cy="90" r="12"/><text class="fg-c" x="60" y="95" font-size="12">📸</text>
+<text class="fg-t fg-xs fg-c" x="60" y="124">остання копія</text>
+<circle class="fg-bad" cx="200" cy="90" r="14"/><text class="fg-c" x="200" y="96" font-size="14">💥</text>
+<text class="fg-tbad fg-xs fg-c fg-tb" x="200" y="124">аварія</text>
+<circle class="fg-ok" cx="340" cy="90" r="12"/><text class="fg-c" x="340" y="95" font-size="12">✅</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="340" y="124">знову працює</text>
+<path class="fg-lbad" d="M72 60 H188" marker-start="url(#ahbad)" marker-end="url(#ahbad)"/>
+<text class="fg-tbad fg-tb fg-c fg-s" x="130" y="30">RPO</text>
+<text class="fg-tbad fg-xs fg-c" x="130" y="48">скільки ДАНИХ втратимо</text>
+<path class="fg-la" d="M214 60 H328" marker-start="url(#aha)" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-tb fg-c fg-s" x="270" y="30">RTO</text>
+<text class="fg-tacc fg-xs fg-c" x="270" y="48">скільки ЧАСУ простою</text>
+<text class="fg-m fg-xs fg-c" x="200" y="156">менші RPO і RTO → частіші копії, запасні сервери напоготові → дорожче</text>
+<text class="fg-m fg-xs fg-c" x="200" y="176">P — point (точка в минулому), T — time (час)</text>
+</svg>

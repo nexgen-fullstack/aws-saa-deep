@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 282" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="6" width="388" height="250" rx="16"/>
+<text class="fg-tb fg-xs" x="16" y="25">🌍 край: Shield · WAF · CloudFront</text>
+<rect class="fg-warn" x="18" y="36" width="364" height="214" rx="15"/>
+<text class="fg-tb fg-xs" x="28" y="55">🧱 мережа: NACL · охоронці SG · Network Firewall</text>
+<rect class="fg-story" x="30" y="66" width="340" height="178" rx="14"/>
+<text class="fg-tb fg-xs" x="40" y="85">🖥️ сервери: патчі · Inspector</text>
+<rect class="fg-int" x="42" y="96" width="316" height="142" rx="13"/>
+<text class="fg-tb fg-xs" x="52" y="115">🧩 застосунок: перевірка вводу · WAF</text>
+<rect class="fg-net" x="54" y="126" width="292" height="106" rx="12"/>
+<text class="fg-tb fg-xs" x="64" y="145">🔐 дані: шифрування · Macie · бекапи</text>
+<rect class="fg-accs" x="66" y="156" width="268" height="70" rx="11"/>
+<text class="fg-tb fg-xs" x="76" y="175">🪪 доступи: мінімальні права · MFA</text>
+<text class="fg-c" x="200" y="220" font-size="26">💎</text>
+<text class="fg-m fg-xs fg-c" x="200" y="274">👁️ над усім — нагляд: CloudTrail · GuardDuty · Security Hub</text>
+</svg>

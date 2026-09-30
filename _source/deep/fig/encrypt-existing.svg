@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="10" width="84" height="100" rx="12"/>
+<text class="fg-c" x="48" y="48" font-size="22">🛢️</text>
+<text class="fg-tb fg-xs fg-c" x="48" y="76">база без</text>
+<text class="fg-m fg-xs fg-c" x="48" y="92">шифрування</text>
+<line class="fg-la" x1="91" y1="60" x2="103" y2="60" marker-end="url(#aha)"/>
+<rect class="fg-box" x="105" y="10" width="84" height="100" rx="12"/>
+<text class="fg-c" x="147" y="48" font-size="22">📸</text>
+<text class="fg-tb fg-xs fg-c" x="147" y="76">знімок</text>
+<text class="fg-m fg-xs fg-c" x="147" y="92">(snapshot)</text>
+<line class="fg-la" x1="190" y1="60" x2="202" y2="60" marker-end="url(#aha)"/>
+<rect class="fg-warn" x="204" y="10" width="84" height="100" rx="12"/>
+<text class="fg-c" x="246" y="48" font-size="22">📸🔒</text>
+<text class="fg-tb fg-xs fg-c" x="246" y="76">копія знімка</text>
+<text class="fg-m fg-xs fg-c" x="246" y="92">з шифруванням</text>
+<line class="fg-la" x1="289" y1="60" x2="301" y2="60" marker-end="url(#aha)"/>
+<rect class="fg-ok" x="303" y="10" width="84" height="100" rx="12"/>
+<text class="fg-c" x="345" y="48" font-size="22">🛢️🔒</text>
+<text class="fg-tb fg-xs fg-c" x="345" y="76">нова база</text>
+<text class="fg-m fg-xs fg-c" x="345" y="92">з копії</text>
+<text class="fg-m fg-xs fg-c" x="200" y="134">«переїзд у зашифровану квартиру»: галочкою на існуючій базі не ввімкнути</text>
+<text class="fg-m fg-xs fg-c" x="200" y="152">після відновлення — нова адреса бази, застосунок переналаштовують</text>
+</svg>

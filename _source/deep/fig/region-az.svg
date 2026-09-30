@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="388" height="212" rx="16"/>
+<text class="fg-tb fg-s" x="18" y="28">🏙️ Регіон eu-central-1 (Франкфурт)</text>
+<rect class="fg-net" x="18" y="44" width="112" height="118" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="74" y="64">AZ eu-central-1a</text>
+<text class="fg-c" x="74" y="100" font-size="24">🏢🏢</text>
+<text class="fg-m fg-xs fg-c" x="74" y="124">дата-центри</text>
+<text class="fg-m fg-xs fg-c" x="74" y="140">⚡ своє живлення</text>
+<text class="fg-m fg-xs fg-c" x="74" y="154">🌐 своя мережа</text>
+<rect class="fg-net" x="144" y="44" width="112" height="118" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="64">AZ eu-central-1b</text>
+<text class="fg-c" x="200" y="100" font-size="24">🏢🏢</text>
+<text class="fg-m fg-xs fg-c" x="200" y="124">дата-центри</text>
+<text class="fg-m fg-xs fg-c" x="200" y="140">⚡ своє живлення</text>
+<text class="fg-m fg-xs fg-c" x="200" y="154">🌐 своя мережа</text>
+<rect class="fg-net" x="270" y="44" width="112" height="118" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="326" y="64">AZ eu-central-1c</text>
+<text class="fg-c" x="326" y="100" font-size="24">🏢🏢</text>
+<text class="fg-m fg-xs fg-c" x="326" y="124">дата-центри</text>
+<text class="fg-m fg-xs fg-c" x="326" y="140">⚡ своє живлення</text>
+<text class="fg-m fg-xs fg-c" x="326" y="154">🌐 своя мережа</text>
+<line class="fg-la" x1="130" y1="104" x2="144" y2="104"/>
+<line class="fg-la" x1="256" y1="104" x2="270" y2="104"/>
+<path class="fg-la fg-dash" d="M74 164 C 74 190 326 190 326 164"/>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="200" y="200">швидкі приватні лінії між зонами</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="200" y="236">висока доступність = система щонайменше у 2 AZ</text>
+<text class="fg-m fg-xs fg-c" x="200" y="252">катастрофа всього регіону → другий регіон</text>
+</svg>

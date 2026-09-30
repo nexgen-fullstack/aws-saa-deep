@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 292" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="70" y="8" width="260" height="46" rx="12"/>
+<text class="fg-tb fg-c" x="200" y="29">🙋 Людина</text>
+<text class="fg-m fg-c" x="200" y="46">натискає, читає, дивиться</text>
+<rect class="fg-int" x="30" y="72" width="340" height="56" rx="12"/>
+<text class="fg-tb fg-c" x="200" y="95">Програми</text>
+<text class="fg-m fg-c" x="200" y="115">🌐 браузер · 🧮 облік · 🥐 сайт пекарні</text>
+<rect class="fg-net" x="14" y="146" width="372" height="62" rx="12"/>
+<text class="fg-tb fg-c" x="200" y="170">Операційна система (Linux, Windows…)</text>
+<text class="fg-m fg-c" x="200" y="190">«керуючий»: ділить кухню, стереже файли й права</text>
+<rect class="fg-cmp" x="4" y="226" width="392" height="60" rx="12"/>
+<text class="fg-tb fg-c" x="200" y="250">Залізо</text>
+<text class="fg-m fg-c" x="200" y="270">🧑‍🍳 процесор · 🍽️ пам'ять · 🧊 диск · 🔌 мережа</text>
+<line class="fg-l" x1="200" y1="56" x2="200" y2="70" marker-end="url(#ah)"/>
+<line class="fg-l" x1="200" y1="130" x2="200" y2="144" marker-end="url(#ah)"/>
+<line class="fg-l" x1="200" y1="210" x2="200" y2="224" marker-end="url(#ah)"/>
+</svg>

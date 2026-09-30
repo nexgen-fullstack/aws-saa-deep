@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 246" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="6" width="388" height="118" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="26">🪧 Таблиця публічної підмережі</text>
+<rect class="fg-box" x="16" y="36" width="368" height="30" rx="6"/>
+<text class="fg-mono" x="26" y="56">10.0.0.0/16</text><text class="fg-t fg-xs" x="140" y="56">→ local</text><text class="fg-m fg-xs" x="220" y="56">усе в межах VPC</text>
+<rect class="fg-ok" x="16" y="72" width="368" height="30" rx="6"/>
+<text class="fg-mono" x="26" y="92">0.0.0.0/0</text><text class="fg-t fg-xs fg-tb" x="140" y="92">→ igw (ворота)</text><text class="fg-tok fg-xs fg-tb" x="250" y="92">робить публічною!</text>
+<text class="fg-m fg-xs" x="16" y="118">решта світу — до головних воріт</text>
+<rect class="fg-db" x="6" y="132" width="388" height="86" rx="12"/>
+<text class="fg-tb fg-s" x="16" y="152">🪧 Таблиця приватної підмережі</text>
+<rect class="fg-box" x="16" y="162" width="368" height="30" rx="6"/>
+<text class="fg-mono" x="26" y="182">10.0.0.0/16</text><text class="fg-t fg-xs" x="140" y="182">→ local</text><text class="fg-m fg-xs" x="220" y="182">маршруту на igw немає</text>
+<text class="fg-m fg-xs" x="16" y="210">(за потреби: 0.0.0.0/0 → NAT Gateway — лише виїзд)</text>
+<text class="fg-tacc fg-xs fg-tb fg-c" x="200" y="238">пакет на 10.0.2.5 → local: перемагає найточніший (/16 точніший за /0)</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="8" y="14" width="86" height="46" rx="10"/><text class="fg-h fg-c" x="51" y="44">192</text>
+<text class="fg-h fg-c" x="101" y="46">.</text>
+<rect class="fg-net" x="108" y="14" width="86" height="46" rx="10"/><text class="fg-h fg-c" x="151" y="44">168</text>
+<text class="fg-h fg-c" x="201" y="46">.</text>
+<rect class="fg-net" x="208" y="14" width="86" height="46" rx="10"/><text class="fg-h fg-c" x="251" y="44">1</text>
+<text class="fg-h fg-c" x="301" y="46">.</text>
+<rect class="fg-net" x="308" y="14" width="86" height="46" rx="10"/><text class="fg-h fg-c" x="351" y="44">25</text>
+<g font-family="Consolas, 'Cascadia Mono', monospace" font-size="12" class="fg-m">
+<text class="fg-c" x="51" y="84">11000000</text>
+<text class="fg-c" x="151" y="84">10101000</text>
+<text class="fg-c" x="251" y="84">00000001</text>
+<text class="fg-c" x="351" y="84">00011001</text>
+</g>
+<text class="fg-m fg-xs fg-c" x="51" y="102">8 бітів</text>
+<text class="fg-m fg-xs fg-c" x="151" y="102">8 бітів</text>
+<text class="fg-m fg-xs fg-c" x="251" y="102">8 бітів</text>
+<text class="fg-m fg-xs fg-c" x="351" y="102">8 бітів</text>
+<line class="fg-lt" x1="8" y1="118" x2="394" y2="118"/>
+<text class="fg-tb fg-c" x="200" y="144">4 байти = 32 біти</text>
+<text class="fg-m fg-c" x="200" y="164">кожне число — від 0 до 255 (8 бітів дають 256 варіантів)</text>
+</svg>

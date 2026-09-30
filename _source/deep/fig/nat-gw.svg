@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 290" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="388" height="220" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="24">VPC</text>
+<rect class="fg-net" x="150" y="0" width="100" height="26" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="18">🌐 Internet GW</text>
+<rect class="fg-box" x="16" y="34" width="178" height="182" rx="12"/>
+<text class="fg-tb fg-xs" x="26" y="52">AZ a</text>
+<rect class="fg-sto" x="26" y="60" width="158" height="54" rx="8"/>
+<text class="fg-xs fg-t" x="34" y="76">публічна підмережа</text>
+<rect class="fg-accs" x="58" y="82" width="94" height="26" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="105" y="100">NAT Gateway</text>
+<rect class="fg-cmp" x="26" y="138" width="158" height="68" rx="8"/>
+<text class="fg-xs fg-t" x="34" y="154">приватна підмережа</text>
+<text class="fg-c" x="105" y="180" font-size="16">🖥️🖥️</text>
+<text class="fg-m fg-xs fg-c" x="105" y="198">0.0.0.0/0 → NAT своєї AZ</text>
+<line class="fg-la" x1="105" y1="138" x2="105" y2="112" marker-end="url(#aha)"/>
+<line class="fg-la" x1="136" y1="82" x2="190" y2="28" marker-end="url(#aha)"/>
+<rect class="fg-box" x="206" y="34" width="178" height="182" rx="12"/>
+<text class="fg-tb fg-xs" x="216" y="52">AZ b</text>
+<rect class="fg-sto" x="216" y="60" width="158" height="54" rx="8"/>
+<text class="fg-xs fg-t" x="224" y="76">публічна підмережа</text>
+<rect class="fg-accs" x="248" y="82" width="94" height="26" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="295" y="100">NAT Gateway</text>
+<rect class="fg-cmp" x="216" y="138" width="158" height="68" rx="8"/>
+<text class="fg-xs fg-t" x="224" y="154">приватна підмережа</text>
+<text class="fg-c" x="295" y="180" font-size="16">🖥️🖥️</text>
+<text class="fg-m fg-xs fg-c" x="295" y="198">0.0.0.0/0 → NAT своєї AZ</text>
+<line class="fg-la" x1="295" y1="138" x2="295" y2="112" marker-end="url(#aha)"/>
+<line class="fg-la" x1="326" y1="82" x2="210" y2="28" marker-end="url(#aha)"/>
+<text class="fg-tok fg-xs fg-tb" x="16" y="246">✓ назовні — можна (оновлення, оплата)</text>
+<text class="fg-tbad fg-xs fg-tb" x="16" y="264">✗ ззовні почати з'єднання — не можна</text>
+<text class="fg-m fg-xs" x="16" y="282">NAT у кожній AZ: збій однієї зони не відріже інших</text>
+</svg>

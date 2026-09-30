@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="6" y="6" width="191" height="50" rx="10"/>
+<text x="16" y="38" font-size="18">⚖️</text>
+<text class="fg-tb fg-xs" x="46" y="27">Weighted</text>
+<text class="fg-m fg-xs" x="46" y="44">90% — старе, 10% — нове</text>
+<rect class="fg-net" x="203" y="6" width="191" height="50" rx="10"/>
+<text x="213" y="38" font-size="18">⚡</text>
+<text class="fg-tb fg-xs" x="243" y="27">Latency</text>
+<text class="fg-m fg-xs" x="243" y="44">найшвидший регіон</text>
+<rect class="fg-net" x="6" y="64" width="191" height="50" rx="10"/>
+<text x="16" y="96" font-size="18">🛟</text>
+<text class="fg-tb fg-xs" x="46" y="85">Failover</text>
+<text class="fg-m fg-xs" x="46" y="102">основний, впав — запасний</text>
+<rect class="fg-net" x="203" y="64" width="191" height="50" rx="10"/>
+<text x="213" y="96" font-size="18">🛂</text>
+<text class="fg-tb fg-xs" x="243" y="85">Geolocation</text>
+<text class="fg-m fg-xs" x="243" y="102">за країною користувача</text>
+<rect class="fg-net" x="6" y="122" width="191" height="50" rx="10"/>
+<text x="16" y="154" font-size="18">📍</text>
+<text class="fg-tb fg-xs" x="46" y="143">Geoproximity</text>
+<text class="fg-m fg-xs" x="46" y="160">за відстанню + зсув (bias)</text>
+<rect class="fg-net" x="203" y="122" width="191" height="50" rx="10"/>
+<text x="213" y="154" font-size="18">🎲</text>
+<text class="fg-tb fg-xs" x="243" y="143">Multivalue</text>
+<text class="fg-m fg-xs" x="243" y="160">до 8 здорових адрес</text>
+<rect class="fg-net" x="6" y="180" width="191" height="50" rx="10"/>
+<text x="16" y="212" font-size="18">1️⃣</text>
+<text class="fg-tb fg-xs" x="46" y="201">Simple</text>
+<text class="fg-m fg-xs" x="46" y="218">одна відповідь усім</text>
+<rect class="fg-net" x="203" y="180" width="191" height="50" rx="10"/>
+<text x="213" y="212" font-size="18">🌐</text>
+<text class="fg-tb fg-xs" x="243" y="201">IP-based</text>
+<text class="fg-m fg-xs" x="243" y="218">за діапазоном адрес клієнта</text>
+</svg>

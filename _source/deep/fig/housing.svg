@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 248" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="10" width="92" height="170" rx="12"/>
+<text class="fg-c" x="52" y="48" font-size="28">🏠</text>
+<text class="fg-m fg-xs fg-c" x="52" y="68">«будинок»</text>
+<text class="fg-tb fg-xs fg-c" x="52" y="92">Свій</text>
+<text class="fg-tb fg-xs fg-c" x="52" y="107">сервер</text>
+<text class="fg-t fg-xs fg-c" x="52" y="144">усе на тобі:</text>
+<text class="fg-t fg-xs fg-c" x="52" y="160">залізо, ОС, код</text>
+<rect class="fg-warn" x="104" y="10" width="92" height="170" rx="12"/>
+<text class="fg-c" x="150" y="48" font-size="28">🏢</text>
+<text class="fg-m fg-xs fg-c" x="150" y="68">«квартира»</text>
+<text class="fg-tb fg-xs fg-c" x="150" y="92">Віртуальна</text>
+<text class="fg-tb fg-xs fg-c" x="150" y="107">машина</text>
+<text class="fg-t fg-xs fg-c" x="150" y="144">твої: ОС,</text>
+<text class="fg-t fg-xs fg-c" x="150" y="160">патчі, програми</text>
+<rect class="fg-accs" x="202" y="10" width="92" height="170" rx="12"/>
+<text class="fg-c" x="248" y="48" font-size="28">🏨</text>
+<text class="fg-m fg-xs fg-c" x="248" y="68">«готель»</text>
+<text class="fg-tb fg-xs fg-c" x="248" y="92">Контейнери</text>
+<text class="fg-t fg-xs fg-c" x="248" y="144">твої: образ</text>
+<text class="fg-t fg-xs fg-c" x="248" y="160">і дані</text>
+<rect class="fg-ok" x="300" y="10" width="92" height="170" rx="12"/>
+<text class="fg-c" x="346" y="48" font-size="28">🚕</text>
+<text class="fg-m fg-xs fg-c" x="346" y="68">«таксі»</text>
+<text class="fg-tb fg-xs fg-c" x="346" y="92">Serverless</text>
+<text class="fg-t fg-xs fg-c" x="346" y="144">твої: лише</text>
+<text class="fg-t fg-xs fg-c" x="346" y="160">код і дані</text>
+<text class="fg-m fg-c" x="150" y="122" font-size="9.5">(EC2)</text>
+<text class="fg-m fg-c" x="346" y="107" font-size="9.5">(Lambda)</text>
+<line class="fg-la" x1="20" y1="200" x2="380" y2="200" marker-start="url(#aha)" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-tb" x="20" y="220">більше контролю</text>
+<text class="fg-tacc fg-xs fg-tb fg-r" x="380" y="220">менше клопоту</text>
+<text class="fg-m fg-xs fg-c" x="200" y="240">«least operational overhead» — праворуч</text>
+</svg>

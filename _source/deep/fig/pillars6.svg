@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 372" xmlns="http://www.w3.org/2000/svg">
+<polygon class="fg-accs" points="14,62 200,10 386,62"/>
+<text class="fg-tb fg-c" x="200" y="52">Well-Architected</text>
+<rect class="fg-accs" x="14" y="62" width="372" height="16" rx="3"/>
+<rect class="fg-box" x="26" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="50" y="120">C</text>
+<text class="fg-c" x="50" y="168" font-size="22">💰</text>
+<rect class="fg-box" x="86" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="110" y="120">R</text>
+<text class="fg-c" x="110" y="168" font-size="22">🛟</text>
+<rect class="fg-box" x="146" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="170" y="120">O</text>
+<text class="fg-c" x="170" y="168" font-size="22">⚙️</text>
+<rect class="fg-box" x="206" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="230" y="120">P</text>
+<text class="fg-c" x="230" y="168" font-size="22">🚀</text>
+<rect class="fg-box" x="266" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="290" y="120">S</text>
+<text class="fg-c" x="290" y="168" font-size="22">🔐</text>
+<rect class="fg-box" x="326" y="84" width="48" height="118" rx="5"/>
+<text class="fg-h fg-c" x="350" y="120">S</text>
+<text class="fg-c" x="350" y="168" font-size="22">🌱</text>
+<rect class="fg-accs" x="8" y="204" width="384" height="14" rx="3"/>
+<text class="fg-xs" x="10" y="242"><tspan class="fg-tacc fg-tb">C</tspan><tspan class="fg-tb fg-t"> Cost Optimization</tspan><tspan class="fg-m"> — чи не переплачуємо?</tspan></text>
+<text class="fg-xs" x="10" y="261"><tspan class="fg-tacc fg-tb">R</tspan><tspan class="fg-tb fg-t"> Reliability</tspan><tspan class="fg-m"> — чи відновимося після збою?</tspan></text>
+<text class="fg-xs" x="10" y="280"><tspan class="fg-tacc fg-tb">O</tspan><tspan class="fg-tb fg-t"> Operational Excellence</tspan><tspan class="fg-m"> — автоматизація, уроки зі збоїв</tspan></text>
+<text class="fg-xs" x="10" y="299"><tspan class="fg-tacc fg-tb">P</tspan><tspan class="fg-tb fg-t"> Performance Efficiency</tspan><tspan class="fg-m"> — правильні ресурси під задачу</tspan></text>
+<text class="fg-xs" x="10" y="318"><tspan class="fg-tacc fg-tb">S</tspan><tspan class="fg-tb fg-t"> Security</tspan><tspan class="fg-m"> — захищені дані й доступи</tspan></text>
+<text class="fg-xs" x="10" y="337"><tspan class="fg-tacc fg-tb">S</tspan><tspan class="fg-tb fg-t"> Sustainability</tspan><tspan class="fg-m"> — без зайвих ресурсів і енергії</tspan></text>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="200" y="364">мнемоніка: CROPS + S</text>
+</svg>

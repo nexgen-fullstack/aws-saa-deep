@@ -1,0 +1,74 @@
+<svg viewBox="0 0 400 236" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-h" x="12" y="28">10.0.0.0/16</text>
+<rect class="fg-net" x="12" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="23" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="34" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="45" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="56" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="67" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="78" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="89" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="104" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="115" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="126" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="137" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="148" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="159" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="170" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="181" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="196" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="207" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="218" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="229" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="240" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="251" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="262" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="273" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="288" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="299" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="310" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="321" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="332" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="343" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="354" y="40" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="365" y="40" width="10" height="22" rx="2"/>
+<text class="fg-tnet fg-xs" x="12" y="80">зафіксовано 16 бітів: «10.0»</text>
+<text class="fg-tsto fg-xs fg-tb" x="12" y="96">вільно 16 бітів → 2¹⁶ = 65 536 адрес</text>
+<text class="fg-h" x="12" y="124">10.0.1.0/24</text>
+<rect class="fg-net" x="12" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="23" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="34" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="45" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="56" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="67" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="78" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="89" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="104" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="115" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="126" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="137" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="148" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="159" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="170" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="181" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="196" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="207" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="218" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="229" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="240" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="251" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="262" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-net" x="273" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="288" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="299" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="310" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="321" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="332" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="343" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="354" y="136" width="10" height="22" rx="2"/>
+<rect class="fg-sto" x="365" y="136" width="10" height="22" rx="2"/>
+<text class="fg-tnet fg-xs" x="12" y="176">зафіксовано 24 біти: «10.0.1»</text>
+<text class="fg-tsto fg-xs fg-tb" x="12" y="192">вільно 8 бітів → 2⁸ = 256 адрес</text>
+<rect class="fg-net" x="12" y="206" width="14" height="14" rx="2"/><text class="fg-m fg-xs" x="32" y="217">«вулиця» — однакова для всіх</text>
+<rect class="fg-sto" x="212" y="206" width="14" height="14" rx="2"/><text class="fg-m fg-xs" x="232" y="217">«будинки» — вільні номери</text>
+</svg>

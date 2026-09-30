@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 236" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-c" x="98" y="18">GUI — кнопки</text>
+<rect class="fg-box" x="6" y="28" width="184" height="170" rx="10"/>
+<rect class="fg-accs" x="6" y="28" width="184" height="24" rx="10"/>
+<circle class="fg-bad" cx="20" cy="40" r="4"/><circle class="fg-warn" cx="33" cy="40" r="4"/><circle class="fg-ok" cx="46" cy="40" r="4"/>
+<text class="fg-m fg-xs" x="62" y="44">Мої файли</text>
+<text x="34" y="92" font-size="28">📁</text><text class="fg-m fg-xs fg-c" x="52" y="110">retsepty</text>
+<text x="104" y="92" font-size="28">📄</text><text class="fg-m fg-xs fg-c" x="122" y="110">menu.pdf</text>
+<rect class="fg-acc" x="30" y="136" width="136" height="30" rx="8"/>
+<text class="fg-inv fg-c fg-s" x="98" y="156">＋ Нова папка</text>
+<text class="fg-m fg-xs fg-c" x="98" y="188">мишкою чи пальцем</text>
+<text class="fg-tb fg-c" x="302" y="18">CLI — команди</text>
+<rect x="210" y="28" width="184" height="170" rx="10" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+<g font-family="Consolas, 'Cascadia Mono', monospace" font-size="12.5">
+<text x="222" y="54" fill="#34d399">$ ls</text>
+<text x="222" y="74" fill="#e5e7eb">menu.pdf  retsepty</text>
+<text x="222" y="100" fill="#34d399">$ mkdir foto</text>
+<text x="222" y="126" fill="#34d399">$ ls</text>
+<text x="222" y="146" fill="#e5e7eb">foto  menu.pdf</text>
+<text x="222" y="164" fill="#e5e7eb">retsepty</text>
+<text x="222" y="186" fill="#9ca3af">▍</text>
+</g>
+<text class="fg-m fg-xs fg-c" x="200" y="222">Результат однаковий. Команди можна записати в скрипт і повторювати.</text>
+</svg>
