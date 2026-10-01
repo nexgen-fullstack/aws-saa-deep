@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 272" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="6" width="170" height="38" rx="8"/>
+<text x="14" y="32" font-size="16">📱</text>
+<text class="fg-tb fg-xs" x="40" y="23">API Gateway</text>
+<text class="fg-m fg-xs" x="40" y="37">запит застосунку</text>
+<line class="fg-la" x1="178" y1="25" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-story" x="6" y="50" width="170" height="38" rx="8"/>
+<text x="14" y="76" font-size="16">🪣</text>
+<text class="fg-tb fg-xs" x="40" y="67">S3</text>
+<text class="fg-m fg-xs" x="40" y="81">нове фото</text>
+<line class="fg-la" x1="178" y1="69" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-story" x="6" y="94" width="170" height="38" rx="8"/>
+<text x="14" y="120" font-size="16">📥</text>
+<text class="fg-tb fg-xs" x="40" y="111">SQS</text>
+<text class="fg-m fg-xs" x="40" y="125">повідомлення</text>
+<line class="fg-la" x1="178" y1="113" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-story" x="6" y="138" width="170" height="38" rx="8"/>
+<text x="14" y="164" font-size="16">⏰</text>
+<text class="fg-tb fg-xs" x="40" y="155">EventBridge</text>
+<text class="fg-m fg-xs" x="40" y="169">розклад, події</text>
+<line class="fg-la" x1="178" y1="157" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-story" x="6" y="182" width="170" height="38" rx="8"/>
+<text x="14" y="208" font-size="16">🗃️</text>
+<text class="fg-tb fg-xs" x="40" y="199">DynamoDB Streams</text>
+<text class="fg-m fg-xs" x="40" y="213">зміна в базі</text>
+<line class="fg-la" x1="178" y1="201" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-story" x="6" y="226" width="170" height="38" rx="8"/>
+<text x="14" y="252" font-size="16">🌊</text>
+<text class="fg-tb fg-xs" x="40" y="243">Kinesis</text>
+<text class="fg-m fg-xs" x="40" y="257">потік даних</text>
+<line class="fg-la" x1="178" y1="245" x2="244" y2="136" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="248" y="92" width="146" height="90" rx="14"/>
+<text class="fg-c" x="321" y="124" font-size="24">λ 🧑‍🍳</text>
+<text class="fg-tb fg-xs fg-c" x="321" y="146">Lambda</text>
+<text class="fg-m fg-xs fg-c" x="321" y="162">кухар на виклик</text>
+<text class="fg-m fg-xs fg-c" x="321" y="176">до 15 хвилин</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="321" y="210">платиш за мілісекунди</text>
+<text class="fg-m fg-xs fg-c" x="321" y="226">немає подій — немає рахунку</text>
+</svg>

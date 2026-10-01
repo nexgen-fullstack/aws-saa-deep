@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">Один запит «Замовити торт» — 3,2 с. Де загубився час?</text>
+<text class="fg-t fg-xs" x="6" y="43">API Gateway</text>
+<rect class="fg-accs" x="110.0" y="30" width="280.0" height="18" rx="4"/>
+<text class="fg-t fg-xs" x="6" y="67">Lambda</text>
+<rect class="fg-cmp" x="111.8" y="54" width="275.6" height="18" rx="4"/>
+<text class="fg-t fg-xs" x="6" y="91">DynamoDB</text>
+<rect class="fg-db" x="115.2" y="78" width="8.0" height="18" rx="4"/>
+<text class="fg-t fg-xs" x="6" y="115">платіжний сервіс</text>
+<rect class="fg-bad" x="120.5" y="102" width="253.7" height="18" rx="4"/>
+<text class="fg-t fg-xs" x="6" y="139">SQS</text>
+<rect class="fg-int" x="376.9" y="126" width="8.0" height="18" rx="4"/>
+<text class="fg-m fg-xs" x="128" y="91">30 мс</text>
+<text class="fg-tbad fg-tb fg-xs fg-c" x="248" y="115">2 900 мс 🐢</text>
+<text class="fg-m fg-xs fg-r" x="372" y="139">20 мс</text>
+<line class="fg-lt" x1="110" y1="156" x2="390" y2="156"/>
+<line class="fg-lt" x1="110.0" y1="152" x2="110.0" y2="160"/>
+<text class="fg-m fg-xs fg-c" x="110.0" y="173">0</text>
+<line class="fg-lt" x1="197.5" y1="152" x2="197.5" y2="160"/>
+<text class="fg-m fg-xs fg-c" x="197.5" y="173">1 с</text>
+<line class="fg-lt" x1="285.0" y1="152" x2="285.0" y2="160"/>
+<text class="fg-m fg-xs fg-c" x="285.0" y="173">2 с</text>
+<line class="fg-lt" x1="372.5" y1="152" x2="372.5" y2="160"/>
+<text class="fg-m fg-xs fg-c" x="372.5" y="173">3 с</text>
+<text class="fg-m fg-xs" x="6" y="194">X-Ray: шлях кожного запиту через усі сервіси + мапа сервісів</text>
+<text class="fg-tbad fg-tb fg-xs" x="6" y="212">винуватця видно одразу — гальмує платіжний сервіс</text>
+</svg>

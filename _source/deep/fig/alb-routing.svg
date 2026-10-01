@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 212" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="30" y="100" font-size="22">🙋</text>
+<line class="fg-la" x1="48" y1="94" x2="98" y2="94" marker-end="url(#aha)"/>
+<rect class="fg-sto" x="102" y="54" width="100" height="80" rx="12"/>
+<text class="fg-tb fg-c" x="152" y="84">ALB</text>
+<text class="fg-m fg-xs fg-c" x="152" y="102">читає шлях</text>
+<text class="fg-m fg-xs fg-c" x="152" y="118">і домен</text>
+<path class="fg-la" d="M204 76 C 230 40 250 34 272 34" marker-end="url(#aha)"/>
+<path class="fg-la" d="M204 112 C 230 148 250 154 272 154" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-tb" x="214" y="28">/api/*</text>
+<text class="fg-tacc fg-xs fg-tb" x="214" y="176">/images/*</text>
+<rect class="fg-cmp" x="276" y="8" width="118" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="286" y="28">група «замовлення»</text>
+<text class="fg-c" x="335" y="52" font-size="15">🖥️🖥️🖥️</text>
+<rect class="fg-db" x="276" y="126" width="118" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="286" y="146">група «фото»</text>
+<text class="fg-c" x="335" y="170" font-size="15">🖥️🖥️</text>
+<text class="fg-m fg-xs fg-c" x="200" y="204">одна адреса для клієнта — різні сервери за шляхом</text>
+</svg>

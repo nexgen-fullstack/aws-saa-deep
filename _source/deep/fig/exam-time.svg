@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">130 хвилин на 65 питань ≈ 2 хвилини на питання</text>
+<rect class="fg-accs" x="6.0" y="28" width="240.5" height="36" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="126.2" y="51">1-й прохід: усі 65 питань</text>
+<rect class="fg-warn" x="248.5" y="28" width="46.5" height="36" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="271.8" y="51">🚩</text>
+<rect class="fg-ok" x="297.0" y="28" width="22.2" height="36" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="308.1" y="51">⏳</text>
+<rect class="fg-bgb fg-dash" x="321.2" y="28" width="70.8" height="36" rx="6"/>
+<text class="fg-tb fg-xs fg-c" x="356.6" y="51">+30 ESL</text>
+<line class="fg-lt" x1="6.0" y1="66" x2="6.0" y2="72"/>
+<text class="fg-m fg-xs " x="6.0" y="84">0 хв</text>
+<line class="fg-lt" x1="248.5" y1="66" x2="248.5" y2="72"/>
+<text class="fg-m fg-xs fg-c" x="248.5" y="84">100 хв</text>
+<line class="fg-lt" x1="321.2" y1="66" x2="321.2" y2="72"/>
+<text class="fg-m fg-xs fg-c" x="321.2" y="84">130 хв</text>
+<line class="fg-lt" x1="394.0" y1="66" x2="394.0" y2="72"/>
+<text class="fg-m fg-xs fg-r" x="394.0" y="84">160 хв</text>
+<text class="fg-t fg-xs" x="6" y="106">🚩 2-й прохід — позначені питання (~20 хв)</text>
+<text class="fg-t fg-xs" x="6" y="124">⏳ запас на перевірку (~10 хв)</text>
+<text class="fg-t fg-xs" x="6" y="142">➕ ESL +30 — ще пів години, якщо англійська не рідна</text>
+</svg>

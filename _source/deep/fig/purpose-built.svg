@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 252" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-db" x="6" y="6" width="191" height="48" rx="10"/>
+<text x="16" y="37" font-size="18">📄</text>
+<text class="fg-tb fg-xs" x="46" y="26">DocumentDB</text>
+<text class="fg-m fg-xs" x="46" y="43">документи, MongoDB</text>
+<rect class="fg-db" x="203" y="6" width="191" height="48" rx="10"/>
+<text x="213" y="37" font-size="18">🕸️</text>
+<text class="fg-tb fg-xs" x="243" y="26">Neptune</text>
+<text class="fg-m fg-xs" x="243" y="43">графи, зв'язки</text>
+<rect class="fg-db" x="6" y="62" width="191" height="48" rx="10"/>
+<text x="16" y="93" font-size="18">🔑</text>
+<text class="fg-tb fg-xs" x="46" y="82">Keyspaces</text>
+<text class="fg-m fg-xs" x="46" y="99">Cassandra</text>
+<rect class="fg-db" x="203" y="62" width="191" height="48" rx="10"/>
+<text x="213" y="93" font-size="18">📈</text>
+<text class="fg-tb fg-xs" x="243" y="82">Timestream</text>
+<text class="fg-m fg-xs" x="243" y="99">часові ряди, IoT</text>
+<rect class="fg-db" x="6" y="118" width="191" height="48" rx="10"/>
+<text x="16" y="149" font-size="18">🔍</text>
+<text class="fg-tb fg-xs" x="46" y="138">OpenSearch</text>
+<text class="fg-m fg-xs" x="46" y="155">пошук, журнали</text>
+<rect class="fg-db" x="203" y="118" width="191" height="48" rx="10"/>
+<text x="213" y="149" font-size="18">🏬</text>
+<text class="fg-tb fg-xs" x="243" y="138">Redshift</text>
+<text class="fg-m fg-xs" x="243" y="155">аналітика, звіти</text>
+<rect class="fg-db" x="6" y="174" width="191" height="48" rx="10"/>
+<text x="16" y="205" font-size="18">⚡</text>
+<text class="fg-tb fg-xs" x="46" y="194">ElastiCache</text>
+<text class="fg-m fg-xs" x="46" y="211">кеш, лідерборди</text>
+<rect class="fg-db" x="203" y="174" width="191" height="48" rx="10"/>
+<text x="213" y="205" font-size="18">🧠</text>
+<text class="fg-tb fg-xs" x="243" y="194">MemoryDB</text>
+<text class="fg-m fg-xs" x="243" y="211">база в пам'яті</text>
+<text class="fg-m fg-xs fg-c" x="200" y="244">«purpose-built»: кожній задачі — своя база</text>
+</svg>

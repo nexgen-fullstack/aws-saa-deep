@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 222" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="6" width="125" height="210" rx="12"/>
+<text class="fg-h fg-c" x="68" y="30">ALB</text>
+<text class="fg-m fg-xs fg-c" x="68" y="46">рівень 7</text>
+<text class="fg-c" x="68" y="82" font-size="26">🧑‍💼</text>
+<text class="fg-tb fg-xs fg-c" x="68" y="106">читає, куди</text>
+<text class="fg-tb fg-xs fg-c" x="68" y="120">тобі треба</text>
+<text class="fg-t fg-xs fg-c" x="68" y="144">шлях /api, домен</text>
+<text class="fg-t fg-xs fg-c" x="68" y="162">цілі: EC2, Lambda</text>
+<text class="fg-t fg-xs fg-c" x="68" y="180">кілька сертифікатів</text>
+<text class="fg-t fg-xs fg-c" x="68" y="198">без статичної IP</text>
+<rect class="fg-net" x="137" y="6" width="125" height="210" rx="12"/>
+<text class="fg-h fg-c" x="199" y="30">NLB</text>
+<text class="fg-m fg-xs fg-c" x="199" y="46">рівень 4</text>
+<text class="fg-c" x="199" y="82" font-size="26">🚇</text>
+<text class="fg-tb fg-xs fg-c" x="199" y="106">швидкісний турнікет</text>
+<text class="fg-t fg-xs fg-c" x="199" y="144">TCP · UDP · TLS</text>
+<text class="fg-t fg-xs fg-c" x="199" y="162">мільйони запитів/с</text>
+<text class="fg-t fg-xs fg-c" x="199" y="180">статична IP</text>
+<text class="fg-t fg-xs fg-c" x="199" y="198">основа PrivateLink</text>
+<rect class="fg-sec" x="268" y="6" width="125" height="210" rx="12"/>
+<text class="fg-h fg-c" x="330" y="30">GWLB</text>
+<text class="fg-m fg-xs fg-c" x="330" y="46">рівень 3</text>
+<text class="fg-c" x="330" y="82" font-size="26">🧳</text>
+<text class="fg-tb fg-xs fg-c" x="330" y="106">огляд багажу</text>
+<text class="fg-t fg-xs fg-c" x="330" y="144">весь трафік через</text>
+<text class="fg-t fg-xs fg-c" x="330" y="162">файрволи вендорів</text>
+<text class="fg-t fg-xs fg-c" x="330" y="180">і масштабує їх</text>
+<text class="fg-t fg-xs fg-c" x="330" y="198">GENEVE, порт 6081</text>
+</svg>

@@ -749,6 +749,7 @@ figure.dfig.wide{max-width:none}
 .fg-xs{font-size:11px}
 .fg-mono{font-family:Consolas,"Cascadia Mono","Roboto Mono",monospace;font-size:10.5px;fill:var(--text)}
 .fg-c{text-anchor:middle}
+tspan.fg-tb,tspan.fg-t,tspan.fg-m{font-size:inherit}
 .fg-r{text-anchor:end}
 .fg-e{font-size:22px}
 .fg-eb{font-size:30px}

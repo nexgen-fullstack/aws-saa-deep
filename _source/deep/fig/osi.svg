@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="20" y="10" width="220" height="150" rx="6"/>
+<polyline class="fg-lt" points="20,10 130,80 240,10"/>
+<rect class="fg-net" x="120" y="100" width="112" height="46" rx="6"/>
+<text class="fg-tb fg-xs" x="128" y="118">кому: 52.95.110.1</text>
+<text class="fg-t fg-xs" x="128" y="136">від: 93.170.5.9</text>
+<rect class="fg-cmp" x="28" y="100" width="84" height="46" rx="6"/>
+<text class="fg-tb fg-xs" x="36" y="118">TCP</text>
+<text class="fg-t fg-xs" x="36" y="136">двері 443</text>
+<rect class="fg-sto" x="36" y="176" width="190" height="64" rx="6"/>
+<text class="fg-t fg-xs" x="46" y="196">GET /menu/croissants</text>
+<text class="fg-t fg-xs" x="46" y="212">Host: khmarynka.ua</text>
+<text class="fg-t fg-xs" x="46" y="228">Cookie: кошик №17</text>
+<line class="fg-l fg-dash" x1="130" y1="160" x2="130" y2="174"/>
+<text class="fg-tb fg-xs fg-tnet" x="252" y="124">Рівень 3</text>
+<text class="fg-m fg-xs" x="252" y="140">адреса на конверті (IP)</text>
+<text class="fg-tb fg-xs fg-tcmp" x="252" y="70">Рівень 4</text>
+<text class="fg-m fg-xs" x="252" y="86">протокол і номер дверей</text>
+<text class="fg-tb fg-xs fg-tsto" x="252" y="200">Рівень 7</text>
+<text class="fg-m fg-xs" x="252" y="216">зміст листа (HTTP)</text>
+<text class="fg-m fg-xs fg-c" x="200" y="262">GWLB — рівень 3 · NLB — рівень 4 · ALB і WAF — рівень 7</text>
+</svg>

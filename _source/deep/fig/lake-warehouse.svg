@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 244" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ana" x="6" y="6" width="190" height="210" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="26">🏞️ Озеро даних (S3)</text>
+<path class="fg-la" d="M30 60 C 60 80 50 110 90 130" stroke-width="3" opacity=".6"/>
+<path class="fg-la" d="M170 56 C 150 90 150 110 110 132" stroke-width="3" opacity=".6"/>
+<ellipse class="fg-accs" cx="100" cy="150" rx="70" ry="26"/>
+<text class="fg-xs fg-c fg-t" x="100" y="154">CSV · JSON · фото · логи</text>
+<text class="fg-t fg-xs" x="16" y="196">+ усе як є, дешево, безмежно</text>
+<text class="fg-m fg-xs" x="16" y="210">запити: Athena, EMR, Spectrum</text>
+<rect class="fg-db" x="204" y="6" width="190" height="210" rx="14"/>
+<text class="fg-tb fg-xs" x="214" y="26">🏬 Сховище даних (Redshift)</text>
+<rect class="fg-box" x="222" y="46" width="154" height="30" rx="4"/>
+<rect class="fg-accs" x="228" y="51" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="257" y="51" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="286" y="51" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="315" y="51" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="344" y="51" width="24" height="20" rx="2"/>
+<rect class="fg-box" x="222" y="86" width="154" height="30" rx="4"/>
+<rect class="fg-accs" x="228" y="91" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="257" y="91" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="286" y="91" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="315" y="91" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="344" y="91" width="24" height="20" rx="2"/>
+<rect class="fg-box" x="222" y="126" width="154" height="30" rx="4"/>
+<rect class="fg-accs" x="228" y="131" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="257" y="131" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="286" y="131" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="315" y="131" width="24" height="20" rx="2"/>
+<rect class="fg-accs" x="344" y="131" width="24" height="20" rx="2"/>
+<text class="fg-t fg-xs" x="214" y="196">+ упорядковано, швидкі звіти</text>
+<text class="fg-m fg-xs" x="214" y="210">BI, складний SQL, петабайти</text>
+<text class="fg-m fg-xs fg-c" x="200" y="236">часто разом: сире — в озері, найважливіше впорядковане — у сховищі</text>
+</svg>

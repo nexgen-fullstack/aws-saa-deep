@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-int" x="6" y="6" width="388" height="100" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="26">📥 Черга (SQS): талончики</text>
+<rect class="fg-box" x="24" y="42" width="22" height="30" rx="3"/>
+<rect class="fg-box" x="52" y="42" width="22" height="30" rx="3"/>
+<rect class="fg-box" x="80" y="42" width="22" height="30" rx="3"/>
+<rect class="fg-box" x="108" y="42" width="22" height="30" rx="3"/>
+<rect class="fg-box" x="136" y="42" width="22" height="30" rx="3"/>
+<line class="fg-la" x1="170" y1="57" x2="220" y2="57" marker-end="url(#aha)"/>
+<text class="fg-c" x="246" y="64" font-size="18">👩‍⚕️</text>
+<text class="fg-t fg-xs" x="270" y="54">бере один обробник</text>
+<text class="fg-t fg-xs" x="270" y="70">і видаляє 🗑️</text>
+<text class="fg-m fg-xs" x="16" y="96">кожне повідомлення обробляють один раз, потім його немає</text>
+<rect class="fg-ana" x="6" y="116" width="388" height="126" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="136">🌊 Потік (Kinesis): річка з пам'яттю</text>
+<path class="fg-la" d="M20 170 C 80 150 140 190 200 170 C 250 154 280 180 300 170" stroke-width="6" opacity=".55"/>
+<text class="fg-c" x="330" y="160" font-size="16">🏭</text><text class="fg-c" x="330" y="184" font-size="16">🏭</text><text class="fg-c" x="366" y="172" font-size="16">🏭</text>
+<text class="fg-t fg-xs" x="16" y="210">багато споживачів читають ті самі дані незалежно</text>
+<text class="fg-tacc fg-xs fg-tb" x="16" y="228">⏪ дані лишаються до 365 днів — можна перемотати</text>
+</svg>

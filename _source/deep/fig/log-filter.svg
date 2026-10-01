@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 198" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="176" height="128" rx="10"/>
+<text class="fg-tb fg-xs" x="14" y="24">📜 журнал (log group)</text>
+<text class="fg-mono" x="14" y="44">10:01 INFO замовлення 512</text>
+<text class="fg-mono fg-tbad" x="14" y="62">10:02 ERROR оплата</text>
+<text class="fg-mono" x="14" y="80">10:02 INFO замовлення 513</text>
+<text class="fg-mono fg-tbad" x="14" y="98">10:03 ERROR оплата</text>
+<text class="fg-mono fg-tbad" x="14" y="116">10:03 ERROR оплата</text>
+<line class="fg-la" x1="184" y1="62" x2="204" y2="62" marker-end="url(#aha)"/>
+<polygon class="fg-accs" points="208,36 272,36 250,72 250,98 230,98 230,72"/>
+<text class="fg-tb fg-xs fg-c" x="240" y="116">metric filter</text>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="240" y="131">«ERROR»</text>
+<line class="fg-la" x1="262" y1="54" x2="288" y2="42" marker-end="url(#aha)"/>
+<rect class="fg-ana" x="292" y="18" width="102" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="300" y="36">📈 метрика</text>
+<text class="fg-m fg-xs" x="300" y="53">3 ERROR / 5 хв</text>
+<line class="fg-la" x1="343" y1="63" x2="343" y2="78" marker-end="url(#aha)"/>
+<rect class="fg-bad" x="292" y="82" width="102" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="300" y="100">🚨 тривога</text>
+<text class="fg-m fg-xs" x="300" y="117">якщо &gt; 2 за 5 хв</text>
+<line class="fg-lbad" x1="343" y1="127" x2="343" y2="142" marker-end="url(#ahbad)"/>
+<rect class="fg-int" x="292" y="146" width="102" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="300" y="164">📣 SNS</text>
+<text class="fg-m fg-xs" x="300" y="181">SMS Тарасу</text>
+<text class="fg-t fg-xs" x="6" y="156">⚡ subscription filter → Lambda,</text>
+<text class="fg-t fg-xs" x="6" y="172">Firehose, OpenSearch — наживо</text>
+<text class="fg-m fg-xs" x="6" y="192">retention: за замовчуванням — назавжди</text>
+</svg>

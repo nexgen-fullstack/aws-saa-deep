@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 254" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-db" x="140" y="80" width="120" height="70" rx="12"/>
+<text class="fg-c" x="200" y="110" font-size="20">🗃️</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="132">таблиця</text>
+<rect class="fg-net" x="8" y="6" width="124" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="70" y="26">⚡ DAX</text>
+<text class="fg-m fg-xs fg-c" x="70" y="43">мікросекунди</text>
+<rect class="fg-accs" x="268" y="6" width="124" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="330" y="26">🌍 Global Tables</text>
+<text class="fg-m fg-xs fg-c" x="330" y="43">кілька регіонів</text>
+<rect class="fg-int" x="8" y="176" width="124" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="70" y="196">📜 Streams</text>
+<text class="fg-m fg-xs fg-c" x="70" y="213">→ Lambda на зміни</text>
+<rect class="fg-warn" x="268" y="176" width="124" height="48" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="330" y="196">⏳ TTL</text>
+<text class="fg-m fg-xs fg-c" x="330" y="213">самоочищення</text>
+<line class="fg-l" x1="134" y1="96" x2="100" y2="58"/>
+<line class="fg-l" x1="266" y1="96" x2="300" y2="58"/>
+<line class="fg-l" x1="134" y1="136" x2="100" y2="174"/>
+<line class="fg-l" x1="266" y1="136" x2="300" y2="174"/>
+<text class="fg-m fg-xs fg-c" x="200" y="246">+ PITR 35 днів · export у S3 для Athena · gateway endpoint із VPC</text>
+</svg>

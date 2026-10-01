@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 236" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="6" y="6" width="190" height="200" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="26">😴 Lazy loading</text>
+<text class="fg-t fg-xs" x="16" y="50">1. спитати кеш</text>
+<text class="fg-t fg-xs" x="16" y="70">2. немає → узяти з бази</text>
+<text class="fg-t fg-xs" x="16" y="90">3. покласти в кеш</text>
+<text class="fg-tok fg-xs" x="16" y="120">+ у кеші лише потрібне</text>
+<text class="fg-tbad fg-xs" x="16" y="140">− перший запит повільніший</text>
+<text class="fg-tbad fg-xs" x="16" y="160">− може застаріти → TTL</text>
+<rect class="fg-sto" x="204" y="6" width="190" height="200" rx="12"/>
+<text class="fg-tb fg-xs" x="214" y="26">✍️ Write-through</text>
+<text class="fg-t fg-xs" x="214" y="50">при кожному записі:</text>
+<text class="fg-t fg-xs" x="214" y="70">база + кеш одночасно</text>
+<text class="fg-tok fg-xs" x="214" y="120">+ кеш завжди свіжий</text>
+<text class="fg-tbad fg-xs" x="214" y="140">− у кеші й непотрібне</text>
+<text class="fg-tbad fg-xs" x="214" y="160">− запис трохи повільніший</text>
+<text class="fg-m fg-xs fg-c" x="200" y="228">обидві стратегії часто поєднують; логіку пише застосунок</text>
+</svg>

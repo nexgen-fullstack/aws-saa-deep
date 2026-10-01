@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 202" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="6" y="40" width="170" height="110" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="60">🔵 Blue — стара версія v1</text>
+<text class="fg-c" x="91" y="104" font-size="20">🖥️🖥️🖥️</text>
+<rect class="fg-ok" x="224" y="40" width="170" height="110" rx="12"/>
+<text class="fg-tb fg-xs" x="234" y="60">🟢 Green — нова v2</text>
+<text class="fg-c" x="309" y="104" font-size="20">🖥️🖥️🖥️</text>
+<rect class="fg-story" x="130" y="4" width="140" height="26" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="21">🙋 адреса сайту</text>
+<path class="fg-l fg-dash" d="M160 30 C 140 34 110 36 96 40" marker-end="url(#ah)"/>
+<path class="fg-lok" d="M240 30 C 260 34 290 36 304 40" marker-end="url(#ahok)"/>
+<text class="fg-t fg-xs fg-c" x="91" y="136">була тут</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="309" y="136">після перемикання</text>
+<text class="fg-m fg-xs fg-c" x="200" y="176">перевірили v2 → перемкнули адресу (swap URL)</text>
+<text class="fg-m fg-xs fg-c" x="200" y="194">щось не так → перемкнули назад за секунди</text>
+</svg>

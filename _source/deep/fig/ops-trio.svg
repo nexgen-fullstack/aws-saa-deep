@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 188" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ok" x="6" y="6" width="124" height="176" rx="14"/>
+<text class="fg-c" x="68" y="42" font-size="26">📊</text>
+<text class="fg-tb fg-xs fg-c" x="68" y="66">CloudWatch</text>
+<text class="fg-m fg-xs fg-c" x="68" y="83">приладова панель</text>
+<text class="fg-t fg-xs fg-c" x="68" y="106">метрики, тривоги,</text>
+<text class="fg-t fg-xs fg-c" x="68" y="122">журнали</text>
+<rect class="fg-box" x="16" y="134" width="104" height="40" rx="8"/>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="68" y="151">«Чи все</text>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="68" y="166">здорово?»</text>
+<rect class="fg-sec" x="138" y="6" width="124" height="176" rx="14"/>
+<text class="fg-c" x="200" y="42" font-size="26">🎥</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="66">CloudTrail</text>
+<text class="fg-m fg-xs fg-c" x="200" y="83">відеореєстратор</text>
+<text class="fg-t fg-xs fg-c" x="200" y="106">хто, що, коли</text>
+<text class="fg-t fg-xs fg-c" x="200" y="122">і звідки зробив</text>
+<rect class="fg-box" x="148" y="134" width="104" height="40" rx="8"/>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="200" y="151">«Хто це</text>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="200" y="166">зробив?»</text>
+<rect class="fg-accs" x="270" y="6" width="124" height="176" rx="14"/>
+<text class="fg-c" x="332" y="42" font-size="26">📸</text>
+<text class="fg-tb fg-xs fg-c" x="332" y="66">AWS Config</text>
+<text class="fg-m fg-xs fg-c" x="332" y="83">фотоархів</text>
+<text class="fg-t fg-xs fg-c" x="332" y="106">як налаштовано</text>
+<text class="fg-t fg-xs fg-c" x="332" y="122">і чи за правилами</text>
+<rect class="fg-box" x="280" y="134" width="104" height="40" rx="8"/>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="332" y="151">«Яким це</text>
+<text class="fg-tacc fg-tb fg-xs fg-c" x="332" y="166">було?»</text>
+</svg>

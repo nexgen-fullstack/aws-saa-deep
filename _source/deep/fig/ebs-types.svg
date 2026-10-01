@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 254" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ok" x="6" y="6" width="191" height="96" rx="12"/>
+<text x="16" y="40" font-size="24">🚙</text>
+<text class="fg-tb fg-xs" x="52" y="28">gp3 — універсал</text>
+<text class="fg-m fg-xs" x="52" y="46">SSD за замовчуванням</text>
+<text class="fg-t fg-xs" x="16" y="70">3 000 IOPS базово, до 80 000</text>
+<text class="fg-t fg-xs" x="16" y="88">IOPS окремо від розміру</text>
+<rect class="fg-net" x="203" y="6" width="191" height="96" rx="12"/>
+<text x="213" y="40" font-size="24">🏎️</text>
+<text class="fg-tb fg-xs" x="249" y="28">io2 Block Express</text>
+<text class="fg-m fg-xs" x="249" y="46">гоночний SSD</text>
+<text class="fg-t fg-xs" x="213" y="70">до 256 000 IOPS, < 1 мс</text>
+<text class="fg-t fg-xs" x="213" y="88">критичні бази, Multi-Attach</text>
+<rect class="fg-warn" x="6" y="110" width="191" height="96" rx="12"/>
+<text x="16" y="144" font-size="24">🚚</text>
+<text class="fg-tb fg-xs" x="52" y="132">st1 — вантажівка</text>
+<text class="fg-m fg-xs" x="52" y="150">HDD для потоку</text>
+<text class="fg-t fg-xs" x="16" y="174">до 500 MiB/s підряд</text>
+<text class="fg-t fg-xs" x="16" y="192">логи, big data; не системний</text>
+<rect class="fg-bgb" x="203" y="110" width="191" height="96" rx="12"/>
+<text x="213" y="144" font-size="24">🧊</text>
+<text class="fg-tb fg-xs" x="249" y="132">sc1 — холодний фургон</text>
+<text class="fg-m fg-xs" x="249" y="150">HDD найдешевший</text>
+<text class="fg-t fg-xs" x="213" y="174">до 250 MiB/s</text>
+<text class="fg-t fg-xs" x="213" y="192">рідкі дані; не системний</text>
+<text class="fg-m fg-xs fg-c" x="200" y="230">gp2 — старший SSD: IOPS залежать від розміру</text>
+<text class="fg-tok fg-xs fg-c fg-tb" x="200" y="247">перехід gp2 → gp3 — дешевше й без зупинки</text>
+</svg>

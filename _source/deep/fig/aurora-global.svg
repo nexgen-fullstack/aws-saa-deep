@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-cmp" x="6" y="30" width="150" height="110" rx="12"/>
+<text class="fg-tb fg-xs" x="16" y="50">🏰 Франкфурт</text>
+<text class="fg-m fg-xs" x="16" y="66">основний регіон</text>
+<text class="fg-c" x="81" y="104" font-size="22">🛢️✍️</text>
+<text class="fg-t fg-xs fg-c" x="81" y="128">запис і читання</text>
+<rect class="fg-accs" x="244" y="6" width="150" height="80" rx="12"/>
+<text class="fg-tb fg-xs" x="254" y="26">🍁 Канада</text>
+<text class="fg-c" x="319" y="56" font-size="18">🛢️📖</text>
+<text class="fg-m fg-xs fg-c" x="319" y="76">швидке локальне читання</text>
+<rect class="fg-accs" x="244" y="100" width="150" height="80" rx="12"/>
+<text class="fg-tb fg-xs" x="254" y="120">🗼 Токіо</text>
+<text class="fg-c" x="319" y="150" font-size="18">🛢️📖</text>
+<text class="fg-m fg-xs fg-c" x="319" y="170">до 10 таких регіонів</text>
+<line class="fg-lok" x1="158" y1="70" x2="240" y2="46" marker-end="url(#ahok)"/>
+<line class="fg-lok" x1="158" y1="100" x2="240" y2="140" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-c fg-tb" x="200" y="96">&lt; 1 с</text>
+<text class="fg-m fg-xs" x="6" y="206">реплікація на рівні сховища: RPO ≈ 1 с</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="224">катастрофа регіону → вторинний стає основним за &lt; 1 хв</text>
+</svg>

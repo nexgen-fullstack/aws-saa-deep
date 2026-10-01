@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 252" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="6" width="92" height="206" rx="12"/>
+<text class="fg-c" x="52" y="36" font-size="22">💾</text>
+<text class="fg-tb fg-xs fg-c" x="52" y="60">Backup &</text>
+<text class="fg-tb fg-xs fg-c" x="52" y="75">Restore</text>
+<text class="fg-m fg-xs fg-c" x="52" y="96">фото</text>
+<text class="fg-m fg-xs fg-c" x="52" y="110">в сейфі</text>
+<line class="fg-lt" x1="16" y1="120" x2="88" y2="120"/>
+<text class="fg-t fg-xs fg-c" x="52" y="138">лише</text>
+<text class="fg-t fg-xs fg-c" x="52" y="152">бекапи</text>
+<text class="fg-m fg-xs fg-c" x="52" y="174">RPO/RTO:</text>
+<text class="fg-tb fg-xs fg-c" x="52" y="189">години</text>
+<text class="fg-c" x="52" y="205" font-size="10">💲</text>
+<rect class="fg-warn" x="104" y="6" width="92" height="206" rx="12"/>
+<text class="fg-c" x="150" y="36" font-size="22">🔥</text>
+<text class="fg-tb fg-xs fg-c" x="150" y="60">Pilot</text>
+<text class="fg-tb fg-xs fg-c" x="150" y="75">Light</text>
+<text class="fg-m fg-xs fg-c" x="150" y="96">запальник</text>
+<text class="fg-m fg-xs fg-c" x="150" y="110">котла</text>
+<line class="fg-lt" x1="114" y1="120" x2="186" y2="120"/>
+<text class="fg-t fg-xs fg-c" x="150" y="138">база</text>
+<text class="fg-t fg-xs fg-c" x="150" y="152">реплікується</text>
+<text class="fg-m fg-xs fg-c" x="150" y="174">RPO/RTO:</text>
+<text class="fg-tb fg-xs fg-c" x="150" y="189">десятки хв</text>
+<text class="fg-c" x="150" y="205" font-size="10">💲💲</text>
+<rect class="fg-accs" x="202" y="6" width="92" height="206" rx="12"/>
+<text class="fg-c" x="248" y="36" font-size="22">🌡️</text>
+<text class="fg-tb fg-xs fg-c" x="248" y="60">Warm</text>
+<text class="fg-tb fg-xs fg-c" x="248" y="75">Standby</text>
+<text class="fg-m fg-xs fg-c" x="248" y="96">прогріта</text>
+<text class="fg-m fg-xs fg-c" x="248" y="110">кухня</text>
+<line class="fg-lt" x1="212" y1="120" x2="284" y2="120"/>
+<text class="fg-t fg-xs fg-c" x="248" y="138">зменшена</text>
+<text class="fg-t fg-xs fg-c" x="248" y="152">копія працює</text>
+<text class="fg-m fg-xs fg-c" x="248" y="174">RPO/RTO:</text>
+<text class="fg-tb fg-xs fg-c" x="248" y="189">хвилини</text>
+<text class="fg-c" x="248" y="205" font-size="10">💲💲💲</text>
+<rect class="fg-ok" x="300" y="6" width="92" height="206" rx="12"/>
+<text class="fg-c" x="346" y="36" font-size="22">🌍</text>
+<text class="fg-tb fg-xs fg-c" x="346" y="60">Active-</text>
+<text class="fg-tb fg-xs fg-c" x="346" y="75">Active</text>
+<text class="fg-m fg-xs fg-c" x="346" y="96">два</text>
+<text class="fg-m fg-xs fg-c" x="346" y="110">ресторани</text>
+<line class="fg-lt" x1="310" y1="120" x2="382" y2="120"/>
+<text class="fg-t fg-xs fg-c" x="346" y="138">повна копія</text>
+<text class="fg-t fg-xs fg-c" x="346" y="152">з трафіком</text>
+<text class="fg-m fg-xs fg-c" x="346" y="174">RPO/RTO:</text>
+<text class="fg-tb fg-xs fg-c" x="346" y="189">≈ нуль</text>
+<text class="fg-c" x="346" y="205" font-size="10">💲💲💲💲</text>
+<line class="fg-la" x1="12" y1="226" x2="384" y2="226" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="6" y="244">дешевше, повільніше відновлення</text>
+<text class="fg-m fg-xs fg-r" x="394" y="244">дорожче, швидше</text>
+</svg>

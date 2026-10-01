@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 288" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bad" x="6" y="6" width="388" height="34" rx="8"/>
+<text x="16" y="29" font-size="16">🗑️</text>
+<text class="fg-tb fg-xs" x="44" y="28">1. Retire</text>
+<text class="fg-t fg-xs" x="150" y="28">викинути</text>
+<rect class="fg-bgb" x="6" y="46" width="388" height="34" rx="8"/>
+<text x="16" y="69" font-size="16">⏸️</text>
+<text class="fg-tb fg-xs" x="44" y="68">2. Retain</text>
+<text class="fg-t fg-xs" x="150" y="68">залишити поки</text>
+<rect class="fg-accs" x="6" y="86" width="388" height="34" rx="8"/>
+<text x="16" y="109" font-size="16">🚚</text>
+<text class="fg-tb fg-xs" x="44" y="108">3. Rehost</text>
+<text class="fg-t fg-xs" x="150" y="108">перевезти як є (MGN)</text>
+<rect class="fg-net" x="6" y="126" width="388" height="34" rx="8"/>
+<text x="16" y="149" font-size="16">🏗️</text>
+<text class="fg-tb fg-xs" x="44" y="148">4. Relocate</text>
+<text class="fg-t fg-xs" x="150" y="148">разом з фундаментом (VMware)</text>
+<rect class="fg-warn" x="6" y="166" width="388" height="34" rx="8"/>
+<text x="16" y="189" font-size="16">🔧</text>
+<text class="fg-tb fg-xs" x="44" y="188">5. Replatform</text>
+<text class="fg-t fg-xs" x="150" y="188">перевезти й підлатати (→ RDS)</text>
+<rect class="fg-story" x="6" y="206" width="388" height="34" rx="8"/>
+<text x="16" y="229" font-size="16">🛒</text>
+<text class="fg-tb fg-xs" x="44" y="228">6. Repurchase</text>
+<text class="fg-t fg-xs" x="150" y="228">купити готове (SaaS)</text>
+<rect class="fg-ok" x="6" y="246" width="388" height="34" rx="8"/>
+<text x="16" y="269" font-size="16">✨</text>
+<text class="fg-tb fg-xs" x="44" y="268">7. Refactor</text>
+<text class="fg-t fg-xs" x="150" y="268">перебудувати під хмару</text>
+</svg>

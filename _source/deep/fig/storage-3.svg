@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 234" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-cmp" x="6" y="6" width="125" height="222" rx="12"/>
+<text class="fg-tb fg-c" x="68" y="28">Блочне</text>
+<text class="fg-m fg-xs fg-c" x="68" y="44">EBS</text>
+<text class="fg-c" x="68" y="86" font-size="30">💽</text>
+<text class="fg-tb fg-xs fg-c" x="68" y="112">диск одного</text>
+<text class="fg-tb fg-xs fg-c" x="68" y="126">комп'ютера</text>
+<text class="fg-t fg-xs fg-c" x="68" y="156">🖥️ ← один сервер</text>
+<text class="fg-t fg-xs fg-c" x="68" y="178">ОС і бази даних</text>
+<text class="fg-t fg-xs fg-c" x="68" y="200">мінімальна затримка</text>
+<rect class="fg-net" x="137" y="6" width="125" height="222" rx="12"/>
+<text class="fg-tb fg-c" x="199" y="28">Файлове</text>
+<text class="fg-m fg-xs fg-c" x="199" y="44">EFS · FSx</text>
+<text class="fg-c" x="199" y="86" font-size="30">🗄️</text>
+<text class="fg-tb fg-xs fg-c" x="199" y="112">спільна шафа</text>
+<text class="fg-tb fg-xs fg-c" x="199" y="126">офісу</text>
+<text class="fg-t fg-xs fg-c" x="199" y="156">🖥️🖥️🖥️ ← багато</text>
+<text class="fg-t fg-xs fg-c" x="199" y="178">NFS (Linux) · SMB (Win)</text>
+<text class="fg-t fg-xs fg-c" x="199" y="200">спільні файли</text>
+<rect class="fg-sto" x="268" y="6" width="125" height="222" rx="12"/>
+<text class="fg-tb fg-c" x="330" y="28">Об'єктне</text>
+<text class="fg-m fg-xs fg-c" x="330" y="44">S3</text>
+<text class="fg-c" x="330" y="86" font-size="30">🏬</text>
+<text class="fg-tb fg-xs fg-c" x="330" y="112">склад коробок</text>
+<text class="fg-tb fg-xs fg-c" x="330" y="126">з ярликами</text>
+<text class="fg-t fg-xs fg-c" x="330" y="156">🌍 ← через інтернет</text>
+<text class="fg-t fg-xs fg-c" x="330" y="178">HTTP: поклади / дай</text>
+<text class="fg-t fg-xs fg-c" x="330" y="200">безмежний обсяг</text>
+</svg>

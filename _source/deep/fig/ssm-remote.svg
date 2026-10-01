@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 228" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">🎛️ AWS Systems Manager — пульт диспетчера</text>
+<rect class="fg-ana" x="6" y="28" width="212" height="34" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="42">🚪 Session Manager</text>
+<text class="fg-m fg-xs" x="14" y="56">вхід без SSH, портів і ключів</text>
+<line class="fg-la" x1="219" y1="45" x2="244" y2="45" marker-end="url(#aha)"/>
+<rect class="fg-ana" x="6" y="68" width="212" height="34" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="82">📢 Run Command</text>
+<text class="fg-m fg-xs" x="14" y="96">одна команда — усім одразу</text>
+<line class="fg-la" x1="219" y1="85" x2="244" y2="85" marker-end="url(#aha)"/>
+<rect class="fg-ana" x="6" y="108" width="212" height="34" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="122">🩹 Patch Manager</text>
+<text class="fg-m fg-xs" x="14" y="136">латки за розкладом</text>
+<line class="fg-la" x1="219" y1="125" x2="244" y2="125" marker-end="url(#aha)"/>
+<rect class="fg-ana" x="6" y="148" width="212" height="34" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="162">📒 Parameter Store</text>
+<text class="fg-m fg-xs" x="14" y="176">налаштування й секрети</text>
+<line class="fg-la" x1="219" y1="165" x2="244" y2="165" marker-end="url(#aha)"/>
+<rect class="fg-ana" x="6" y="188" width="212" height="34" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="202">📋 Automation</text>
+<text class="fg-m fg-xs" x="14" y="216">готові покрокові інструкції</text>
+<line class="fg-la" x1="219" y1="205" x2="244" y2="205" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="248" y="28" width="146" height="194" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="321" y="46">🚚 автопарк серверів</text>
+<rect class="fg-cmp" x="262" y="56" width="34" height="26" rx="5"/>
+<text class="fg-c" x="279" y="74" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="304" y="56" width="34" height="26" rx="5"/>
+<text class="fg-c" x="321" y="74" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="346" y="56" width="34" height="26" rx="5"/>
+<text class="fg-c" x="363" y="74" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="262" y="90" width="34" height="26" rx="5"/>
+<text class="fg-c" x="279" y="108" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="304" y="90" width="34" height="26" rx="5"/>
+<text class="fg-c" x="321" y="108" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="346" y="90" width="34" height="26" rx="5"/>
+<text class="fg-c" x="363" y="108" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="262" y="124" width="34" height="26" rx="5"/>
+<text class="fg-c" x="279" y="142" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="304" y="124" width="34" height="26" rx="5"/>
+<text class="fg-c" x="321" y="142" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="346" y="124" width="34" height="26" rx="5"/>
+<text class="fg-c" x="363" y="142" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="262" y="158" width="34" height="26" rx="5"/>
+<text class="fg-c" x="279" y="176" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="304" y="158" width="34" height="26" rx="5"/>
+<text class="fg-c" x="321" y="176" font-size="13">🖥️</text>
+<rect class="fg-cmp" x="346" y="158" width="34" height="26" rx="5"/>
+<text class="fg-c" x="363" y="176" font-size="13">🖥️</text>
+<text class="fg-m fg-xs fg-c" x="321" y="210">+ сервери в офісі</text>
+</svg>

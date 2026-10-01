@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-cmp" x="6" y="6" width="252" height="218" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="26">🖥️ сервер EC2</text>
+<text class="fg-tb fg-xs" x="16" y="50">👀 AWS бачить ззовні:</text>
+<text class="fg-t fg-xs" x="16" y="68">CPU · мережа · операції диска ·</text>
+<text class="fg-t fg-xs" x="16" y="84">status checks</text>
+<rect class="fg-bgb fg-dash" x="16" y="96" width="232" height="118" rx="10"/>
+<text class="fg-tb fg-xs" x="26" y="116">🙈 усередині ОС — не видно:</text>
+<text class="fg-t fg-xs" x="26" y="136">🧠 зайнята пам'ять (RAM)</text>
+<text class="fg-t fg-xs" x="26" y="154">💽 вільне місце на диску</text>
+<text class="fg-t fg-xs" x="26" y="172">📜 журнали програм</text>
+<rect class="fg-ok" x="26" y="182" width="150" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="34" y="198">🕵️ CloudWatch agent</text>
+<rect class="fg-ok" x="282" y="70" width="112" height="100" rx="12"/>
+<text class="fg-c" x="338" y="104" font-size="24">📊</text>
+<text class="fg-tb fg-xs fg-c" x="338" y="128">CloudWatch</text>
+<text class="fg-m fg-xs fg-c" x="338" y="145">усі метрики</text>
+<text class="fg-m fg-xs fg-c" x="338" y="160">і журнали</text>
+<line class="fg-la" x1="234" y1="64" x2="278" y2="88" marker-end="url(#aha)"/>
+<path class="fg-lok" d="M176 194 C 230 194 250 160 278 150" marker-end="url(#ahok)"/>
+</svg>

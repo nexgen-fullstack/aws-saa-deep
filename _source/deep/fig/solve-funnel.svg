@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 244" xmlns="http://www.w3.org/2000/svg">
+<polygon class="fg-bgb" points="6,6 394,6 374,44 26,44"/>
+<text class="fg-xs fg-c fg-tb" x="200" y="30">A · B · C · D — усі варіанти</text>
+<polygon class="fg-bad" points="26,50 374,50 354,88 46,88"/>
+<text class="fg-xs fg-c fg-t" x="200" y="74">✂️ викресли неможливі варіанти</text>
+<polygon class="fg-warn" points="46,94 354,94 334,132 66,132"/>
+<text class="fg-xs fg-c fg-t" x="200" y="118">📌 залиш лише ті, що виконують усі вимоги</text>
+<polygon class="fg-accs" points="66,138 334,138 314,176 86,176"/>
+<text class="fg-xs fg-c fg-tb" x="200" y="162">🎯 застосуй критерій з останнього речення</text>
+<rect class="fg-ok" x="130" y="186" width="140" height="32" rx="10"/>
+<text class="fg-tb fg-xs fg-c fg-tok" x="200" y="206">✅ одна відповідь</text>
+<line class="fg-la" x1="200" y1="173" x2="200" y2="183" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs fg-c" x="200" y="236">є сумнів — flag, найкраща відповідь, повернутися в кінці</text>
+</svg>

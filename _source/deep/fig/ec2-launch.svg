@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 316" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="6" y="6" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="25" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="29">1</text>
+<text x="44" y="31" font-size="16">🏷️</text>
+<text class="fg-tb fg-xs" x="70" y="30">Ім'я й теги</text>
+<text class="fg-m fg-xs" x="180" y="30">web-1, project = site</text>
+<rect class="fg-box" x="6" y="50" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="69" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="73">2</text>
+<text x="44" y="75" font-size="16">💿</text>
+<text class="fg-tb fg-xs" x="70" y="74">AMI</text>
+<text class="fg-m fg-xs" x="180" y="74">ОС + програми, «зліпок»</text>
+<rect class="fg-box" x="6" y="94" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="113" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="117">3</text>
+<text x="44" y="119" font-size="16">⚙️</text>
+<text class="fg-tb fg-xs" x="70" y="118">Тип інстансу</text>
+<text class="fg-m fg-xs" x="180" y="118">скільки vCPU і пам'яті</text>
+<rect class="fg-box" x="6" y="138" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="157" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="161">4</text>
+<text x="44" y="163" font-size="16">🔑</text>
+<text class="fg-tb fg-xs" x="70" y="162">Key pair</text>
+<text class="fg-m fg-xs" x="180" y="162">або без — через Session Manager</text>
+<rect class="fg-box" x="6" y="182" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="201" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="205">5</text>
+<text x="44" y="207" font-size="16">🌐</text>
+<text class="fg-tb fg-xs" x="70" y="206">Мережа</text>
+<text class="fg-m fg-xs" x="180" y="206">VPC, підмережа (AZ), SG, IP</text>
+<rect class="fg-box" x="6" y="226" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="245" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="249">6</text>
+<text x="44" y="251" font-size="16">💽</text>
+<text class="fg-tb fg-xs" x="70" y="250">Сховище</text>
+<text class="fg-m fg-xs" x="180" y="250">системний диск EBS</text>
+<rect class="fg-box" x="6" y="270" width="388" height="38" rx="9"/>
+<circle class="fg-acc" cx="24" cy="289" r="11"/><text class="fg-inv fg-c fg-xs" x="24" y="293">7</text>
+<text x="44" y="295" font-size="16">🎫</text>
+<text class="fg-tb fg-xs" x="70" y="294">Роль і user data</text>
+<text class="fg-m fg-xs" x="180" y="294">права без ключів, стартовий скрипт</text>
+</svg>

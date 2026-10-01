@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 204" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="18">Елемент 10 KB</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="44">читання: блоки по 4 KB</text>
+<rect class="fg-accs" x="150" y="28" width="56" height="26" rx="5"/><text class="fg-xs fg-c fg-tb" x="178" y="46">4 KB</text>
+<rect class="fg-accs" x="210" y="28" width="56" height="26" rx="5"/><text class="fg-xs fg-c fg-tb" x="238" y="46">4 KB</text>
+<rect class="fg-accs" x="270" y="28" width="56" height="26" rx="5"/><text class="fg-xs fg-c fg-tb" x="298" y="46">4 KB</text>
+<text class="fg-tacc fg-xs fg-tb" x="336" y="46">= 3</text>
+<text class="fg-tok fg-xs fg-tb" x="6" y="88">запис: блоки по 1 KB</text>
+<rect class="fg-ok" x="150" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="170" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="190" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="210" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="230" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="250" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="270" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="290" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="310" y="72" width="17" height="26" rx="3"/>
+<rect class="fg-ok" x="330" y="72" width="17" height="26" rx="3"/>
+<text class="fg-tok fg-xs fg-tb" x="356" y="90">= 10</text>
+<line class="fg-lt" x1="6" y1="112" x2="394" y2="112"/>
+<text class="fg-t fg-xs" x="6" y="134">100 строгих читань/с × 3 = <tspan class="fg-tb">300 RCU</tspan></text>
+<text class="fg-t fg-xs" x="6" y="154">100 звичайних (eventual) читань/с → <tspan class="fg-tb">150 RCU</tspan></text>
+<text class="fg-t fg-xs" x="6" y="174">100 записів/с × 10 = <tspan class="fg-tb">1 000 WCU</tspan></text>
+<text class="fg-m fg-xs" x="6" y="196">розмір завжди округлюють угору; транзакції — удвічі дорожче</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 194" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-c" x="200" y="46" font-size="40" font-weight="800"><tspan class="fg-tnet">m</tspan><tspan class="fg-tcmp">7</tspan><tspan class="fg-tsto">g</tspan><tspan class="fg-tdb">.2xlarge</tspan></text>
+<rect class="fg-net" x="6" y="70" width="90" height="92" rx="10"/>
+<text class="fg-tb fg-c" x="51" y="94">m</text>
+<text class="fg-tb fg-xs fg-c" x="51" y="116">сімейство</text>
+<text class="fg-m fg-xs fg-c" x="51" y="134">загального</text>
+<text class="fg-m fg-xs fg-c" x="51" y="150">призначення</text>
+<rect class="fg-cmp" x="102" y="70" width="90" height="92" rx="10"/>
+<text class="fg-tb fg-c" x="147" y="94">7</text>
+<text class="fg-tb fg-xs fg-c" x="147" y="116">покоління</text>
+<text class="fg-m fg-xs fg-c" x="147" y="134">що більше —</text>
+<text class="fg-m fg-xs fg-c" x="147" y="150">то новіше</text>
+<rect class="fg-sto" x="198" y="70" width="90" height="92" rx="10"/>
+<text class="fg-tb fg-c" x="243" y="94">g</text>
+<text class="fg-tb fg-xs fg-c" x="243" y="116">особливість</text>
+<text class="fg-m fg-xs fg-c" x="243" y="134">Graviton</text>
+<text class="fg-m fg-xs fg-c" x="243" y="150">(a — AMD)</text>
+<rect class="fg-db" x="294" y="70" width="90" height="92" rx="10"/>
+<text class="fg-tb fg-c" x="339" y="94">.2xlarge</text>
+<text class="fg-tb fg-xs fg-c" x="339" y="116">розмір</text>
+<text class="fg-m fg-xs fg-c" x="339" y="134">наступний</text>
+<text class="fg-m fg-xs fg-c" x="339" y="150">≈ удвічі більший</text>
+<text class="fg-m fg-xs fg-c" x="200" y="186">nano · micro · small · medium · large · xlarge · 2xlarge · 4xlarge …</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-net" x="110" y="6" width="180" height="40" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="23">🧭 Route 53 failover</text>
+<text class="fg-m fg-xs fg-c" x="200" y="39">або Global Accelerator</text>
+<line class="fg-la" x1="140" y1="47" x2="70" y2="62" marker-end="url(#aha)"/>
+<line class="fg-la fg-dash" x1="260" y1="47" x2="330" y2="62" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="298" y="30">при аварії</text>
+<text class="fg-tb fg-xs fg-c" x="61" y="80">🏙️ основний</text>
+<text class="fg-tb fg-xs fg-c" x="339" y="80">🏙️ резервний</text>
+<rect class="fg-bgb" x="6" y="90" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="106">🗄️ Aurora</text>
+<text class="fg-m fg-xs fg-c" x="200" y="99">Global Database · &lt; 1 с</text>
+<line class="fg-la" x1="118" y1="105" x2="280" y2="105" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="284" y="90" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="292" y="106">🗄️ Aurora</text>
+<rect class="fg-bgb" x="6" y="120" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="136">⚡ DynamoDB</text>
+<text class="fg-m fg-xs fg-c" x="200" y="129">Global Tables</text>
+<line class="fg-la" x1="118" y1="135" x2="280" y2="135" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="284" y="120" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="292" y="136">⚡ DynamoDB</text>
+<rect class="fg-bgb" x="6" y="150" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="166">🪣 S3</text>
+<text class="fg-m fg-xs fg-c" x="200" y="159">CRR (+ RTC: 15 хв)</text>
+<line class="fg-la" x1="118" y1="165" x2="280" y2="165" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="284" y="150" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="292" y="166">🪣 S3</text>
+<rect class="fg-bgb" x="6" y="180" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="196">📀 AMI, знімки</text>
+<text class="fg-m fg-xs fg-c" x="200" y="189">копіювання</text>
+<line class="fg-la" x1="118" y1="195" x2="280" y2="195" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="284" y="180" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="292" y="196">📀 AMI, знімки</text>
+<rect class="fg-bgb" x="6" y="210" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="226">📜 шаблон</text>
+<text class="fg-m fg-xs fg-c" x="200" y="219">CloudFormation</text>
+<line class="fg-la" x1="118" y1="225" x2="280" y2="225" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="284" y="210" width="110" height="24" rx="6"/>
+<text class="fg-tb fg-xs" x="292" y="226">🏗️ стек</text>
+<text class="fg-twarn fg-tb fg-xs fg-c" x="200" y="252">⚠️ квоти в резервному регіоні — підняти заздалегідь</text>
+</svg>

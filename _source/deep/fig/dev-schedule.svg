@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 238" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">Тестові сервери: цілодобово чи лише в робочі години?</text>
+<rect class="fg-bgb" x="84" y="30" width="32" height="48" rx="3"/>
+<rect class="fg-ok" x="84" y="78" width="32" height="66" rx="3"/>
+<rect class="fg-bgb" x="84" y="144" width="32" height="30" rx="3"/>
+<text class="fg-m fg-xs fg-c" x="100" y="190">Пн</text>
+<rect class="fg-bgb" x="126" y="30" width="32" height="48" rx="3"/>
+<rect class="fg-ok" x="126" y="78" width="32" height="66" rx="3"/>
+<rect class="fg-bgb" x="126" y="144" width="32" height="30" rx="3"/>
+<text class="fg-m fg-xs fg-c" x="142" y="190">Вт</text>
+<rect class="fg-bgb" x="168" y="30" width="32" height="48" rx="3"/>
+<rect class="fg-ok" x="168" y="78" width="32" height="66" rx="3"/>
+<rect class="fg-bgb" x="168" y="144" width="32" height="30" rx="3"/>
+<text class="fg-m fg-xs fg-c" x="184" y="190">Ср</text>
+<rect class="fg-bgb" x="210" y="30" width="32" height="48" rx="3"/>
+<rect class="fg-ok" x="210" y="78" width="32" height="66" rx="3"/>
+<rect class="fg-bgb" x="210" y="144" width="32" height="30" rx="3"/>
+<text class="fg-m fg-xs fg-c" x="226" y="190">Чт</text>
+<rect class="fg-bgb" x="252" y="30" width="32" height="48" rx="3"/>
+<rect class="fg-ok" x="252" y="78" width="32" height="66" rx="3"/>
+<rect class="fg-bgb" x="252" y="144" width="32" height="30" rx="3"/>
+<text class="fg-m fg-xs fg-c" x="268" y="190">Пт</text>
+<rect class="fg-bgb" x="294" y="30" width="32" height="144" rx="3"/>
+<text class="fg-c" x="310" y="108" font-size="16">😴</text>
+<text class="fg-m fg-xs fg-c" x="310" y="190">Сб</text>
+<rect class="fg-bgb" x="336" y="30" width="32" height="144" rx="3"/>
+<text class="fg-c" x="352" y="108" font-size="16">😴</text>
+<text class="fg-m fg-xs fg-c" x="352" y="190">Нд</text>
+<text class="fg-m fg-xs fg-r" x="76" y="34">0:00</text>
+<text class="fg-m fg-xs fg-r" x="76" y="82">8:00</text>
+<text class="fg-m fg-xs fg-r" x="76" y="148">19:00</text>
+<text class="fg-m fg-xs fg-r" x="76" y="178">24:00</text>
+<text class="fg-tok fg-xs fg-tb" x="6" y="212">🟩 увімкнено лише 55 годин із 168 на тиждень</text>
+<text class="fg-t fg-xs" x="6" y="230">рахунок за ці сервери — приблизно на дві третини менший</text>
+</svg>

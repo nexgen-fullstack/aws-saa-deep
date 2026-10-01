@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 174" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="10" width="88" height="112" rx="12"/>
+<text class="fg-c" x="50" y="44" font-size="18">🎂🍰🧁</text>
+<text class="fg-tb fg-xs fg-c" x="50" y="70">приклади</text>
+<text class="fg-m fg-xs fg-c" x="50" y="90">«це торт»,</text>
+<text class="fg-m fg-xs fg-c" x="50" y="106">«це не торт»</text>
+<line class="fg-la" x1="95" y1="64" x2="103" y2="64" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="105" y="10" width="88" height="112" rx="12"/>
+<text class="fg-c" x="149" y="44" font-size="18">🏋️</text>
+<text class="fg-tb fg-xs fg-c" x="149" y="70">навчання</text>
+<text class="fg-m fg-xs fg-c" x="149" y="90">довго, дорого,</text>
+<text class="fg-m fg-xs fg-c" x="149" y="106">на GPU</text>
+<line class="fg-la" x1="194" y1="64" x2="202" y2="64" marker-end="url(#aha)"/>
+<rect class="fg-net" x="204" y="10" width="88" height="112" rx="12"/>
+<text class="fg-c" x="248" y="44" font-size="18">🧠</text>
+<text class="fg-tb fg-xs fg-c" x="248" y="70">модель</text>
+<text class="fg-m fg-xs fg-c" x="248" y="90">вивчені</text>
+<text class="fg-m fg-xs fg-c" x="248" y="106">правила</text>
+<line class="fg-la" x1="293" y1="64" x2="301" y2="64" marker-end="url(#aha)"/>
+<rect class="fg-ok" x="303" y="10" width="88" height="112" rx="12"/>
+<text class="fg-c" x="347" y="44" font-size="18">📸→✅</text>
+<text class="fg-tb fg-xs fg-c" x="347" y="70">відповідь</text>
+<text class="fg-m fg-xs fg-c" x="347" y="90">«це торт!»</text>
+<text class="fg-m fg-xs fg-c" x="347" y="106">за мить</text>
+<text class="fg-m fg-xs fg-c" x="150" y="142">training — один раз, і це дорого</text>
+<text class="fg-m fg-xs fg-c" x="336" y="142">inference — щоразу</text>
+<text class="fg-tacc fg-xs fg-c fg-tb" x="200" y="166">готові AI-сервіси AWS уже навчені — ти лише питаєш</text>
+</svg>

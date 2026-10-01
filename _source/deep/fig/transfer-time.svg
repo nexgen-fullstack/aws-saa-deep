@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 226" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-s" x="8" y="18">40 ТБ мережею (канал зайнятий лише переїздом)</text>
+<text class="fg-tb fg-xs" x="8" y="54">100 Mbps</text>
+<rect class="fg-bad" x="72" y="38" width="330" height="26" rx="6"/>
+<text class="fg-t fg-xs fg-tb" x="82" y="56">≈ 37 днів</text>
+<text class="fg-tb fg-xs" x="8" y="102">1 Gbps</text>
+<rect class="fg-warn" x="72" y="86" width="60" height="26" rx="6"/>
+<text class="fg-t fg-xs fg-tb" x="140" y="104">≈ 3,7 дня</text>
+<text class="fg-tb fg-xs" x="8" y="150">10 Gbps</text>
+<rect class="fg-ok" x="72" y="134" width="12" height="26" rx="6"/>
+<text class="fg-t fg-xs fg-tb" x="92" y="152">≈ 9 годин</text>
+<text class="fg-m fg-xs" x="8" y="200">розрахунок: 40 ТБ = 320 000 гігабітів ÷ швидкість каналу</text>
+<text class="fg-tacc fg-xs fg-tb" x="8" y="218">довше тижня → фізичне перевезення (Snowball, Data Transfer Terminal)</text>
+</svg>

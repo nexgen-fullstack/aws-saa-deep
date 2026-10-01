@@ -1,0 +1,75 @@
+<svg viewBox="0 0 400 328" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="18">CSV — рядками: для «суми цін» читаємо все</text>
+<rect class="fg-bad" x="6" y="28" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="35" y="41">дата</text>
+<rect class="fg-bad" x="68" y="28" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="97" y="41">місто</text>
+<rect class="fg-bad" x="130" y="28" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="159" y="41">торт</text>
+<rect class="fg-bad" x="192" y="28" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="221" y="41">ціна</text>
+<rect class="fg-bad" x="6" y="50" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="35" y="63">…</text>
+<rect class="fg-bad" x="68" y="50" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="97" y="63">…</text>
+<rect class="fg-bad" x="130" y="50" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="159" y="63">…</text>
+<rect class="fg-bad" x="192" y="50" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="221" y="63">…</text>
+<rect class="fg-bad" x="6" y="72" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="35" y="85">…</text>
+<rect class="fg-bad" x="68" y="72" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="97" y="85">…</text>
+<rect class="fg-bad" x="130" y="72" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="159" y="85">…</text>
+<rect class="fg-bad" x="192" y="72" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="221" y="85">…</text>
+<rect class="fg-bad" x="6" y="94" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="35" y="107">…</text>
+<rect class="fg-bad" x="68" y="94" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="97" y="107">…</text>
+<rect class="fg-bad" x="130" y="94" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="159" y="107">…</text>
+<rect class="fg-bad" x="192" y="94" width="58" height="18" rx="3" opacity=".75"/>
+<text class="fg-xs fg-c fg-t" x="221" y="107">…</text>
+<text class="fg-tbad fg-xs fg-tb" x="262" y="72">прочитано 100%</text>
+<text class="fg-tb fg-xs" x="6" y="134">Parquet — колонками: читаємо лише «ціну»</text>
+<rect class="fg-bgb" x="6" y="144" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="35" y="157">дата</text>
+<rect class="fg-bgb" x="68" y="144" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="97" y="157">місто</text>
+<rect class="fg-bgb" x="130" y="144" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="159" y="157">торт</text>
+<rect class="fg-ok" x="192" y="144" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="221" y="157">ціна</text>
+<rect class="fg-bgb" x="6" y="166" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="35" y="179">…</text>
+<rect class="fg-bgb" x="68" y="166" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="97" y="179">…</text>
+<rect class="fg-bgb" x="130" y="166" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="159" y="179">…</text>
+<rect class="fg-ok" x="192" y="166" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="221" y="179">…</text>
+<rect class="fg-bgb" x="6" y="188" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="35" y="201">…</text>
+<rect class="fg-bgb" x="68" y="188" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="97" y="201">…</text>
+<rect class="fg-bgb" x="130" y="188" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="159" y="201">…</text>
+<rect class="fg-ok" x="192" y="188" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="221" y="201">…</text>
+<rect class="fg-bgb" x="6" y="210" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="35" y="223">…</text>
+<rect class="fg-bgb" x="68" y="210" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="97" y="223">…</text>
+<rect class="fg-bgb" x="130" y="210" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-m" x="159" y="223">…</text>
+<rect class="fg-ok" x="192" y="210" width="58" height="18" rx="3"/>
+<text class="fg-xs fg-c fg-tok fg-tb" x="221" y="223">…</text>
+<text class="fg-tok fg-xs fg-tb" x="262" y="188">прочитано ~25%</text>
+<rect class="fg-story" x="6" y="244" width="388" height="40" rx="8"/>
+<text class="fg-xs fg-tb" x="16" y="262">📁 партиції: year=2026/month=09/…</text>
+<text class="fg-m fg-xs" x="16" y="277">питаєш про вересень — інші місяці навіть не відкриваються</text>
+<text class="fg-tacc fg-xs fg-tb fg-c" x="200" y="304">Athena бере за прочитане:</text>
+<text class="fg-tacc fg-xs fg-tb fg-c" x="200" y="320">Parquet + стиснення + партиції = у рази дешевше</text>
+</svg>

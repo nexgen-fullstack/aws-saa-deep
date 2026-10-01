@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 194" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="8" width="104" height="26" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="25">🖥️ EC2, EBS</text>
+<line class="fg-la" x1="111" y1="21" x2="128" y2="70" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="6" y="40" width="104" height="26" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="57">🗄️ RDS, Aurora</text>
+<line class="fg-la" x1="111" y1="53" x2="128" y2="78" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="6" y="72" width="104" height="26" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="89">⚡ DynamoDB</text>
+<line class="fg-la" x1="111" y1="85" x2="128" y2="86" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="6" y="104" width="104" height="26" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="121">📁 EFS, FSx</text>
+<line class="fg-la" x1="111" y1="117" x2="128" y2="94" marker-end="url(#aha)"/>
+<rect class="fg-bgb" x="6" y="136" width="104" height="26" rx="6"/>
+<text class="fg-tb fg-xs" x="14" y="153">🪣 S3</text>
+<line class="fg-la" x1="111" y1="149" x2="128" y2="102" marker-end="url(#aha)"/>
+<rect class="fg-sto" x="132" y="48" width="126" height="84" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="195" y="70">🗓️ AWS Backup</text>
+<text class="fg-m fg-xs fg-c" x="195" y="88">план: щодня о 02:00,</text>
+<text class="fg-m fg-xs fg-c" x="195" y="104">зберігати 35 днів</text>
+<text class="fg-m fg-xs fg-c" x="195" y="120">+ копії</text>
+<rect class="fg-sec" x="276" y="8" width="118" height="70" rx="10"/>
+<text class="fg-tb fg-xs" x="284" y="28">🔒 Vault Lock</text>
+<text class="fg-m fg-xs" x="284" y="46">ніхто не видалить,</text>
+<text class="fg-m fg-xs" x="284" y="62">навіть адмін</text>
+<rect class="fg-accs" x="276" y="90" width="118" height="30" rx="8"/>
+<text class="fg-tb fg-xs" x="284" y="110">🌍 інший регіон</text>
+<rect class="fg-accs" x="276" y="128" width="118" height="30" rx="8"/>
+<text class="fg-tb fg-xs" x="284" y="148">🏢 інший акаунт</text>
+<line class="fg-la" x1="259" y1="72" x2="272" y2="50" marker-end="url(#aha)"/>
+<line class="fg-la" x1="259" y1="100" x2="272" y2="105" marker-end="url(#aha)"/>
+<line class="fg-la" x1="259" y1="122" x2="272" y2="140" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="6" y="186">+ backup policies в Organizations · Backup Audit Manager</text>
+</svg>

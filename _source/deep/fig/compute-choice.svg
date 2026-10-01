@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 246" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ok" x="30" y="6" width="364" height="34" rx="8"/>
+<text x="40" y="29" font-size="16">⚡</text>
+<text class="fg-tb fg-xs" x="66" y="28">Lambda</text>
+<text class="fg-t fg-xs" x="150" y="28">код на подію, до 15 хв, без серверів</text>
+<rect class="fg-accs" x="30" y="46" width="364" height="34" rx="8"/>
+<text x="40" y="69" font-size="16">🚢</text>
+<text class="fg-tb fg-xs" x="66" y="68">Fargate</text>
+<text class="fg-t fg-xs" x="150" y="68">контейнери без серверів, будь-яка тривалість</text>
+<rect class="fg-net" x="30" y="86" width="364" height="34" rx="8"/>
+<text x="40" y="109" font-size="16">⚓</text>
+<text class="fg-tb fg-xs" x="66" y="108">ECS / EKS</text>
+<text class="fg-t fg-xs" x="150" y="108">оркестрація контейнерів (EKS — Kubernetes)</text>
+<rect class="fg-story" x="30" y="126" width="364" height="34" rx="8"/>
+<text x="40" y="149" font-size="16">🌱</text>
+<text class="fg-tb fg-xs" x="66" y="148">Beanstalk</text>
+<text class="fg-t fg-xs" x="150" y="148">код → готова інфраструктура «під ключ»</text>
+<rect class="fg-warn" x="30" y="166" width="364" height="34" rx="8"/>
+<text x="40" y="189" font-size="16">🏭</text>
+<text class="fg-tb fg-xs" x="66" y="188">Batch</text>
+<text class="fg-t fg-xs" x="150" y="188">тисячі пакетних задач у чергах</text>
+<rect class="fg-cmp" x="30" y="206" width="364" height="34" rx="8"/>
+<text x="40" y="229" font-size="16">🖥️</text>
+<text class="fg-tb fg-xs" x="66" y="228">EC2</text>
+<text class="fg-t fg-xs" x="150" y="228">повний контроль: ОС, залізо, ліцензії</text>
+<line class="fg-la" x1="14" y1="236" x2="14" y2="12" marker-end="url(#aha)"/>
+<text class="fg-tacc fg-xs fg-c" transform="translate(9 124) rotate(-90)">менше клопоту</text>
+</svg>

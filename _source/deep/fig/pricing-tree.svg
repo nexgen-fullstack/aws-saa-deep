@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 256" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-box" x="6" y="6" width="250" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="31">Задачу можна перервати й продовжити?</text>
+<line class="fg-lok" x1="258" y1="26" x2="280" y2="26" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="264" y="20">так</text>
+<rect class="fg-ok" x="284" y="10" width="110" height="32" rx="8"/>
+<text class="fg-tok fg-xs fg-tb fg-c" x="339" y="30">Spot</text>
+<line class="fg-l" x1="60" y1="48" x2="60" y2="56" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs" x="68" y="56">ні</text>
+<rect class="fg-box" x="6" y="58" width="250" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="83">Навантаження постійне роками?</text>
+<line class="fg-lok" x1="258" y1="78" x2="280" y2="78" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="264" y="72">так</text>
+<rect class="fg-ok" x="284" y="62" width="110" height="32" rx="8"/>
+<text class="fg-tok fg-xs fg-tb fg-c" x="339" y="82">Savings Plans / RI</text>
+<line class="fg-l" x1="60" y1="100" x2="60" y2="108" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs" x="68" y="108">ні</text>
+<rect class="fg-box" x="6" y="110" width="250" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="135">Ліцензії рахують фізичні ядра?</text>
+<line class="fg-lok" x1="258" y1="130" x2="280" y2="130" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="264" y="124">так</text>
+<rect class="fg-ok" x="284" y="114" width="110" height="32" rx="8"/>
+<text class="fg-tok fg-xs fg-tb fg-c" x="339" y="134">Dedicated Host</text>
+<line class="fg-l" x1="60" y1="152" x2="60" y2="160" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs" x="68" y="160">ні</text>
+<rect class="fg-box" x="6" y="162" width="250" height="40" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="187">Треба гарантувати місце в AZ?</text>
+<line class="fg-lok" x1="258" y1="182" x2="280" y2="182" marker-end="url(#ahok)"/>
+<text class="fg-tok fg-xs fg-tb" x="264" y="176">так</text>
+<rect class="fg-ok" x="284" y="166" width="110" height="32" rx="8"/>
+<text class="fg-tok fg-xs fg-tb fg-c" x="339" y="186">Capacity Reservation</text>
+<line class="fg-l" x1="60" y1="198" x2="60" y2="212" marker-end="url(#ah)"/>
+<rect class="fg-warn" x="6" y="214" width="250" height="36" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="237">Невідомо, скільки і як довго → On-Demand</text>
+</svg>

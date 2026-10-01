@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="6" width="150" height="226" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="26">🏢 офіс</text>
+<rect class="fg-box" x="16" y="38" width="130" height="36" rx="8"/><text class="fg-xs fg-t" x="24" y="61">📁 мережеві папки</text>
+<rect class="fg-box" x="16" y="82" width="130" height="36" rx="8"/><text class="fg-xs fg-t" x="24" y="105">💽 диски iSCSI</text>
+<rect class="fg-box" x="16" y="126" width="130" height="36" rx="8"/><text class="fg-xs fg-t" x="24" y="149">📼 «касети»</text>
+<rect class="fg-accs" x="16" y="174" width="130" height="48" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="81" y="194">🔌 Storage Gateway</text>
+<text class="fg-m fg-xs fg-c" x="81" y="211">+ локальний кеш</text>
+<rect class="fg-sto" x="244" y="30" width="150" height="80" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="319" y="56">🪣 S3</text>
+<text class="fg-m fg-xs fg-c" x="319" y="76">файли стають</text>
+<text class="fg-m fg-xs fg-c" x="319" y="92">об'єктами</text>
+<rect class="fg-db" x="244" y="130" width="150" height="80" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="319" y="156">🧊 S3 Glacier</text>
+<text class="fg-m fg-xs fg-c" x="319" y="176">віртуальні касети</text>
+<text class="fg-m fg-xs fg-c" x="319" y="192">і архіви</text>
+<path class="fg-la" d="M148 190 C 200 190 200 80 240 72" marker-end="url(#aha)"/>
+<path class="fg-la" d="M148 204 C 200 204 210 172 240 170" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs fg-c" x="200" y="252">File — папки → S3 · Volume — диски (Cached / Stored) · Tape — касети</text>
+</svg>

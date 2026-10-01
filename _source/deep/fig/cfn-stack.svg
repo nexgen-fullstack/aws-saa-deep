@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="14" width="112" height="146" rx="8"/>
+<text class="fg-tb fg-xs" x="14" y="34">📜 шаблон</text>
+<text class="fg-mono" x="14" y="56">Resources:</text>
+<text class="fg-mono" x="24" y="73">Vpc: …</text>
+<text class="fg-mono" x="24" y="90">Alb: …</text>
+<text class="fg-mono" x="24" y="107">Asg: …</text>
+<text class="fg-mono" x="24" y="124">Db: …</text>
+<text class="fg-m fg-xs" x="14" y="150">YAML або JSON</text>
+<line class="fg-la" x1="119" y1="87" x2="134" y2="87" marker-end="url(#aha)"/>
+<rect class="fg-int" x="138" y="50" width="104" height="74" rx="12"/>
+<text class="fg-c" x="190" y="78" font-size="22">⚙️</text>
+<text class="fg-tb fg-xs fg-c" x="190" y="100">CloudFormation</text>
+<text class="fg-m fg-xs fg-c" x="190" y="116">будує стеки</text>
+<rect class="fg-cmp" x="268" y="8" width="126" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="276" y="26">🧪 стек dev</text>
+<text x="276" y="44" font-size="12">🌐 ⚖️ 🖥️ 🗄️</text>
+<line class="fg-la" x1="243" y1="87" x2="264" y2="30" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="268" y="60" width="126" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="276" y="78">🔬 стек test</text>
+<text x="276" y="96" font-size="12">🌐 ⚖️ 🖥️ 🗄️</text>
+<line class="fg-la" x1="243" y1="87" x2="264" y2="82" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="268" y="112" width="126" height="44" rx="8"/>
+<text class="fg-tb fg-xs" x="276" y="130">🏪 стек prod</text>
+<text x="276" y="148" font-size="12">🌐 ⚖️ 🖥️ 🗄️</text>
+<line class="fg-la" x1="243" y1="87" x2="264" y2="134" marker-end="url(#aha)"/>
+<text class="fg-t fg-xs" x="6" y="186">🔍 change set — попередній перегляд змін</text>
+<text class="fg-t fg-xs" x="6" y="204">🧭 drift detection — що змінили руками</text>
+<text class="fg-t fg-xs" x="6" y="222">🌍 StackSets — одразу в багатьох акаунтах і регіонах</text>
+</svg>

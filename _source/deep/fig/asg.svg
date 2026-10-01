@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 268" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="130" y="6" width="140" height="36" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="29">⚖️ балансувальник ALB</text>
+<rect class="fg-bgb" x="6" y="56" width="388" height="166" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="214">Auto Scaling group: min 2 · desired 3 · max 10</text>
+<rect class="fg-box" x="16" y="70" width="178" height="120" rx="10"/>
+<text class="fg-tb fg-xs" x="26" y="90">AZ a</text>
+<rect class="fg-box" x="206" y="70" width="178" height="120" rx="10"/>
+<text class="fg-tb fg-xs" x="216" y="90">AZ b</text>
+<text class="fg-c" x="80" y="146" font-size="22">🖥️</text>
+<text class="fg-c" x="130" y="146" font-size="22">🖥️</text>
+<text class="fg-tok fg-xs fg-c" x="105" y="178">здорові</text>
+<text class="fg-c" x="250" y="146" font-size="22">🖥️</text>
+<text class="fg-tbad fg-tb fg-c" x="250" y="118">✗</text>
+<line class="fg-lok" x1="274" y1="138" x2="304" y2="138" marker-end="url(#ahok)"/>
+<text class="fg-c" x="330" y="146" font-size="22">🆕</text>
+<text class="fg-t fg-xs fg-c" x="290" y="178">хворий → заміна</text>
+<line class="fg-la" x1="170" y1="44" x2="110" y2="68" marker-end="url(#aha)"/>
+<line class="fg-la" x1="230" y1="44" x2="290" y2="68" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="6" y="242">шаблон запуску: AMI, тип, SG, роль, user data</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="260">увімкни ELB health checks — інакше завислий застосунок не помітять</text>
+</svg>

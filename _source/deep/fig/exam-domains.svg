@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 192" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">Чотири домени іспиту — чотири побажання замовника</text>
+<rect class="fg-sec" x="6.0" y="28" width="113.4" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="62.7" y="53">🔐 30%</text>
+<rect class="fg-ok" x="122.4" y="28" width="97.9" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="171.3" y="53">🛟 26%</text>
+<rect class="fg-net" x="223.3" y="28" width="90.1" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="268.3" y="53">⚡ 24%</text>
+<rect class="fg-warn" x="316.4" y="28" width="74.6" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="353.7" y="53">💰 20%</text>
+<rect class="fg-sec" x="6" y="84" width="16" height="16" rx="4"/>
+<text class="fg-t fg-xs" x="30" y="96">🔐 Design Secure Architectures — <tspan class="fg-tb">«щоб не зламали»</tspan></text>
+<rect class="fg-ok" x="6" y="110" width="16" height="16" rx="4"/>
+<text class="fg-t fg-xs" x="30" y="122">🛟 Design Resilient Architectures — <tspan class="fg-tb">«щоб не падало»</tspan></text>
+<rect class="fg-net" x="6" y="136" width="16" height="16" rx="4"/>
+<text class="fg-t fg-xs" x="30" y="148">⚡ Design High-Performing Architectures — <tspan class="fg-tb">«щоб швидко»</tspan></text>
+<rect class="fg-warn" x="6" y="162" width="16" height="16" rx="4"/>
+<text class="fg-t fg-xs" x="30" y="174">💰 Design Cost-Optimized Architectures — <tspan class="fg-tb">«щоб недорого»</tspan></text>
+</svg>

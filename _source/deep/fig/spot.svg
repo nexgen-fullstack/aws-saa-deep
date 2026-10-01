@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 218" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="6" y="30" width="388" height="60" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="50">вільні потужності AWS зараз</text>
+<rect class="fg-ok" x="16" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="52" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="88" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="124" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="160" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="196" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-ok" x="232" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-bgb" x="268" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-bgb" x="304" y="58" width="30" height="24" rx="4"/>
+<rect class="fg-bgb" x="340" y="58" width="30" height="24" rx="4"/>
+<text class="fg-tok fg-xs fg-tb" x="16" y="22">твої Spot-сервери (до −90%)</text>
+<line class="fg-lbad" x1="200" y1="92" x2="200" y2="118" marker-end="url(#ahbad)"/>
+<rect class="fg-bad" x="60" y="122" width="280" height="44" rx="10"/>
+<text class="fg-tbad fg-tb fg-xs fg-c" x="200" y="140">⏰ «Місце потрібне іншим — у тебе 2 хвилини»</text>
+<text class="fg-t fg-xs fg-c" x="200" y="158">сервер заберуть; задачу треба вміти продовжити</text>
+<text class="fg-tok fg-xs" x="6" y="192">✓ batch, звіти, рендеринг, CI/CD, stateless-вебсервери</text>
+<text class="fg-tbad fg-xs" x="6" y="210">✗ основна база, довгі задачі без збережень</text>
+</svg>

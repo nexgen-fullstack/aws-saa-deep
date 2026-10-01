@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 274" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="16">Скільки коштує переміщення даних</text>
+<rect class="fg-ok" x="6" y="28" width="56" height="24" rx="6"/>
+<text class="fg-tok fg-tb fg-xs fg-c" x="34" y="44">0 $</text>
+<text class="fg-t fg-xs" x="72" y="44">📥 з інтернету в AWS</text>
+<rect class="fg-ok" x="6" y="58" width="56" height="24" rx="6"/>
+<text class="fg-tok fg-tb fg-xs fg-c" x="34" y="74">0 $</text>
+<text class="fg-t fg-xs" x="72" y="74">🏠 у межах однієї AZ (приватні IP)</text>
+<rect class="fg-ok" x="6" y="88" width="56" height="24" rx="6"/>
+<text class="fg-tok fg-tb fg-xs fg-c" x="34" y="104">0 $</text>
+<text class="fg-t fg-xs" x="72" y="104">🛣️ до S3 і DynamoDB через gateway endpoint</text>
+<rect class="fg-warn" x="6" y="118" width="56" height="24" rx="6"/>
+<text class="fg-twarn fg-tb fg-xs fg-c" x="34" y="134">$</text>
+<text class="fg-t fg-xs" x="72" y="134">🌉 між AZ — навіть в одній VPC</text>
+<rect class="fg-warn" x="6" y="148" width="56" height="24" rx="6"/>
+<text class="fg-twarn fg-tb fg-xs fg-c" x="34" y="164">$</text>
+<text class="fg-t fg-xs" x="72" y="164">✈️ між регіонами</text>
+<rect class="fg-bad" x="6" y="178" width="56" height="24" rx="6"/>
+<text class="fg-tbad fg-tb fg-xs fg-c" x="34" y="194">$ + $</text>
+<text class="fg-t fg-xs" x="72" y="194">🚪 через NAT Gateway: години + кожен ГБ</text>
+<rect class="fg-bad" x="6" y="208" width="56" height="24" rx="6"/>
+<text class="fg-tbad fg-tb fg-xs fg-c" x="34" y="224">$$</text>
+<text class="fg-t fg-xs" x="72" y="224">📤 з AWS в інтернет — найдорожче</text>
+<text class="fg-tacc fg-xs" x="6" y="250">💡 віддавати назовні дешевше через CloudFront,</text>
+<text class="fg-tacc fg-xs" x="6" y="266">а великі постійні обсяги — через Direct Connect</text>
+</svg>

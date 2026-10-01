@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 244" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-lt" x1="30" y1="200" x2="384" y2="200"/>
+<rect class="fg-ok" x="30" y="156" width="350" height="44"/>
+<text class="fg-tok fg-xs fg-tb" x="40" y="182">база 24/7 → Savings Plans</text>
+<polyline class="fg-la" points="30,156 45,156 60,156 76,156 91,156 106,156 121,134 137,112 152,112 167,112 182,112 197,90 213,90 228,112 243,112 258,112 273,90 289,68 304,46 319,46 334,68 350,112 365,134 380,156"/>
+<text class="fg-tacc fg-xs fg-tb" x="250" y="30">піки → On-Demand</text>
+<text class="fg-tacc fg-xs" x="250" y="44">(автомасштабування)</text>
+<rect class="fg-accs" x="30" y="92" width="80" height="20" rx="4"/>
+<text class="fg-tacc fg-xs fg-tb" x="36" y="106">🌙 звіти → Spot</text>
+<text class="fg-m fg-xs" x="30" y="216">00:00</text><text class="fg-m fg-xs fg-c" x="200" y="216">12:00</text><text class="fg-m fg-xs fg-r" x="384" y="216">24:00</text>
+<text class="fg-m fg-xs fg-c" x="200" y="236">кількість серверів «Хмаринки» за добу</text>
+</svg>

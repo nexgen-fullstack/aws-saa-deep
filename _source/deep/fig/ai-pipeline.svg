@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 190" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-story" x="6" y="10" width="86" height="90" rx="12"/>
+<text class="fg-c" x="49" y="44" font-size="22">📞</text>
+<text class="fg-tb fg-xs fg-c" x="49" y="70">запис дзвінка</text>
+<text class="fg-m fg-xs fg-c" x="49" y="88"></text>
+<line class="fg-la" x1="93" y1="55" x2="103" y2="55" marker-end="url(#aha)"/>
+<rect class="fg-accs" x="105" y="10" width="86" height="90" rx="12"/>
+<text class="fg-c" x="148" y="44" font-size="22">👂</text>
+<text class="fg-tb fg-xs fg-c" x="148" y="70">Transcribe</text>
+<text class="fg-m fg-xs fg-c" x="148" y="88">мова → текст</text>
+<line class="fg-la" x1="192" y1="55" x2="202" y2="55" marker-end="url(#aha)"/>
+<rect class="fg-sto" x="204" y="10" width="86" height="90" rx="12"/>
+<text class="fg-c" x="247" y="44" font-size="22">🌍</text>
+<text class="fg-tb fg-xs fg-c" x="247" y="70">Translate</text>
+<text class="fg-m fg-xs fg-c" x="247" y="88">переклад</text>
+<line class="fg-la" x1="291" y1="55" x2="301" y2="55" marker-end="url(#aha)"/>
+<rect class="fg-ok" x="303" y="10" width="86" height="90" rx="12"/>
+<text class="fg-c" x="346" y="44" font-size="22">🗣️</text>
+<text class="fg-tb fg-xs fg-c" x="346" y="70">Polly</text>
+<text class="fg-m fg-xs fg-c" x="346" y="88">текст → голос</text>
+<path class="fg-la fg-dash" d="M148 102 C 148 130 160 136 190 136" marker-end="url(#aha)"/>
+<rect class="fg-int" x="194" y="118" width="120" height="40" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="254" y="136">💭 Comprehend</text>
+<text class="fg-m fg-xs fg-c" x="254" y="151">сердитий чи радий?</text>
+<text class="fg-m fg-xs fg-c" x="200" y="182">органи чуття легко з'єднувати в ланцюжки</text>
+</svg>

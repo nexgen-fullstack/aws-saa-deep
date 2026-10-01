@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-sto" x="6" y="6" width="388" height="42" rx="10"/>
+<text x="16" y="34" font-size="18">🐧</text>
+<text class="fg-tb fg-xs" x="46" y="24">EFS</text>
+<text class="fg-t fg-xs" x="46" y="40">Linux · NFS · кілька AZ · росте сама</text>
+<text class="fg-m fg-xs fg-r" x="384" y="32">«спільна шафа рецептів»</text>
+<rect class="fg-net" x="6" y="54" width="388" height="42" rx="10"/>
+<text x="16" y="82" font-size="18">🪟</text>
+<text class="fg-tb fg-xs" x="46" y="72">FSx for Windows</text>
+<text class="fg-t fg-xs" x="46" y="88">SMB · NTFS · Active Directory</text>
+<text class="fg-m fg-xs fg-r" x="384" y="80">«папки бухгалтерії»</text>
+<rect class="fg-cmp" x="6" y="102" width="388" height="42" rx="10"/>
+<text x="16" y="130" font-size="18">🏎️</text>
+<text class="fg-tb fg-xs" x="46" y="120">FSx for Lustre</text>
+<text class="fg-t fg-xs" x="46" y="136">HPC, ML · сотні GB/s · дані з S3</text>
+<text class="fg-m fg-xs fg-r" x="384" y="128">«болід Формули-1»</text>
+<rect class="fg-warn" x="6" y="150" width="388" height="42" rx="10"/>
+<text x="16" y="178" font-size="18">🔧</text>
+<text class="fg-tb fg-xs" x="46" y="168">FSx for NetApp ONTAP</text>
+<text class="fg-t fg-xs" x="46" y="184">NFS + SMB + iSCSI разом</text>
+<text class="fg-m fg-xs fg-r" x="384" y="176">«швейцарський ніж»</text>
+<rect class="fg-bgb" x="6" y="198" width="388" height="42" rx="10"/>
+<text x="16" y="226" font-size="18">🗂️</text>
+<text class="fg-tb fg-xs" x="46" y="216">FSx for OpenZFS</text>
+<text class="fg-t fg-xs" x="46" y="232">переїзд з ZFS</text>
+<text class="fg-m fg-xs fg-r" x="384" y="224">«рідна для ZFS»</text>
+</svg>

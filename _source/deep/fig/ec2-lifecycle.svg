@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="10" y="20" width="104" height="40" rx="20"/>
+<text class="fg-tb fg-xs fg-c" x="62" y="44">pending</text>
+<rect class="fg-ok" x="148" y="20" width="104" height="40" rx="20"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="44">running</text>
+<rect class="fg-warn" x="148" y="130" width="104" height="40" rx="20"/>
+<text class="fg-tb fg-xs fg-c" x="200" y="154">stopped</text>
+<rect class="fg-bad" x="286" y="130" width="104" height="40" rx="20"/>
+<text class="fg-tb fg-xs fg-c" x="338" y="154">terminated</text>
+<line class="fg-la" x1="116" y1="40" x2="144" y2="40" marker-end="url(#aha)"/>
+<path class="fg-la" d="M188 62 C 180 90 180 110 188 128" marker-end="url(#aha)"/>
+<path class="fg-la" d="M212 128 C 220 110 220 90 212 62" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs" x="120" y="100">stop</text>
+<text class="fg-m fg-xs" x="226" y="100">start</text>
+<line class="fg-lbad" x1="254" y1="150" x2="282" y2="150" marker-end="url(#ahbad)"/>
+<path class="fg-lbad" d="M254 40 C 320 40 338 80 338 126" marker-end="url(#ahbad)"/>
+<text class="fg-tbad fg-xs" x="300" y="70">terminate</text>
+<text class="fg-tok fg-xs fg-tb" x="260" y="30">💲 обчислення</text>
+<text class="fg-twarn fg-xs fg-tb" x="60" y="190">💲 лише диски EBS і Elastic IP</text>
+<text class="fg-twarn fg-xs" x="60" y="206">публічна IP після start — нова</text>
+<text class="fg-tbad fg-xs fg-c" x="338" y="190">видалено назавжди</text>
+<text class="fg-m fg-xs fg-c" x="200" y="232">reboot — усе лишається; hibernate — «сон» з пам'яттю на диску</text>
+</svg>

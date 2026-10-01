@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="18">Погано: ключ = сьогоднішня дата</text>
+<rect class="fg-bgb" x="20" y="30" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="58" y="54">каса 1</text>
+<text class="fg-xs fg-c fg-m" x="58" y="72">простій</text>
+<rect class="fg-bad" x="112" y="30" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="150" y="54">каса 2</text>
+<text class="fg-xs fg-c fg-tbad fg-tb" x="150" y="72">🔥 перегрів</text>
+<rect class="fg-bgb" x="204" y="30" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="242" y="54">каса 3</text>
+<text class="fg-xs fg-c fg-m" x="242" y="72">простій</text>
+<rect class="fg-bgb" x="296" y="30" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="334" y="54">каса 4</text>
+<text class="fg-xs fg-c fg-m" x="334" y="72">простій</text>
+<text class="fg-c" x="150" y="108" font-size="14">🙋🙋🙋🙋🙋🙋🙋🙋</text>
+<line class="fg-lbad" x1="150" y1="96" x2="150" y2="90" marker-end="url(#ahbad)"/>
+<text class="fg-tb fg-xs" x="6" y="140">Добре: ключ = userId (тисячі різних значень)</text>
+<rect class="fg-ok" x="20" y="152" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="58" y="176">каса 1</text>
+<text class="fg-xs fg-c fg-tok" x="58" y="194">🙋🙋</text>
+<rect class="fg-ok" x="112" y="152" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="150" y="176">каса 2</text>
+<text class="fg-xs fg-c fg-tok" x="150" y="194">🙋🙋</text>
+<rect class="fg-ok" x="204" y="152" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="242" y="176">каса 3</text>
+<text class="fg-xs fg-c fg-tok" x="242" y="194">🙋🙋</text>
+<rect class="fg-ok" x="296" y="152" width="76" height="56" rx="8"/>
+<text class="fg-xs fg-c fg-tb" x="334" y="176">каса 4</text>
+<text class="fg-xs fg-c fg-tok" x="334" y="194">🙋🙋</text>
+<text class="fg-m fg-xs fg-c" x="200" y="232">навантаження розподіляється між розділами — без throttling</text>
+</svg>

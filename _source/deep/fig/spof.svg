@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tbad fg-tb fg-xs" x="6" y="16">❌ Є єдина точка відмови</text>
+<rect class="fg-box" x="6" y="28" width="74" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="43" y="53">👥 клієнти</text>
+<line class="fg-la" x1="81" y1="48" x2="104" y2="48" marker-end="url(#aha)"/>
+<rect class="fg-bad" x="108" y="28" width="130" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="173" y="53">🖥️ один сервер 💥</text>
+<line class="fg-lbad" x1="239" y1="48" x2="262" y2="48" marker-end="url(#ahbad)"/>
+<rect class="fg-bad" x="266" y="28" width="128" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="330" y="53">🗄️ одна база</text>
+<text class="fg-tbad fg-xs" x="6" y="88">зламалося одне — стоїть усе</text>
+<line class="fg-lt fg-dash" x1="6" y1="102" x2="394" y2="102"/>
+<text class="fg-tok fg-tb fg-xs" x="6" y="122">✅ Без єдиної точки відмови</text>
+<rect class="fg-box" x="6" y="148" width="74" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="43" y="173">👥 клієнти</text>
+<line class="fg-la" x1="81" y1="168" x2="96" y2="168" marker-end="url(#aha)"/>
+<rect class="fg-net" x="100" y="148" width="66" height="40" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="133" y="173">⚖️ ALB</text>
+<line class="fg-la" x1="167" y1="168" x2="182" y2="148" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="186" y="132" width="108" height="32" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="240" y="153">🖥️ сервер · AZ a</text>
+<line class="fg-la" x1="295" y1="148" x2="306" y2="148" marker-end="url(#aha)"/>
+<rect class="fg-db" x="310" y="132" width="84" height="32" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="352" y="153">🗄️ основна</text>
+<line class="fg-la" x1="167" y1="168" x2="182" y2="188" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="186" y="172" width="108" height="32" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="240" y="193">🖥️ сервер · AZ b</text>
+<line class="fg-la" x1="295" y1="188" x2="306" y2="188" marker-end="url(#aha)"/>
+<rect class="fg-db" x="310" y="172" width="84" height="32" rx="8"/>
+<text class="fg-tb fg-xs fg-c" x="352" y="193">🗄️ дублер</text>
+<text class="fg-tok fg-xs" x="6" y="224">зламалося одне — працює друге</text>
+</svg>

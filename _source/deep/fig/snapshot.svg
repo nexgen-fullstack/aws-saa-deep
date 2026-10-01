@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="250" height="150" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="26">Регіон eu-central-1</text>
+<rect class="fg-box" x="16" y="36" width="110" height="110" rx="10"/>
+<text class="fg-tb fg-xs" x="26" y="54">AZ a</text>
+<text class="fg-c" x="71" y="92" font-size="22">🖥️💽</text>
+<text class="fg-xs fg-c fg-t" x="71" y="116">диск EBS</text>
+<rect class="fg-box" x="136" y="36" width="110" height="110" rx="10"/>
+<text class="fg-tb fg-xs" x="146" y="54">AZ b</text>
+<text class="fg-c" x="191" y="92" font-size="22">💽🆕</text>
+<text class="fg-xs fg-c fg-t" x="191" y="116">новий диск</text>
+<text class="fg-xs fg-c fg-m" x="191" y="132">зі знімка</text>
+<rect class="fg-sto" x="60" y="176" width="150" height="56" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="135" y="198">📸 знімок у S3</text>
+<text class="fg-m fg-xs fg-c" x="135" y="216">лише змінені блоки</text>
+<line class="fg-la" x1="71" y1="148" x2="100" y2="172" marker-end="url(#aha)"/>
+<line class="fg-lok" x1="170" y1="172" x2="191" y2="148" marker-end="url(#ahok)"/>
+<rect class="fg-net" x="280" y="60" width="114" height="100" rx="12"/>
+<text class="fg-tb fg-xs fg-c" x="337" y="82">інший регіон</text>
+<text class="fg-c" x="337" y="118" font-size="20">📸</text>
+<text class="fg-m fg-xs fg-c" x="337" y="142">копія для DR</text>
+<path class="fg-la fg-dash" d="M212 204 C 300 204 330 190 337 164" marker-end="url(#aha)"/>
+<text class="fg-m fg-xs fg-c" x="200" y="252">перенести в іншу AZ: знімок → новий диск · в інший регіон: копія знімка</text>
+</svg>

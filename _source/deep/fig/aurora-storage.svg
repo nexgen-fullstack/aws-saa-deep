@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 252" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-cmp" x="30" y="10" width="95" height="60" rx="10"/>
+<text class="fg-c" x="77" y="38" font-size="18">🖥️✍️</text>
+<text class="fg-tb fg-xs fg-c" x="77" y="60">writer</text>
+<line class="fg-l" x1="77" y1="72" x2="77" y2="96" marker-end="url(#ah)"/>
+<rect class="fg-accs" x="155" y="10" width="95" height="60" rx="10"/>
+<text class="fg-c" x="202" y="38" font-size="18">🖥️📖</text>
+<text class="fg-tb fg-xs fg-c" x="202" y="60">репліка</text>
+<line class="fg-l" x1="202" y1="72" x2="202" y2="96" marker-end="url(#ah)"/>
+<rect class="fg-accs" x="280" y="10" width="95" height="60" rx="10"/>
+<text class="fg-c" x="327" y="38" font-size="18">🖥️📖</text>
+<text class="fg-tb fg-xs fg-c" x="327" y="60">репліка</text>
+<line class="fg-l" x1="327" y1="72" x2="327" y2="96" marker-end="url(#ah)"/>
+<rect class="fg-sto" x="6" y="100" width="388" height="122" rx="14"/>
+<text class="fg-tb fg-xs" x="16" y="120">спільне розумне сховище · росте до 256 TiB · самовідновлюється</text>
+<rect class="fg-box" x="18" y="130" width="114" height="80" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="75" y="150">AZ a</text>
+<text class="fg-c" x="75" y="186" font-size="22">📦📦</text>
+<rect class="fg-box" x="144" y="130" width="114" height="80" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="201" y="150">AZ b</text>
+<text class="fg-c" x="201" y="186" font-size="22">📦📦</text>
+<rect class="fg-box" x="270" y="130" width="114" height="80" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="327" y="150">AZ c</text>
+<text class="fg-c" x="327" y="186" font-size="22">📦📦</text>
+<text class="fg-m fg-xs fg-c" x="200" y="244">6 копій: витримує втрату 2 копій без зупинки запису, 3 — без зупинки читання</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 242" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-db" x="140" y="10" width="120" height="80" rx="12"/>
+<text class="fg-c" x="200" y="40" font-size="22">🛢️</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="62">основна</text>
+<text class="fg-m fg-xs fg-c" x="200" y="78">запис</text>
+<rect class="fg-accs" x="10" y="140" width="112" height="70" rx="10"/>
+<text class="fg-c" x="66" y="168" font-size="18">🛢️🙋</text>
+<text class="fg-tb fg-xs fg-c" x="66" y="188">репліка AZ b</text>
+<text class="fg-m fg-xs fg-c" x="66" y="202">читання</text>
+<line class="fg-l fg-dash" x1="200" y1="92" x2="66" y2="136" marker-end="url(#ah)"/>
+<rect class="fg-accs" x="144" y="140" width="112" height="70" rx="10"/>
+<text class="fg-c" x="200" y="168" font-size="18">🛢️🙋</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="188">репліка AZ c</text>
+<text class="fg-m fg-xs fg-c" x="200" y="202">читання</text>
+<line class="fg-l fg-dash" x1="200" y1="92" x2="200" y2="136" marker-end="url(#ah)"/>
+<rect class="fg-accs" x="278" y="140" width="112" height="70" rx="10"/>
+<text class="fg-c" x="334" y="168" font-size="18">🛢️🙋</text>
+<text class="fg-tb fg-xs fg-c" x="334" y="188">репліка</text>
+<text class="fg-m fg-xs fg-c" x="334" y="202">інший регіон</text>
+<line class="fg-l fg-dash" x1="200" y1="92" x2="334" y2="136" marker-end="url(#ah)"/>
+<text class="fg-m fg-xs fg-c" x="290" y="112">асинхронно, з відставанням</text>
+<text class="fg-t fg-xs" x="6" y="234">📊 звіти й читання — на репліки; до 15 реплік; promote — для DR</text>
+</svg>

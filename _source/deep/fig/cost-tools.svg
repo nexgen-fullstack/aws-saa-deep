@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 244" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs fg-c" x="68" y="16">📐 до запуску</text>
+<text class="fg-tb fg-xs fg-c" x="200" y="16">⏰ щодня</text>
+<text class="fg-tb fg-xs fg-c" x="332" y="16">🔎 після</text>
+<rect class="fg-accs" x="6" y="28" width="124" height="64" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="47">🧮 Pricing</text>
+<text class="fg-tb fg-xs" x="16" y="62">Calculator</text>
+<text class="fg-m fg-xs" x="16" y="77">кошторис наперед</text>
+<rect class="fg-warn" x="138" y="28" width="124" height="64" rx="10"/>
+<text class="fg-tb fg-xs" x="148" y="47">⏰ Budgets</text>
+<text class="fg-m fg-xs" x="148" y="62">ліміт із SMS</text>
+<text class="fg-m fg-xs" x="148" y="77">+ Budget Actions</text>
+<rect class="fg-bad" x="138" y="100" width="124" height="64" rx="10"/>
+<text class="fg-tb fg-xs" x="148" y="119">🚨 Anomaly</text>
+<text class="fg-tb fg-xs" x="148" y="134">Detection</text>
+<text class="fg-m fg-xs" x="148" y="149">«дивна покупка»</text>
+<rect class="fg-net" x="270" y="28" width="124" height="64" rx="10"/>
+<text class="fg-tb fg-xs" x="280" y="47">📊 Cost Explorer</text>
+<text class="fg-m fg-xs" x="280" y="62">виписка, графіки,</text>
+<text class="fg-m fg-xs" x="280" y="77">прогноз</text>
+<rect class="fg-sto" x="270" y="100" width="124" height="64" rx="10"/>
+<text class="fg-tb fg-xs" x="280" y="119">🧾 CUR</text>
+<text class="fg-m fg-xs" x="280" y="134">кожен ресурс,</text>
+<text class="fg-m fg-xs" x="280" y="149">кожна година</text>
+<text class="fg-m fg-xs" x="16" y="114">щоб знати ціну</text>
+<text class="fg-m fg-xs" x="16" y="129">ще до першого</text>
+<text class="fg-m fg-xs" x="16" y="144">сервера</text>
+<rect class="fg-story" x="6" y="176" width="388" height="62" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="196">🏷️ Розподіл витрат між відділами й проєктами</text>
+<text class="fg-m fg-xs" x="16" y="213">теги cost allocation (їх треба активувати в Billing)</text>
+<text class="fg-m fg-xs" x="16" y="229">окремі акаунти + consolidated billing в Organizations</text>
+</svg>

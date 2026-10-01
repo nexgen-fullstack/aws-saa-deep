@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-lt" x1="20" y1="80" x2="380" y2="80"/>
+<text class="fg-m fg-xs" x="20" y="102">35 днів тому</text>
+<text class="fg-m fg-xs fg-r" x="380" y="102">зараз</text>
+<circle class="fg-accs" cx="30" cy="80" r="6"/>
+<circle class="fg-accs" cx="76" cy="80" r="6"/>
+<circle class="fg-accs" cx="122" cy="80" r="6"/>
+<circle class="fg-accs" cx="168" cy="80" r="6"/>
+<circle class="fg-accs" cx="214" cy="80" r="6"/>
+<circle class="fg-accs" cx="260" cy="80" r="6"/>
+<circle class="fg-accs" cx="306" cy="80" r="6"/>
+<circle class="fg-accs" cx="352" cy="80" r="6"/>
+<text class="fg-m fg-xs" x="20" y="58">📸 щоденні копії + журнали змін між ними</text>
+<path class="fg-la" d="M330 80 C 330 120 300 130 260 140" marker-end="url(#aha)"/>
+<circle class="fg-bad" cx="330" cy="80" r="8"/>
+<text class="fg-tbad fg-xs fg-tb" x="300" y="44">«10 хв тому все</text>
+<text class="fg-tbad fg-xs fg-tb" x="300" y="58">ще було добре»</text>
+<rect class="fg-ok" x="90" y="130" width="170" height="54" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="175" y="152">🛢️ НОВА база</text>
+<text class="fg-tok fg-xs fg-c" x="175" y="170">нова адреса підключення</text>
+<text class="fg-m fg-xs fg-c" x="200" y="212">point-in-time restore — на будь-яку секунду за 1–35 днів</text>
+</svg>

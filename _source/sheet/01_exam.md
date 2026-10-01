@@ -22,7 +22,7 @@
 - Відкидай неможливе: Deny-правило в Security Group, Gateway endpoint для SQS, WAF на NLB, читання з RDS Multi-AZ standby, EBS-том до інстансу в іншій AZ, Lambda на 2 години.
 - Якщо є керований (managed) сервіс, варіант «напишемо свій скрипт на EC2 / cron» майже завжди неправильний.
 - Два варіанти схожі — шукай одну відмінну деталь: Standard vs FIFO, Gateway vs Interface, User pool vs Identity pool, Compliance vs Governance.
-- Час: ~2 хв на питання. Не впевнений — дай найкращу відповідь, познач *Flag for review* і йди далі. В кінці поверніться до позначених.
+- Час: ~2 хв на питання. Є сумнів — дай найкращу відповідь, познач *Flag for review* і йди далі. В кінці поверніться до позначених.
 - В питаннях можуть бути старі назви: Kinesis Data Firehose = **Amazon Data Firehose**; QuickSight = **Amazon Quick**; Kinesis Data Analytics = **Managed Service for Apache Flink**; SageMaker = **SageMaker AI**; AWS SSO = **IAM Identity Center**; CloudWatch Events = **EventBridge**.
 
 ### Ключові фрази в питаннях

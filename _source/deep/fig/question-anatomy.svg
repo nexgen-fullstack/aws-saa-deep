@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 254" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-bgb" x="6" y="6" width="388" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="24">📖 1. Контекст</text>
+<text class="fg-m fg-xs" x="16" y="39">хто компанія і що вже є; частина деталей — зайва</text>
+<text class="fg-tacc fg-xs" x="16" y="55">A bakery runs its website on one EC2 instance…</text>
+<rect class="fg-warn" x="6" y="68" width="388" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="86">📌 2. Вимоги</text>
+<text class="fg-m fg-xs" x="16" y="101">усе обов'язкове: AZ, піки, RPO/RTO, «без змін коду»</text>
+<text class="fg-tacc fg-xs" x="16" y="117">…must stay available if an Availability Zone fails…</text>
+<rect class="fg-accs" x="6" y="130" width="388" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="148">🎯 3. Критерій — останнє речення</text>
+<text class="fg-m fg-xs" x="16" y="163">за ним обирають між робочими варіантами</text>
+<text class="fg-tacc fg-xs" x="16" y="179">Which solution is the MOST cost-effective?</text>
+<rect class="fg-ok" x="6" y="192" width="388" height="56" rx="10"/>
+<text class="fg-tb fg-xs" x="16" y="210">🔤 4. Варіанти</text>
+<text class="fg-m fg-xs" x="16" y="225">зазвичай два зайві, один «майже», один — точно</text>
+<text class="fg-tacc fg-xs" x="16" y="241">A · B · C · D (або 5+ і «оберіть ДВА»)</text>
+</svg>

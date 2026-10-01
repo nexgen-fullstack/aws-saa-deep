@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 328" xmlns="http://www.w3.org/2000/svg">
+<line class="fg-road" x1="30" y1="22" x2="30" y2="304"/>
+<line class="fg-roadc" x1="30" y1="22" x2="30" y2="304"/>
+<circle class="fg-bad" cx="30" cy="22" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="26">1</text>
+<rect class="fg-bad" x="56" y="4" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="19">🖥️ Один сервер</text>
+<text class="fg-m fg-xs" x="66" y="35">старт: сайт і база на одному EC2</text>
+<circle class="fg-cmp" cx="30" cy="69" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="73">2</text>
+<rect class="fg-cmp" x="56" y="51" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="66">⚖️ Дві зони</text>
+<text class="fg-m fg-xs" x="66" y="82">ALB + Auto Scaling, Multi-AZ база</text>
+<circle class="fg-net" cx="30" cy="116" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="120">3</text>
+<rect class="fg-net" x="56" y="98" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="113">🌍 Швидко всюди</text>
+<text class="fg-m fg-xs" x="66" y="129">S3 + CloudFront, WAF, кеш ElastiCache</text>
+<circle class="fg-int" cx="30" cy="163" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="167">4</text>
+<rect class="fg-int" x="56" y="145" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="160">📮 Розв'язані частини</text>
+<text class="fg-m fg-xs" x="66" y="176">SNS → SQS, Lambda, DynamoDB для кошиків</text>
+<circle class="fg-ana" cx="30" cy="210" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="214">5</text>
+<rect class="fg-ana" x="56" y="192" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="207">📊 Дані й AI</text>
+<text class="fg-m fg-xs" x="66" y="223">Kinesis → S3 → Athena → Quick, Rekognition</text>
+<circle class="fg-sec" cx="30" cy="257" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="261">6</text>
+<rect class="fg-sec" x="56" y="239" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="254">🛡️ Порядок і безпека</text>
+<text class="fg-m fg-xs" x="66" y="270">акаунти, SCP, KMS, CloudTrail, GuardDuty</text>
+<circle class="fg-ok" cx="30" cy="304" r="15"/>
+<text class="fg-tb fg-xs fg-c" x="30" y="308">7</text>
+<rect class="fg-ok" x="56" y="286" width="338" height="38" rx="9"/>
+<text class="fg-tb fg-xs" x="66" y="301">🌐 Два регіони</text>
+<text class="fg-m fg-xs" x="66" y="317">Warm Standby, Aurora Global, Route 53</text>
+</svg>

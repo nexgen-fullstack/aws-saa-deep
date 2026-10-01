@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 248" xmlns="http://www.w3.org/2000/svg">
+<text class="fg-tb fg-xs" x="6" y="18">Таблиця «Замовлення»: partition key = customerId, sort key = orderDate</text>
+<rect class="fg-db" x="6" y="30" width="125" height="170" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="68" y="50">🗄️ шухляда</text>
+<text class="fg-mono fg-c" x="68" y="66">iryna</text>
+<rect class="fg-box" x="14" y="78" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="20" y="97">🃏 торт</text>
+<text class="fg-m fg-c" x="106" y="97" font-size="9">09-01</text>
+<rect class="fg-box" x="14" y="116" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="20" y="135">🃏 круасани</text>
+<text class="fg-m fg-c" x="106" y="135" font-size="9">09-14</text>
+<rect class="fg-box" x="14" y="154" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="20" y="173">🃏 кава</text>
+<text class="fg-m fg-c" x="106" y="173" font-size="9">09-29</text>
+<rect class="fg-db" x="137" y="30" width="125" height="170" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="199" y="50">🗄️ шухляда</text>
+<text class="fg-mono fg-c" x="199" y="66">andriy</text>
+<rect class="fg-box" x="145" y="78" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="151" y="97">🃏 тарт</text>
+<text class="fg-m fg-c" x="237" y="97" font-size="9">08-20</text>
+<rect class="fg-box" x="145" y="116" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="151" y="135">🃏 пиріг</text>
+<text class="fg-m fg-c" x="237" y="135" font-size="9">09-30</text>
+<rect class="fg-db" x="268" y="30" width="125" height="170" rx="10"/>
+<text class="fg-tb fg-xs fg-c" x="330" y="50">🗄️ шухляда</text>
+<text class="fg-mono fg-c" x="330" y="66">marta</text>
+<rect class="fg-box" x="276" y="78" width="109" height="30" rx="6"/>
+<text class="fg-t fg-xs" x="282" y="97">🃏 еклери</text>
+<text class="fg-m fg-c" x="368" y="97" font-size="9">09-02</text>
+<text class="fg-tacc fg-xs fg-tb" x="6" y="222">Query «усі замовлення iryna за датою» — одна шухляда, мілісекунди</text>
+<text class="fg-m fg-xs" x="6" y="240">картки в шухляді впорядковані за sort key (датою)</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-accs" x="80" y="8" width="240" height="42" rx="10"/>
+<text x="92" y="35" font-size="16">💳</text>
+<text class="fg-tb fg-xs" x="118" y="34">перевірити оплату</text>
+<line class="fg-la" x1="200" y1="52" x2="200" y2="64" marker-end="url(#aha)"/>
+<rect class="fg-story" x="80" y="66" width="240" height="42" rx="10"/>
+<text x="92" y="93" font-size="16">👩‍🍳</text>
+<text class="fg-tb fg-xs" x="118" y="92">чекає схвалення кондитера</text>
+<line class="fg-la" x1="200" y1="110" x2="200" y2="122" marker-end="url(#aha)"/>
+<rect class="fg-cmp" x="80" y="124" width="240" height="42" rx="10"/>
+<text x="92" y="151" font-size="16">🔥</text>
+<text class="fg-tb fg-xs" x="118" y="150">випікання</text>
+<line class="fg-la" x1="200" y1="168" x2="200" y2="180" marker-end="url(#aha)"/>
+<rect class="fg-ok" x="80" y="182" width="240" height="42" rx="10"/>
+<text x="92" y="209" font-size="16">🚚</text>
+<text class="fg-tb fg-xs" x="118" y="208">доставка</text>
+<path class="fg-lbad fg-dash" d="M322 28 C 370 28 370 60 330 30" fill="none"/>
+<text class="fg-tbad fg-xs" x="328" y="56">помилка →</text>
+<text class="fg-tbad fg-xs" x="328" y="70">повтор ×3</text>
+<path class="fg-lbad" d="M80 30 C 40 30 36 150 36 194" marker-end="url(#ahbad)"/>
+<rect class="fg-bad" x="4" y="198" width="66" height="30" rx="8"/>
+<text class="fg-tbad fg-xs fg-tb fg-c" x="37" y="218">❌ скасовано</text>
+<text class="fg-tbad fg-xs fg-tb" x="6" y="126">не пройшла →</text>
+<text class="fg-tbad fg-xs fg-tb" x="6" y="140">скасувати</text>
+<text class="fg-m fg-xs fg-c" x="200" y="252">Standard — до року (довгі процеси) · Express — до 5 хв (масово)</text>
+</svg>

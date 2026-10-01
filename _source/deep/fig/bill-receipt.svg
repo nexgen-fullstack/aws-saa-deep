@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg">
+<polygon class="fg-box" points="6,6 196,6 196,222 186,222 176,216 166,222 156,216 146,222 136,216 126,222 116,216 106,222 96,216 86,222 76,216 66,222 56,216 46,222 36,216 26,222 16,216 6,222 6,216"/>
+<text class="fg-tb fg-xs" x="16" y="26">🧾 рахунок за місяць</text>
+<text class="fg-t fg-xs" x="16" y="48">🖥️ сервери — за години</text>
+<text class="fg-t fg-xs" x="16" y="68">λ функції — за мілісекунди</text>
+<text class="fg-t fg-xs" x="16" y="88">💾 диски — ГБ × місяць</text>
+<text class="fg-t fg-xs" x="16" y="108">🪣 S3 — гігабайти й запити</text>
+<text class="fg-t fg-xs" x="16" y="128">🗄️ бази — години + ГБ</text>
+<text class="fg-t fg-xs" x="16" y="148">🌐 трафік назовні — ГБ</text>
+<text class="fg-t fg-xs" x="16" y="168">🚪 NAT — години + ГБ</text>
+<text class="fg-t fg-xs" x="16" y="188">📜 журнали — ГБ</text>
+<line class="fg-lt fg-dash" x1="14" y1="198" x2="188" y2="198"/>
+<text class="fg-tb fg-xs" x="16" y="212">разом: що спожито</text>
+<rect class="fg-warn" x="210" y="6" width="184" height="216" rx="12"/>
+<text class="fg-tb fg-xs" x="220" y="26">👻 тихі витрати</text>
+<text class="fg-m fg-xs" x="220" y="44">платиш, навіть коли</text>
+<text class="fg-m fg-xs" x="220" y="58">ніхто не користується:</text>
+<text class="fg-t fg-xs" x="220" y="82">• зупинений сервер: диски</text>
+<text class="fg-t fg-xs" x="220" y="102">• диск без сервера</text>
+<text class="fg-t fg-xs" x="220" y="122">• старі знімки</text>
+<text class="fg-t fg-xs" x="220" y="142">• NAT Gateway у тестах</text>
+<text class="fg-t fg-xs" x="220" y="162">• журнали «назавжди»</text>
+<text class="fg-t fg-xs" x="220" y="182">• публічні IPv4-адреси</text>
+<text class="fg-t fg-xs" x="220" y="202">• забуті тестові стенди</text>
+</svg>

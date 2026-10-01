@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 234" xmlns="http://www.w3.org/2000/svg">
+<rect class="fg-ok" x="6" y="6" width="388" height="44" rx="10"/>
+<text x="16" y="35" font-size="20">🌡️</text>
+<text class="fg-tb fg-xs" x="50" y="25">Target tracking</text>
+<text class="fg-t fg-xs" x="50" y="42">термостат: тримай CPU ≈ 50%</text>
+<rect class="fg-accs" x="6" y="58" width="388" height="44" rx="10"/>
+<text x="16" y="87" font-size="20">📅</text>
+<text class="fg-tb fg-xs" x="50" y="77">Scheduled</text>
+<text class="fg-t fg-xs" x="50" y="94">розклад: пн о 9:00 — 6 серверів</text>
+<rect class="fg-net" x="6" y="110" width="388" height="44" rx="10"/>
+<text x="16" y="139" font-size="20">🔮</text>
+<text class="fg-tb fg-xs" x="50" y="129">Predictive</text>
+<text class="fg-t fg-xs" x="50" y="146">прогноз за історією циклів</text>
+<rect class="fg-warn" x="6" y="162" width="388" height="44" rx="10"/>
+<text x="16" y="191" font-size="20">🪜</text>
+<text class="fg-tb fg-xs" x="50" y="181">Step scaling</text>
+<text class="fg-t fg-xs" x="50" y="198">більше перевищення — більший крок</text>
+<text class="fg-m fg-xs fg-c" x="200" y="226">воркери черги — за довжиною черги на один сервер</text>
+</svg>
