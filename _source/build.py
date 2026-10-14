@@ -1394,7 +1394,7 @@ JS = r"""
     $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++','Aa+++'][fs]})}
   document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%4;store.set('saa3.fs',fs);applyFs()}});
   /* автопрокрутка */
-  (function(){var speeds=[0.5,1,1.5,2.5,4],names=['×1','×2','×3','×4','×5'];
+  (function(){var speeds=[0.5,0.75,1,1.25,1.5],names=['×1','×1,5','×2','×2,5','×3'];
     var si=store.get('saa3.asSpeed',1); if(!(si>=0&&si<speeds.length)){si=1}
     var play=$('#as-play'),spd=$('#as-speed'),on=false,acc=0,last=0;
     function draw(){play.textContent=on?'⏸':'▶';play.classList.toggle('on',on);spd.textContent=names[si]}
@@ -1928,7 +1928,7 @@ PAGE = """<!DOCTYPE html>
 </div>
 <button class="hint-chip" id="hint-chip" type="button" hidden></button>
 <button class="to-top" id="to-top" type="button" aria-label="Нагору">↑</button>
-<div class="as-box"><button id="as-play" type="button" aria-label="Автопрокрутка: старт або пауза" title="Автопрокрутка">▶</button><button id="as-speed" type="button" aria-label="Швидкість автопрокрутки" title="Швидкість: торкнись, щоб змінити">×2</button></div>
+<div class="as-box"><button id="as-play" type="button" aria-label="Автопрокрутка: старт або пауза" title="Автопрокрутка">▶</button><button id="as-speed" type="button" aria-label="Швидкість автопрокрутки" title="Швидкість: торкнись, щоб змінити">×1,5</button></div>
 <script id="qdata" type="application/json">%%QDATA%%</script>
 <script id="sdata" type="application/json">%%SDATA%%</script>
 <script id="ldata" type="application/json">%%LDATA%%</script>
@@ -2072,7 +2072,7 @@ def build_deep(chapters, lessons, sec_by_num):
             f'<div class="deep-tips"><div>🤖 <b>Підказки.</b> Підкреслене слово — торкнись, і з\'явиться коротке пояснення.</div>'
             f'<div>🖼️ <b>Картинки.</b> Торкнись ілюстрації — вона відкриється на весь екран.</div>'
             f'<div>🧩 <b>Міні-тести.</b> Наприкінці розділу — кілька питань з поясненнями.</div>'
-            f'<div><b>Aa</b> <b>Шрифт.</b> Кнопка «Aa» у розділі збільшує текст (4 розміри).</div><div>▶ <b>Автопрокрутка.</b> Кнопка ▶ внизу ліворуч гортає текст сама, «×2» міняє швидкість (5 швидкостей). Торкнись екрана — пауза.</div></div>'
+            f'<div><b>Aa</b> <b>Шрифт.</b> Кнопка «Aa» у розділі збільшує текст (4 розміри).</div><div>▶ <b>Автопрокрутка.</b> Кнопка ▶ внизу ліворуч гортає текст сама, «×» міняє швидкість: ×1, ×1,5, ×2, ×2,5, ×3. Торкнись екрана — пауза.</div></div>'
             f'{mods}<p class="disclaimer">{DISCLAIMER}</p></div>')
     arts = []
     for i, c in enumerate(chapters):
