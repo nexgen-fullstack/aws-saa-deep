@@ -5655,13 +5655,17 @@ WHERE city = &#x27;Львів&#x27;;</code></pre><p>Читається так: �
   var figO=$('#fig-overlay');
   function openFig(f){var svg=f.querySelector('svg'); if(!svg){return}
     $('#fig-title').textContent=f.dataset.caption||''; var fb=$('#fig-body'); fb.innerHTML=''; fb.appendChild(svg.cloneNode(true));
-    figO.hidden=false; body.classList.add('modal-open'); fb.scrollLeft=0; fb.scrollTop=0}
-  function closeFig(){figO.hidden=true;body.classList.remove('modal-open');$('#fig-body').innerHTML=''}
+    figO.hidden=false; body.classList.add('modal-open'); fb.scrollLeft=0; fb.scrollTop=0;
+    try{history.pushState({fig:1},'')}catch(e){}}
+  function hideFig(){figO.hidden=true;body.classList.remove('modal-open');$('#fig-body').innerHTML=''}
+  /* закриття: «Назад» на телефоні прибирає лише картинку, сторінка лишається тією ж */
+  function closeFig(){if(figO.hidden){return}if(history.state&&history.state.fig){history.back()}else{hideFig()}}
+  window.addEventListener('popstate',function(){if(!figO.hidden){hideFig()}});
   document.addEventListener('click',function(e){
     var f=e.target.closest('figure.dfig'); if(!f||e.target.closest('a,.svc,.fig-card')){return}
     if(window.getSelection&&String(window.getSelection()).trim()){return}
     openFig(f)});
-  figO.addEventListener('click',function(e){if(e.target===figO){closeFig()}});
+  figO.addEventListener('click',function(){closeFig()});
   $('#fig-close').addEventListener('click',closeFig);
   /* галерея ілюстрацій (будується при першому відкритті) */
   var ilBuilt=false;
