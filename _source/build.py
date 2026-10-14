@@ -538,7 +538,7 @@ CSS = r"""
   color-scheme:dark;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;font-size:16px}
+html{-webkit-text-size-adjust:100%;font-size:18px}
 body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.55 "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}
 a{color:var(--accent)}
 [hidden]{display:none!important}
@@ -698,12 +698,18 @@ article.lesson p,article.lesson li{line-height:1.6}
 .deep-tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;margin:0 0 10px}
 .deep-tips div{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 12px;font-size:.9rem;line-height:1.45}
 .deep-card .lq{display:block;font-size:.76rem;color:var(--muted);margin-top:3px}
-article.deep{max-width:780px;margin:0 auto 18px;padding:22px 26px;font-size:1.03rem;scroll-margin-top:120px}
+article.deep{max-width:820px;margin:0 auto 18px;padding:22px 26px;font-size:1.15rem;scroll-margin-top:120px}
 article.deep h1{font-size:clamp(1.4rem,3.2vw,1.9rem);line-height:1.25;margin:.35em 0 .6em;display:flex;gap:10px;align-items:flex-start}
 article.deep p,article.deep li{line-height:1.72}
 article.deep h3{font-size:1.2rem;margin:28px 0 8px}
-body.fs-1 article.deep{font-size:1.12rem}
-body.fs-2 article.deep{font-size:1.22rem}
+body.fs-1 article.deep,body.fs-1 article.lesson,body.fs-1 .page{font-size:1.3rem}
+body.fs-2 article.deep,body.fs-2 article.lesson,body.fs-2 .page{font-size:1.45rem}
+body.fs-3 article.deep,body.fs-3 article.lesson,body.fs-3 .page{font-size:1.65rem}
+.simple{border:2px solid var(--ok);background:var(--ok-bg);border-radius:14px;padding:12px 16px;margin:0 0 18px;line-height:1.7}
+.simple b{display:block;margin-bottom:4px}
+.as-box{position:fixed;left:16px;bottom:16px;z-index:25;display:flex;gap:6px;align-items:center}
+.as-box button{min-width:52px;height:52px;border-radius:26px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit;font-size:1.05rem;font-weight:700;cursor:pointer;box-shadow:var(--shadow);padding:0 12px}
+.as-box button.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .fs-btn{font-weight:700;padding:4px 10px!important}
 .goals{border:1px solid var(--trg-line);background:var(--trg-bg);border-radius:12px;padding:10px 14px 6px;margin:0 0 18px}
 .goals b{display:block;margin-bottom:2px}
@@ -968,7 +974,7 @@ body.modal-open{overflow:hidden}
   .tab .tl-short{display:inline}
   .tab[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
   body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
-  .to-top{bottom:calc(78px + env(safe-area-inset-bottom))}
+  .to-top,.as-box{bottom:calc(78px + env(safe-area-inset-bottom))}
   .hint-chip{bottom:calc(82px + env(safe-area-inset-bottom))}
   section,figure.diagram,article.lesson{scroll-margin-top:110px}
 }
@@ -1015,7 +1021,7 @@ body.modal-open{overflow:hidden}
   p,li{margin:3px 0}
   h3{margin:10px 0 4px}
   h4{margin:9px 0 5px}
-  .topbar,.tabs,.toc,.scrim,.learn-btn,.to-top,.skip,.how,.foot,.progress-line,.seg,.hint-chip,.svc-overlay,.lesson-nav,.lesson-top .back,.progress-card,.quiz-links,.install-card,.ask-overlay,.offline-ok,#learn-summary{display:none!important}
+  .as-box,.topbar,.tabs,.toc,.scrim,.learn-btn,.to-top,.skip,.how,.foot,.progress-line,.seg,.hint-chip,.svc-overlay,.lesson-nav,.lesson-top .back,.progress-card,.quiz-links,.install-card,.ask-overlay,.offline-ok,#learn-summary{display:none!important}
   body.print-lessons article a[href^="#fig-"]::after{content:" (у PDF «Шпаргалка»)";color:var(--muted);font-weight:400}
   .svc{text-decoration:none!important;background:none!important}
   .view{display:none!important}
@@ -1383,10 +1389,25 @@ JS = r"""
     store.set('saa3.lastDeep',id); linkify(art); $$('.dq-set',art).forEach(renderQuizSet); renderDeep();
   }
   /* розмір тексту */
-  var fs=store.get('saa3.fs',0); if([0,1,2].indexOf(fs)<0){fs=0}
-  function applyFs(){body.classList.remove('fs-1','fs-2');if(fs){body.classList.add('fs-'+fs)}
-    $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++'][fs]})}
-  document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%3;store.set('saa3.fs',fs);applyFs()}});
+  var fs=store.get('saa3.fs',1); if([0,1,2,3].indexOf(fs)<0){fs=1}
+  function applyFs(){body.classList.remove('fs-1','fs-2','fs-3');if(fs){body.classList.add('fs-'+fs)}
+    $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++','Aa+++'][fs]})}
+  document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%4;store.set('saa3.fs',fs);applyFs()}});
+  /* автопрокрутка */
+  (function(){var speeds=[0.5,1,1.5,2.5,4],names=['×1','×2','×3','×4','×5'];
+    var si=store.get('saa3.asSpeed',1); if(!(si>=0&&si<speeds.length)){si=1}
+    var play=$('#as-play'),spd=$('#as-speed'),on=false,acc=0,last=0;
+    function draw(){play.textContent=on?'⏸':'▶';play.classList.toggle('on',on);spd.textContent=names[si]}
+    function tick(t){if(!on){return}if(last){acc+=speeds[si]*(t-last)/16.7;var d=Math.floor(acc);if(d){acc-=d;window.scrollBy(0,d);
+        if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-2){on=false;draw();return}}}
+      last=t;requestAnimationFrame(tick)}
+    function start(){on=true;last=0;acc=0;draw();requestAnimationFrame(tick)}
+    function stop(){on=false;draw()}
+    play.addEventListener('click',function(){on?stop():start()});
+    spd.addEventListener('click',function(){si=(si+1)%speeds.length;store.set('saa3.asSpeed',si);draw()});
+    window.addEventListener('touchstart',function(e){if(on&&!e.target.closest('.as-box')){stop()}},{passive:true});
+    window.addEventListener('hashchange',stop);
+    draw()})();
   /* збільшення ілюстрацій */
   var figO=$('#fig-overlay');
   function openFig(f){var svg=f.querySelector('svg'); if(!svg){return}
@@ -1903,6 +1924,7 @@ PAGE = """<!DOCTYPE html>
 </div>
 <button class="hint-chip" id="hint-chip" type="button" hidden></button>
 <button class="to-top" id="to-top" type="button" aria-label="Нагору">↑</button>
+<div class="as-box"><button id="as-play" type="button" aria-label="Автопрокрутка: старт або пауза" title="Автопрокрутка">▶</button><button id="as-speed" type="button" aria-label="Швидкість автопрокрутки" title="Швидкість: торкнись, щоб змінити">×2</button></div>
 <script id="qdata" type="application/json">%%QDATA%%</script>
 <script id="sdata" type="application/json">%%SDATA%%</script>
 <script id="ldata" type="application/json">%%LDATA%%</script>
@@ -2003,6 +2025,10 @@ ROADMAP = [  # (крок, іконка, назва, пояснення, поси
 ]
 
 
+SIMPLE = {k.strip(): v.strip() for k, v in (ln.split("|", 1) for ln in
+          (SRC / "deep" / "simple.txt").read_text(encoding="utf-8").splitlines() if "|" in ln and not ln.startswith("#"))}
+
+
 def build_deep(chapters, lessons, sec_by_num):
     lnum = {l["id"]: (i, l) for i, l in enumerate(lessons, 1)}
     parts, cards = [], {}
@@ -2042,12 +2068,14 @@ def build_deep(chapters, lessons, sec_by_num):
             f'<div class="deep-tips"><div>🤖 <b>Підказки.</b> Підкреслене слово — торкнись, і з\'явиться коротке пояснення.</div>'
             f'<div>🖼️ <b>Картинки.</b> Торкнись ілюстрації — вона відкриється на весь екран.</div>'
             f'<div>🧩 <b>Міні-тести.</b> Наприкінці розділу — кілька питань з поясненнями.</div>'
-            f'<div><b>Aa</b> <b>Шрифт.</b> Кнопка «Aa» у розділі збільшує текст.</div></div>'
+            f'<div><b>Aa</b> <b>Шрифт.</b> Кнопка «Aa» у розділі збільшує текст (4 розміри).</div><div>▶ <b>Автопрокрутка.</b> Кнопка ▶ внизу ліворуч гортає текст сама, «×2» міняє швидкість (5 швидкостей). Торкнись екрана — пауза.</div></div>'
             f'{mods}<p class="disclaimer">{DISCLAIMER}</p></div>')
     arts = []
     for i, c in enumerate(chapters):
         prev_c = chapters[i - 1] if i > 0 else None
         next_c = chapters[i + 1] if i + 1 < len(chapters) else None
+        simple = SIMPLE.get(c["id"], "")
+        simple = f'<div class="simple"><b>🧒 Простими словами</b>{inline(simple)}</div>' if simple else ""
         goals = ("<div class=\"goals\"><b>🎯 Що ти дізнаєшся</b><ul>" + "".join(f"<li>{inline(g)}</li>" for g in c["goals"]) + "</ul></div>"
                  if c["goals"] else "")
         nxt = ""
@@ -2074,7 +2102,7 @@ def build_deep(chapters, lessons, sec_by_num):
             f'<div class="lesson-top"><a class="back" href="#deep">← Усі розділи</a>'
             f'<span class="meta">Частина {part_no[c["part"]]} · розділ {i + 1} з {len(chapters)} · ⏱ {c["minutes"]} хв</span>'
             f'<button class="tb-btn fs-btn" type="button" title="Розмір тексту" aria-label="Розмір тексту">Aa</button></div>'
-            f'<h1><span class="le">{c["emoji"]}</span><span>{inline(c["title"])}</span></h1>{goals}{c["html"]}{nxt}{nav}</article>')
+            f'<h1><span class="le">{c["emoji"]}</span><span>{inline(c["title"])}</span></h1>{simple}{goals}{c["html"]}{nxt}{nav}</article>')
     toc = "".join(f'<li><a href="#deep-{c["id"]}"><span class="n">{i}</span><span>{c["emoji"]} {inline(c["title"])}</span></a></li>'
                   for i, c in enumerate(chapters, 1))
     print_block = (f'<div class="print-deep-only"><header class="hero"><h1>🧠 AWS SAA-C03 з абсолютного нуля — підручник</h1>'
