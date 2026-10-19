@@ -18,7 +18,8 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
   if (req.mode === 'navigate') {
-    e.respondWith(fetch(req).then(res => {
+    // no-cache: браузер перепитує сервер, тож оновлення книжки видно одразу, а не через 10 хвилин
+    e.respondWith(fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' }).then(res => {
       const copy = res.clone();
       caches.open(CACHE).then(c => c.put('./index.html', copy).then(() => refill(c)));
       return res;
