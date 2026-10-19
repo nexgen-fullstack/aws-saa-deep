@@ -1,6 +1,6 @@
 // Офлайн-режим: сторінка — спершу з мережі (щоб бачити оновлення), без мережі — з кешу.
 const PREFIX = 'saa3-';
-const CACHE = PREFIX + 'b6513c5bcc';
+const CACHE = PREFIX + 'b5982112a8';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 // інші сайти на цьому ж домені можуть стерти наш кеш — тому при кожному відкритті онлайн докладаємо відсутнє
 const refill = c => Promise.all(CORE.map(u => c.match(u).then(hit => hit || c.add(u).catch(() => null))));

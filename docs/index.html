@@ -5512,6 +5512,19 @@ WHERE city = &#x27;Львів&#x27;;</code></pre><p>Читається так: �
     if(e.target.closest('a[href^="#learn/"],a[href^="#deep/"]')){closeCard()}
   });
   $('#svc-close').addEventListener('click',closeCard);
+  /* свайп пальцем справа наліво — закрити картку і повернутися до теми */
+  (function(){var card=$('.svc-card'),sx=0,sy=0,dx=0,mode=0;
+    function reset(){card.style.transition='transform .2s ease,opacity .2s ease';card.style.transform='';card.style.opacity=''}
+    overlay.addEventListener('touchstart',function(e){if(e.touches.length>1){mode=-1;return}sx=e.touches[0].clientX;sy=e.touches[0].clientY;dx=0;mode=0;card.style.transition='none'},{passive:true});
+    overlay.addEventListener('touchmove',function(e){if(mode<0){return}var x=e.touches[0].clientX-sx,y=e.touches[0].clientY-sy;
+      if(!mode&&(Math.abs(x)>12||Math.abs(y)>12)){mode=(x<0&&Math.abs(x)>Math.abs(y)*1.3)?1:-1}
+      if(mode===1){dx=Math.min(0,x);card.style.transform='translateX('+dx+'px)';card.style.opacity=String(Math.max(.3,1+dx/innerWidth));if(e.cancelable){e.preventDefault()}}},{passive:false});
+    overlay.addEventListener('touchend',function(){if(mode!==1){return}mode=0;
+      if(dx<-Math.min(110,innerWidth*.28)){card.style.transition='transform .18s ease,opacity .18s ease';card.style.transform='translateX(-100%)';card.style.opacity='0';
+        setTimeout(function(){closeCard();card.style.transition='none';card.style.transform='';card.style.opacity=''},180)}
+      else{reset()}},{passive:true});
+    overlay.addEventListener('touchcancel',function(){mode=0;reset()},{passive:true});
+  })();
   document.addEventListener('keydown',function(e){if(e.key!=='Escape'){return}
     if(!$('#ask').hidden){$('#ask-no').click()}else if(!overlay.hidden){closeCard()}else if(!$('#fig-overlay').hidden){closeFig()}});
   document.addEventListener('click',function(e){
@@ -5670,7 +5683,7 @@ WHERE city = &#x27;Львів&#x27;;</code></pre><p>Читається так: �
     function stop(){on=false;paused=false;body.classList.remove('as-on');draw()}
     function noSel(){try{var s=getSelection();if(s&&!s.isCollapsed){s.removeAllRanges()}}catch(e){}}
     function ours(el){return el&&el.closest&&el.closest('input,textarea,select,[contenteditable],.as-box')}
-    function overlayOpen(){return panel.classList.contains('open')||document.querySelector('.fig-overlay.open,.svc-overlay.open,.ask-overlay.open')}
+    function overlayOpen(){return panel.classList.contains('open')||document.querySelector('.fig-overlay:not([hidden]),.svc-overlay:not([hidden]),.ask-overlay:not([hidden])')}
     /* дотики по сторінці */
     window.addEventListener('touchstart',function(e){if(dead){return}
       touching=e.touches.length;
