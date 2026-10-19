@@ -5685,11 +5685,12 @@ WHERE city = &#x27;Львів&#x27;;</code></pre><p>Читається так: �
       if(overlayOpen()){taps=0;return}
       taps=now-lastTap<MULTI+TAP_MAX?taps+1:1;lastTap=now;
       if(taps>=2){taps=0;noSel();setTimeout(noSel,60);setTimeout(noSel,400);
-        if(!on){start()}else{stop()}
+        if(!on){start()}else{stop();swallowUntil=Date.now()+600}
         return}
       if(on&&!paused){pauseUntil=now+TAP_PAUSE}},{passive:true});
     /* поки йде прокрутка — тапи й утримання нічого не відкривають і не виділяють */
-    function block(e){if(on&&!(e.target.closest&&e.target.closest('.as-box'))){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation()}}
+    var swallowUntil=0;
+    function block(e){if((on||Date.now()<swallowUntil)&&!(e.target.closest&&e.target.closest('.as-box'))){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation()}}
     ['click','contextmenu','selectstart','dblclick','auxclick'].forEach(function(n){document.addEventListener(n,block,true)});
     window.addEventListener('touchcancel',function(){touching=0;clearTimeout(twoTimer)},{passive:true});
     /* кнопка */
