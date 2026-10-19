@@ -718,6 +718,7 @@ body.fs-3 article.deep,body.fs-3 article.lesson,body.fs-3 .page{font-size:1.65re
 #as-range{flex:1;accent-color:#7CF5C4}
 #as-val{color:#7CF5C4;font:600 14px system-ui,sans-serif;min-width:48px;text-align:right}
 html{touch-action:manipulation}
+body.as-on,body.as-on *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 .fs-btn{font-weight:700;padding:4px 10px!important}
 .goals{border:1px solid var(--trg-line);background:var(--trg-bg);border-radius:12px;padding:10px 14px 6px;margin:0 0 18px}
 .goals b{display:block;margin-bottom:2px}
@@ -1402,13 +1403,13 @@ JS = r"""
     $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++','Aa+++'][fs]})}
   document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%4;store.set('saa3.fs',fs);applyFs()}});
   /* автопрокрутка — ті самі правила, що в додатку «Автоскрол»:
-     2 тапи будь-де — старт; під час скролу 2 тапи — пауза, ще 2 — далі; 1 тап — пауза 2,5 с;
+     2 тапи будь-де — старт, ще 2 тапи — стоп; 1 тап — пауза 2,5 с; поки йде прокрутка, посилання й виділення не спрацьовують;
      затиснутий палець — скрол стоїть, сторінку можна тягнути; відпустили — їде далі;
      два пальці 1,5 с — вимкнути. Кнопка: 2 тапи — старт/стоп, 1 тап проходить у сторінку під нею,
      утримання — шкала (▲ Вгору, ▼ Вниз, ✕, повзунок), перетягування — перемістити. */
   (function(){
-    var BASE=120,MIN=0.25,MAX=1.75,TAP_MAX=250,MULTI=400,LONG=550,TAP_PAUSE=2500,HOLD_RESUME=150;
-    var sp=+store.get('saa3.as2Speed',1); if(!(sp>=MIN&&sp<=MAX)){sp=1}
+    var BASE=120,MIN=0.10,MAX=1.75,TAP_MAX=250,MULTI=400,LONG=550,TAP_PAUSE=2500,HOLD_RESUME=150;
+    var sp=+store.get('saa3.as3Speed',0.25); if(!(sp>=MIN&&sp<=MAX)){sp=0.25}
     var btn=$('#as-btn'),panel=$('#as-panel'),range=$('#as-range'),val=$('#as-val');
     var on=false,paused=false,down=true,dead=false,touching=0,pauseUntil=0,acc=0,last=0;
     var taps=0,lastTap=0,tStart=0,tx=0,ty=0,moved=false,twoTimer=null;
@@ -1422,8 +1423,8 @@ JS = r"""
           var h=document.documentElement.scrollHeight;
           if(down&&innerHeight+scrollY>=h-2||!down&&scrollY<=0){stop();return}}}
       last=t;requestAnimationFrame(tick)}
-    function start(dir){if(dead){return}if(typeof dir==='boolean'){down=dir}on=true;paused=false;pauseUntil=0;last=0;acc=0;draw();requestAnimationFrame(tick)}
-    function stop(){on=false;paused=false;draw()}
+    function start(dir){if(dead){return}if(typeof dir==='boolean'){down=dir}on=true;body.classList.add('as-on');paused=false;pauseUntil=0;last=0;acc=0;draw();requestAnimationFrame(tick)}
+    function stop(){on=false;paused=false;body.classList.remove('as-on');draw()}
     function noSel(){try{var s=getSelection();if(s&&!s.isCollapsed){s.removeAllRanges()}}catch(e){}}
     function ours(el){return el&&el.closest&&el.closest('input,textarea,select,[contenteditable],.as-box')}
     function overlayOpen(){return panel.classList.contains('open')||document.querySelector('.fig-overlay.open,.svc-overlay.open,.ask-overlay.open')}
@@ -1441,9 +1442,12 @@ JS = r"""
       if(overlayOpen()){taps=0;return}
       taps=now-lastTap<MULTI+TAP_MAX?taps+1:1;lastTap=now;
       if(taps>=2){taps=0;noSel();setTimeout(noSel,60);setTimeout(noSel,400);
-        if(!on){start()}else{paused=!paused;pauseUntil=0;draw()}
+        if(!on){start()}else{stop()}
         return}
       if(on&&!paused){pauseUntil=now+TAP_PAUSE}},{passive:true});
+    /* поки йде прокрутка — тапи й утримання нічого не відкривають і не виділяють */
+    function block(e){if(on&&!(e.target.closest&&e.target.closest('.as-box'))){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation()}}
+    ['click','contextmenu','selectstart','dblclick','auxclick'].forEach(function(n){document.addEventListener(n,block,true)});
     window.addEventListener('touchcancel',function(){touching=0;clearTimeout(twoTimer)},{passive:true});
     /* кнопка */
     var bx=0,by=0,bl=0,bt=0,bMoved=false,bLong=false,lp=null,bTaps=[],flush=null;
@@ -1469,7 +1473,7 @@ JS = r"""
       var top=r.bottom+6; if(top+110>innerHeight){top=Math.max(8,r.top-116)}
       panel.style.top=top+'px';panel.classList.add('open');btn.style.visibility='hidden'}
     function closePanel(){panel.classList.remove('open');btn.style.visibility=''}
-    range.addEventListener('input',function(){sp=Math.round(+range.value*100)/100;val.textContent=fmt(sp);store.set('saa3.as2Speed',sp);draw()});
+    range.addEventListener('input',function(){sp=Math.round(+range.value*100)/100;val.textContent=fmt(sp);store.set('saa3.as3Speed',sp);draw()});
     $('#as-up').addEventListener('click',function(){closePanel();start(false)});
     $('#as-down').addEventListener('click',function(){closePanel();start(true)});
     $('#as-x').addEventListener('click',function(){closePanel();stop();dead=true;btn.style.display='none'});
@@ -1996,7 +2000,7 @@ PAGE = """<!DOCTYPE html>
 </div>
 <button class="hint-chip" id="hint-chip" type="button" hidden></button>
 <button class="to-top" id="to-top" type="button" aria-label="Нагору">↑</button>
-<div class="as-box"><button id="as-btn" type="button" aria-label="Автопрокрутка: 2 тапи — старт або стоп, утримання — шкала">⇅ 1,00×</button><div id="as-panel" role="dialog" aria-label="Автопрокрутка"><div class="as-row"><button id="as-up" type="button">▲ Вгору</button><button id="as-down" type="button">▼ Вниз</button><button id="as-x" type="button" aria-label="Закрити автопрокрутку">✕</button></div><div class="as-row"><input id="as-range" type="range" min="0.25" max="1.75" step="0.01" aria-label="Швидкість"><span id="as-val">1,00×</span></div></div></div>
+<div class="as-box"><button id="as-btn" type="button" aria-label="Автопрокрутка: 2 тапи — старт або стоп, утримання — шкала">⇅ 1,00×</button><div id="as-panel" role="dialog" aria-label="Автопрокрутка"><div class="as-row"><button id="as-up" type="button">▲ Вгору</button><button id="as-down" type="button">▼ Вниз</button><button id="as-x" type="button" aria-label="Закрити автопрокрутку">✕</button></div><div class="as-row"><input id="as-range" type="range" min="0.10" max="1.75" step="0.01" aria-label="Швидкість"><span id="as-val">1,00×</span></div></div></div>
 <script id="qdata" type="application/json">%%QDATA%%</script>
 <script id="sdata" type="application/json">%%SDATA%%</script>
 <script id="ldata" type="application/json">%%LDATA%%</script>
