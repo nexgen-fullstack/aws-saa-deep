@@ -1416,16 +1416,30 @@ JS = r"""
     $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++','Aa+++'][fs]})}
   document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%4;store.set('saa3.fs',fs);applyFs()}});
   /* автопрокрутка — ті самі правила, що в додатку «Автоскрол»:
-     2 тапи будь-де — старт, ще 2 тапи — стоп; 1 тап — пауза 2,5 с; поки йде прокрутка, посилання й виділення не спрацьовують;
-     затиснутий палець — скрол стоїть, сторінку можна тягнути; відпустили — їде далі;
-     два пальці 1,5 с — вимкнути. Кнопка: 2 тапи — старт/стоп, 1 тап проходить у сторінку під нею,
+     3 тапи будь-де — старт, ще 3 тапи — стоп; коло пальцем під час прокрутки — вимкнути повністю (кнопка зникає,
+     3 тапи повертають); 1 тап — пауза 2,5 с; поки йде прокрутка, посилання й виділення не спрацьовують;
+     притримати палець 0,25 с і вести — сторінка тягнеться (швидкий рух одразу — це малювання кола); відпустили — їде далі;
+     два пальці 1,5 с — вимкнути. Кнопка: 3 тапи — старт/стоп, 1–2 тапи проходять у сторінку під нею,
      утримання — шкала (▲ Вгору, ▼ Вниз, ✕, повзунок), перетягування — перемістити. */
   (function(){
-    var BASE=120,MIN=0.10,MAX=1.75,TAP_MAX=250,MULTI=400,LONG=550,TAP_PAUSE=2500,HOLD_RESUME=150;
+    var BASE=120,MIN=0.10,MAX=1.75,TAP_MAX=250,MULTI=400,LONG=550,TAP_PAUSE=2500,HOLD_RESUME=150,TAPS=3,HOLD_DRAG=250;
     var sp=+store.get('saa3.as3Speed',0.25); if(!(sp>=MIN&&sp<=MAX)){sp=0.25}
     var btn=$('#as-btn'),panel=$('#as-panel'),range=$('#as-range'),val=$('#as-val');
     var on=false,paused=false,down=true,dead=false,touching=0,pauseUntil=0,acc=0,last=0;
-    var taps=0,lastTap=0,tStart=0,tx=0,ty=0,moved=false,twoTimer=null;
+    var taps=0,lastTap=0,tStart=0,tx=0,ty=0,moved=false,twoTimer=null,path=[],drag=false,free=false;
+    /* чи схожий шлях пальця на коло: обвів центр ≥ 300°, не сплюснуте, не через центр */
+    function isCircle(pts){if(pts.length<10){return false}
+      var xs=pts.map(function(p){return p[0]}),ys=pts.map(function(p){return p[1]});
+      var x0=Math.min.apply(0,xs),x1=Math.max.apply(0,xs),y0=Math.min.apply(0,ys),y1=Math.max.apply(0,ys),w=x1-x0,h=y1-y0;
+      if(w<60||h<60||w/h>2.5||h/w>2.5){return false}
+      var cx=(x0+x1)/2,cy=(y0+y1)/2,rs=pts.map(function(p){return Math.hypot(p[0]-cx,p[1]-cy)});
+      var avg=rs.reduce(function(a,b){return a+b},0)/rs.length; if(Math.min.apply(0,rs)<avg*.3){return false}
+      var sw=0,prev=Math.atan2(pts[0][1]-cy,pts[0][0]-cx);
+      for(var i=1;i<pts.length;i++){var a=Math.atan2(pts[i][1]-cy,pts[i][0]-cx),da=a-prev;
+        if(da>Math.PI){da-=2*Math.PI}else if(da<-Math.PI){da+=2*Math.PI}sw+=da;prev=a}
+      return Math.abs(sw)>=300*Math.PI/180}
+    function shutdown(){stop();dead=true;btn.style.display='none'}
+    function wake(){dead=false;btn.style.display=''}
     function fmt(v){return v.toFixed(2).replace('.',',')+'×'}
     function draw(){btn.textContent=(on?(paused?'⏸ ':(down?'▼ ':'▲ ')):'⇅ ')+fmt(sp)}
     var pos=store.get('saa3.as2Pos',null);
@@ -1442,21 +1456,28 @@ JS = r"""
     function ours(el){return el&&el.closest&&el.closest('input,textarea,select,[contenteditable],.as-box')}
     function overlayOpen(){return panel.classList.contains('open')||document.querySelector('.fig-overlay:not([hidden]),.svc-overlay:not([hidden]),.ask-overlay:not([hidden])')}
     /* дотики по сторінці */
-    window.addEventListener('touchstart',function(e){if(dead){return}
+    window.addEventListener('touchstart',function(e){
       touching=e.touches.length;
       if(e.touches.length>=2){taps=0;clearTimeout(twoTimer);if(on){twoTimer=setTimeout(stop,1500)}return}
       if(ours(e.target)){return}
-      tStart=Date.now();tx=e.touches[0].clientX;ty=e.touches[0].clientY;moved=false},{passive:true});
-    window.addEventListener('touchmove',function(e){var t=e.touches[0];if(t&&Math.hypot(t.clientX-tx,t.clientY-ty)>10){moved=true}},{passive:true});
-    window.addEventListener('touchend',function(e){touching=e.touches.length;clearTimeout(twoTimer);if(dead||touching){return}
+      tStart=Date.now();tx=e.touches[0].clientX;ty=e.touches[0].clientY;moved=false;drag=false;free=false;path=[[tx,ty]]},{passive:true});
+    window.addEventListener('touchmove',function(e){var t=e.touches[0];if(!t||e.touches.length>1){return}
+      path.push([t.clientX,t.clientY]);
+      if(!moved&&Math.hypot(t.clientX-tx,t.clientY-ty)>10){moved=true;
+        if(Date.now()-tStart>=HOLD_DRAG){drag=true}else{free=true}}
+      /* під час прокрутки швидкий рух — малювання кола, сторінка не їде */
+      if(on&&free&&e.cancelable&&!ours(e.target)){e.preventDefault()}},{passive:false});
+    window.addEventListener('touchend',function(e){touching=e.touches.length;clearTimeout(twoTimer);if(touching){return}
       if(ours(e.target)){return}
       var now=Date.now();
+      if(on&&free&&isCircle(path)){path=[];taps=0;shutdown();swallowUntil=now+600;return}
       if(moved||now-tStart>=TAP_MAX){taps=0;if(on){pauseUntil=now+HOLD_RESUME}return}
       if(overlayOpen()){taps=0;return}
       taps=now-lastTap<MULTI+TAP_MAX?taps+1:1;lastTap=now;
-      if(taps>=2){taps=0;noSel();setTimeout(noSel,60);setTimeout(noSel,400);
-        if(!on){start()}else{stop();swallowUntil=Date.now()+600}
+      if(taps>=TAPS){taps=0;noSel();setTimeout(noSel,60);setTimeout(noSel,400);
+        if(dead){wake();start()}else if(!on){start()}else{stop();swallowUntil=Date.now()+600}
         return}
+      if(dead){return}
       if(on&&!paused){pauseUntil=now+TAP_PAUSE}},{passive:true});
     /* поки йде прокрутка — тапи й утримання нічого не відкривають і не виділяють */
     var swallowUntil=0;
@@ -1475,9 +1496,9 @@ JS = r"""
       if(bMoved){var r=btn.getBoundingClientRect();store.set('saa3.as2Pos',{x:Math.round(r.left),y:Math.round(r.top)});return}
       if(bLong){return}
       var t=e.changedTouches[0];bTaps.push([t.clientX,t.clientY]);
-      if(bTaps.length>=2){bTaps=[];on?stop():start();return}
+      if(bTaps.length>=TAPS){bTaps=[];on?stop():start();return}
       flush=setTimeout(function(){var p=bTaps.shift();bTaps=[];if(!p||on&&!paused){return}
-        /* один тап проходить у сторінку під кнопкою */
+        /* 1–2 тапи проходять у сторінку під кнопкою */
         btn.style.pointerEvents='none';var el=document.elementFromPoint(p[0],p[1]);btn.style.pointerEvents='';
         if(el&&el.click){el.click()}},MULTI)},{passive:false});
     /* шкала */
@@ -1490,7 +1511,7 @@ JS = r"""
     range.addEventListener('input',function(){sp=Math.round(+range.value*100)/100;val.textContent=fmt(sp);store.set('saa3.as3Speed',sp);draw()});
     $('#as-up').addEventListener('click',function(){closePanel();start(false)});
     $('#as-down').addEventListener('click',function(){closePanel();start(true)});
-    $('#as-x').addEventListener('click',function(){closePanel();stop();dead=true;btn.style.display='none'});
+    $('#as-x').addEventListener('click',function(){closePanel();shutdown()});
     document.addEventListener('touchstart',function(e){if(panel.classList.contains('open')&&!e.target.closest('#as-panel')){closePanel()}},{passive:true,capture:true});
     window.addEventListener('hashchange',stop);
     draw()})();
@@ -1502,14 +1523,17 @@ JS = r"""
     try{history.pushState({fig:1},'')}catch(e){}}
   function hideFig(){figO.hidden=true;body.classList.remove('modal-open');$('#fig-body').innerHTML=''}
   /* закриття: «Назад» на телефоні прибирає лише картинку, сторінка лишається тією ж */
-  function closeFig(){if(figO.hidden){return}if(history.state&&history.state.fig){history.back()}else{hideFig()}}
-  window.addEventListener('popstate',function(){if(!figO.hidden){hideFig()}});
+  /* закриття: хрестик, клік поза картинкою, будь-яка клавіша або «Назад» — лишаємося на тій самій сторінці */
+  var figPop=false;
+  function closeFig(){if(figO.hidden){return}hideFig();
+    if(history.state&&history.state.fig){figPop=true;history.back()}}
+  window.addEventListener('popstate',function(){if(figPop){figPop=false;return}if(!figO.hidden){hideFig()}});
+  document.addEventListener('keydown',function(e){if(!figO.hidden){e.preventDefault();closeFig()}});
   document.addEventListener('click',function(e){
     var f=e.target.closest('figure.dfig'); if(!f||e.target.closest('a,.svc,.fig-card')){return}
     if(window.getSelection&&String(window.getSelection()).trim()){return}
     openFig(f)});
-  figO.addEventListener('click',function(){closeFig()});
-  $('#fig-close').addEventListener('click',closeFig);
+  figO.addEventListener('click',function(e){if(e.target.closest('#fig-body svg')&&!e.target.closest('#fig-close')){return}e.stopPropagation();closeFig()});
   /* галерея ілюстрацій (будується при першому відкритті) */
   var ilBuilt=false;
   function buildIllus(){
