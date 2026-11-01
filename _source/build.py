@@ -1258,21 +1258,27 @@ JS = r"""
     if(l){out+='<a class="tb-btn'+(d?'':' primary')+'" href="#learn/'+l.id+'">🎓 Урок: '+esc(l.emoji+' '+l.title)+'</a>'}
     out+='<button class="tb-btn" type="button" data-find="'+esc(s.aliases[0]||s.name)+'">🔍 Знайти в шпаргалці</button>';
     $('#svc-links').innerHTML=out;
+    if(overlay.hidden){try{history.pushState({card:1},'')}catch(e){}}
     overlay.hidden=false; body.classList.add('modal-open'); $('.svc-card').scrollTop=0;
   }
-  function closeCard(){overlay.hidden=true;body.classList.remove('modal-open')}
+  /* закриття: хрестик, тап поза карткою, будь-яка клавіша, «Назад» чи свайп — лишаємося на тій самій сторінці */
+  var cardPop=false;
+  function hideCard(){overlay.hidden=true;body.classList.remove('modal-open')}
+  function closeCard(){if(overlay.hidden){return}hideCard();
+    if(history.state&&history.state.card){cardPop=true;history.back()}}
+  window.addEventListener('popstate',function(){if(cardPop){cardPop=false;return}if(!overlay.hidden){hideCard()}});
   overlay.addEventListener('click',function(e){
     if(e.target===overlay){closeCard();return}
     var b=e.target.closest('[data-open]'); if(b){openCard(b.dataset.open);return}
     var f=e.target.closest('[data-find]');
-    if(f){closeCard();location.hash='#sheet';input.value=f.dataset.find;search(f.dataset.find);window.scrollTo({top:0});return}
-    if(e.target.closest('a[href^="#learn/"],a[href^="#deep/"]')){closeCard()}
+    if(f){hideCard();location.hash='#sheet';input.value=f.dataset.find;search(f.dataset.find);window.scrollTo({top:0});return}
+    if(e.target.closest('a[href^="#learn/"],a[href^="#deep/"]')){hideCard()}
   });
   $('#svc-close').addEventListener('click',closeCard);
   /* свайп пальцем справа наліво — закрити картку і повернутися до теми */
-  (function(){var card=$('.svc-card'),sx=0,sy=0,dx=0,mode=0;
+  function swipeClose(overlay,card,closeCard,edgeOnly){var sx=0,sy=0,dx=0,mode=0;
     function reset(){card.style.transition='transform .2s ease,opacity .2s ease';card.style.transform='';card.style.opacity=''}
-    overlay.addEventListener('touchstart',function(e){if(e.touches.length>1){mode=-1;return}sx=e.touches[0].clientX;sy=e.touches[0].clientY;dx=0;mode=0;card.style.transition='none'},{passive:true});
+    overlay.addEventListener('touchstart',function(e){if(e.touches.length>1||(typeof edgeOnly==='function'?edgeOnly():edgeOnly)&&e.touches[0].clientX<innerWidth-48){mode=-1;return}sx=e.touches[0].clientX;sy=e.touches[0].clientY;dx=0;mode=0;card.style.transition='none'},{passive:true});
     overlay.addEventListener('touchmove',function(e){if(mode<0){return}var x=e.touches[0].clientX-sx,y=e.touches[0].clientY-sy;
       if(!mode&&(Math.abs(x)>12||Math.abs(y)>12)){mode=(x<0&&Math.abs(x)>Math.abs(y)*1.3)?1:-1}
       if(mode===1){dx=Math.min(0,x);card.style.transform='translateX('+dx+'px)';card.style.opacity=String(Math.max(.3,1+dx/innerWidth));if(e.cancelable){e.preventDefault()}}},{passive:false});
@@ -1281,9 +1287,11 @@ JS = r"""
         setTimeout(function(){closeCard();card.style.transition='none';card.style.transform='';card.style.opacity=''},180)}
       else{reset()}},{passive:true});
     overlay.addEventListener('touchcancel',function(){mode=0;reset()},{passive:true});
-  })();
-  document.addEventListener('keydown',function(e){if(e.key!=='Escape'){return}
-    if(!$('#ask').hidden){$('#ask-no').click()}else if(!overlay.hidden){closeCard()}else if(!$('#fig-overlay').hidden){closeFig()}});
+  }
+  swipeClose(overlay,$('.svc-card'),function(){closeCard()},false);
+  document.addEventListener('keydown',function(e){
+    if(!$('#ask').hidden){if(e.key==='Escape'){$('#ask-no').click()}return}
+    if(!overlay.hidden){e.preventDefault();closeCard()}else if(!$('#fig-overlay').hidden){closeFig()}});
   document.addEventListener('click',function(e){
     var s=e.target.closest('.svc'); if(!s||!hintsOn||s.closest('.svc-card')){return}
     e.preventDefault(); openCard(s.dataset.svc);
@@ -1418,7 +1426,7 @@ JS = r"""
   /* автопрокрутка — ті самі правила, що в додатку «Автоскрол»:
      3 тапи будь-де — старт, ще 3 тапи — стоп; коло пальцем під час прокрутки — вимкнути повністю (кнопка зникає,
      3 тапи повертають); 1 тап — пауза 2,5 с; поки йде прокрутка, посилання й виділення не спрацьовують;
-     притримати палець 0,25 с і вести — сторінка тягнеться (швидкий рух одразу — це малювання кола); відпустили — їде далі;
+     палець на екрані — прокрутка стоїть, сторінку можна вільно тягнути вгору-вниз; відпустили — їде далі в тому ж напрямку;
      два пальці 1,5 с — вимкнути. Кнопка: 3 тапи — старт/стоп, 1–2 тапи проходять у сторінку під нею,
      утримання — шкала (▲ Вгору, ▼ Вниз, ✕, повзунок), перетягування — перемістити. */
   (function(){
@@ -1465,12 +1473,11 @@ JS = r"""
       path.push([t.clientX,t.clientY]);
       if(!moved&&Math.hypot(t.clientX-tx,t.clientY-ty)>10){moved=true;
         if(Date.now()-tStart>=HOLD_DRAG){drag=true}else{free=true}}
-      /* під час прокрутки швидкий рух — малювання кола, сторінка не їде */
-      if(on&&free&&e.cancelable&&!ours(e.target)){e.preventDefault()}},{passive:false});
+},{passive:true});
     window.addEventListener('touchend',function(e){touching=e.touches.length;clearTimeout(twoTimer);if(touching){return}
       if(ours(e.target)){return}
       var now=Date.now();
-      if(on&&free&&isCircle(path)){path=[];taps=0;shutdown();swallowUntil=now+600;return}
+      if(on&&isCircle(path)){path=[];taps=0;shutdown();swallowUntil=now+600;return}
       if(moved||now-tStart>=TAP_MAX){taps=0;if(on){pauseUntil=now+HOLD_RESUME}return}
       if(overlayOpen()){taps=0;return}
       taps=now-lastTap<MULTI+TAP_MAX?taps+1:1;lastTap=now;
@@ -1528,7 +1535,8 @@ JS = r"""
   function closeFig(){if(figO.hidden){return}hideFig();
     if(history.state&&history.state.fig){figPop=true;history.back()}}
   window.addEventListener('popstate',function(){if(figPop){figPop=false;return}if(!figO.hidden){hideFig()}});
-  document.addEventListener('keydown',function(e){if(!figO.hidden){e.preventDefault();closeFig()}});
+  /* свайп справа наліво: з будь-якого місця, якщо картинка не ширша за екран, інакше — від правого краю */
+  swipeClose(figO,$('.fig-card'),function(){closeFig()},function(){var b=$('#fig-body');return b.scrollWidth>b.clientWidth+4});
   document.addEventListener('click',function(e){
     var f=e.target.closest('figure.dfig'); if(!f||e.target.closest('a,.svc,.fig-card')){return}
     if(window.getSelection&&String(window.getSelection()).trim()){return}
