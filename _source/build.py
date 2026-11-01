@@ -707,18 +707,7 @@ body.fs-2 article.deep,body.fs-2 article.lesson,body.fs-2 .page{font-size:1.45re
 body.fs-3 article.deep,body.fs-3 article.lesson,body.fs-3 .page{font-size:1.65rem}
 .simple{border:2px solid var(--ok);background:var(--ok-bg);border-radius:14px;padding:12px 16px;margin:0 0 18px;line-height:1.7}
 .simple b{display:block;margin-bottom:4px}
-.as-box{position:static}
-#as-btn{position:fixed;right:12px;top:45%;z-index:60;padding:3px 8px;border-radius:14px;border:1.5px solid #7CF5C4;background:#1A1D23;color:#7CF5C4;font:600 14px system-ui,sans-serif;opacity:.35;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
-#as-btn.act{opacity:.7}
-#as-panel{position:fixed;z-index:61;width:240px;display:none;flex-direction:column;gap:8px;padding:8px;border-radius:20px;background:rgba(18,20,24,.97);border:1.5px solid rgba(124,245,196,.27);box-shadow:0 12px 32px rgba(0,0,0,.45)}
-#as-panel.open{display:flex}
-#as-panel .as-row{display:flex;gap:6px;align-items:center}
-#as-up,#as-down{flex:1;padding:7px 4px;border:0;border-radius:16px;background:#7CF5C4;color:#0E1013;font:600 15px system-ui,sans-serif}
-#as-x{width:32px;height:32px;border:0;border-radius:50%;background:#E5393B;color:#fff;font:700 15px system-ui,sans-serif}
-#as-range{flex:1;accent-color:#7CF5C4}
-#as-val{color:#7CF5C4;font:600 14px system-ui,sans-serif;min-width:48px;text-align:right}
 html{touch-action:manipulation}
-body.as-on,body.as-on *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 .fs-btn{font-weight:700;padding:4px 10px!important}
 .goals{border:1px solid var(--trg-line);background:var(--trg-bg);border-radius:12px;padding:10px 14px 6px;margin:0 0 18px}
 .goals b{display:block;margin-bottom:2px}
@@ -983,7 +972,7 @@ body.modal-open{overflow:hidden}
   .tab .tl-short{display:inline}
   .tab[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
   body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
-  .to-top,.as-box{bottom:calc(78px + env(safe-area-inset-bottom))}
+  .to-top{bottom:calc(78px + env(safe-area-inset-bottom))}
   .hint-chip{bottom:calc(82px + env(safe-area-inset-bottom))}
   section,figure.diagram,article.lesson{scroll-margin-top:110px}
 }
@@ -1030,7 +1019,7 @@ body.modal-open{overflow:hidden}
   p,li{margin:3px 0}
   h3{margin:10px 0 4px}
   h4{margin:9px 0 5px}
-  .as-box,.topbar,.tabs,.toc,.scrim,.learn-btn,.to-top,.skip,.how,.foot,.progress-line,.seg,.hint-chip,.svc-overlay,.lesson-nav,.lesson-top .back,.progress-card,.quiz-links,.install-card,.ask-overlay,.offline-ok,#learn-summary{display:none!important}
+  .topbar,.tabs,.toc,.scrim,.learn-btn,.to-top,.skip,.how,.foot,.progress-line,.seg,.hint-chip,.svc-overlay,.lesson-nav,.lesson-top .back,.progress-card,.quiz-links,.install-card,.ask-overlay,.offline-ok,#learn-summary{display:none!important}
   body.print-lessons article a[href^="#fig-"]::after{content:" (у PDF «Шпаргалка»)";color:var(--muted);font-weight:400}
   .svc{text-decoration:none!important;background:none!important}
   .view{display:none!important}
@@ -1423,105 +1412,6 @@ JS = r"""
   function applyFs(){body.classList.remove('fs-1','fs-2','fs-3');if(fs){body.classList.add('fs-'+fs)}
     $$('.fs-btn').forEach(function(b){b.textContent=['Aa','Aa+','Aa++','Aa+++'][fs]})}
   document.addEventListener('click',function(e){if(e.target.closest('.fs-btn')){fs=(fs+1)%4;store.set('saa3.fs',fs);applyFs()}});
-  /* автопрокрутка — ті самі правила, що в додатку «Автоскрол»:
-     3 тапи будь-де — старт, ще 3 тапи — стоп; коло пальцем під час прокрутки — вимкнути повністю (кнопка зникає,
-     3 тапи повертають); 1 тап — пауза 2,5 с; поки йде прокрутка, посилання й виділення не спрацьовують;
-     палець на екрані — прокрутка стоїть, сторінку можна вільно тягнути вгору-вниз; відпустили — їде далі в тому ж напрямку;
-     два пальці 1,5 с — вимкнути. Кнопка: 3 тапи — старт/стоп, 1–2 тапи проходять у сторінку під нею,
-     утримання — шкала (▲ Вгору, ▼ Вниз, ✕, повзунок), перетягування — перемістити. */
-  (function(){
-    var BASE=120,MIN=0.10,MAX=1.75,TAP_MAX=250,MULTI=400,LONG=550,TAP_PAUSE=2500,HOLD_RESUME=150,TAPS=3,HOLD_DRAG=250;
-    var sp=+store.get('saa3.as3Speed',0.25); if(!(sp>=MIN&&sp<=MAX)){sp=0.25}
-    var btn=$('#as-btn'),panel=$('#as-panel'),range=$('#as-range'),val=$('#as-val');
-    var on=false,paused=false,down=true,dead=false,touching=0,pauseUntil=0,acc=0,last=0;
-    var taps=0,lastTap=0,tStart=0,tx=0,ty=0,moved=false,twoTimer=null,path=[],drag=false,free=false;
-    /* чи схожий шлях пальця на коло: обвів центр ≥ 300°, не сплюснуте, не через центр */
-    function isCircle(pts){if(pts.length<10){return false}
-      var xs=pts.map(function(p){return p[0]}),ys=pts.map(function(p){return p[1]});
-      var x0=Math.min.apply(0,xs),x1=Math.max.apply(0,xs),y0=Math.min.apply(0,ys),y1=Math.max.apply(0,ys),w=x1-x0,h=y1-y0;
-      if(w<60||h<60||w/h>2.5||h/w>2.5){return false}
-      var cx=(x0+x1)/2,cy=(y0+y1)/2,rs=pts.map(function(p){return Math.hypot(p[0]-cx,p[1]-cy)});
-      var avg=rs.reduce(function(a,b){return a+b},0)/rs.length; if(Math.min.apply(0,rs)<avg*.3){return false}
-      var sw=0,prev=Math.atan2(pts[0][1]-cy,pts[0][0]-cx);
-      for(var i=1;i<pts.length;i++){var a=Math.atan2(pts[i][1]-cy,pts[i][0]-cx),da=a-prev;
-        if(da>Math.PI){da-=2*Math.PI}else if(da<-Math.PI){da+=2*Math.PI}sw+=da;prev=a}
-      return Math.abs(sw)>=300*Math.PI/180}
-    function shutdown(){stop();dead=true;btn.style.display='none'}
-    function wake(){dead=false;btn.style.display=''}
-    function fmt(v){return v.toFixed(2).replace('.',',')+'×'}
-    function draw(){btn.textContent=(on?(paused?'⏸ ':(down?'▼ ':'▲ ')):'⇅ ')+fmt(sp)}
-    var pos=store.get('saa3.as2Pos',null);
-    if(pos&&pos.x>=0){btn.style.left=Math.min(pos.x,innerWidth-80)+'px';btn.style.top=Math.min(pos.y,innerHeight-40)+'px';btn.style.right='auto'}
-    function tick(t){if(!on){return}
-      if(last&&!paused&&!touching&&Date.now()>=pauseUntil){acc+=BASE*sp*(t-last)/1000;var d=Math.floor(acc);
-        if(d){acc-=d;window.scrollBy(0,down?d:-d);
-          var h=document.documentElement.scrollHeight;
-          if(down&&innerHeight+scrollY>=h-2||!down&&scrollY<=0){stop();return}}}
-      last=t;requestAnimationFrame(tick)}
-    function start(dir){if(dead){return}if(typeof dir==='boolean'){down=dir}on=true;body.classList.add('as-on');paused=false;pauseUntil=0;last=0;acc=0;draw();requestAnimationFrame(tick)}
-    function stop(){on=false;paused=false;body.classList.remove('as-on');draw()}
-    function noSel(){try{var s=getSelection();if(s&&!s.isCollapsed){s.removeAllRanges()}}catch(e){}}
-    function ours(el){return el&&el.closest&&el.closest('input,textarea,select,[contenteditable],.as-box')}
-    function overlayOpen(){return panel.classList.contains('open')||document.querySelector('.fig-overlay:not([hidden]),.svc-overlay:not([hidden]),.ask-overlay:not([hidden])')}
-    /* дотики по сторінці */
-    window.addEventListener('touchstart',function(e){
-      touching=e.touches.length;
-      if(e.touches.length>=2){taps=0;clearTimeout(twoTimer);if(on){twoTimer=setTimeout(stop,1500)}return}
-      if(ours(e.target)){return}
-      tStart=Date.now();tx=e.touches[0].clientX;ty=e.touches[0].clientY;moved=false;drag=false;free=false;path=[[tx,ty]]},{passive:true});
-    window.addEventListener('touchmove',function(e){var t=e.touches[0];if(!t||e.touches.length>1){return}
-      path.push([t.clientX,t.clientY]);
-      if(!moved&&Math.hypot(t.clientX-tx,t.clientY-ty)>10){moved=true;
-        if(Date.now()-tStart>=HOLD_DRAG){drag=true}else{free=true}}
-},{passive:true});
-    window.addEventListener('touchend',function(e){touching=e.touches.length;clearTimeout(twoTimer);if(touching){return}
-      if(ours(e.target)){return}
-      var now=Date.now();
-      if(on&&isCircle(path)){path=[];taps=0;shutdown();swallowUntil=now+600;return}
-      if(moved||now-tStart>=TAP_MAX){taps=0;if(on){pauseUntil=now+HOLD_RESUME}return}
-      if(overlayOpen()){taps=0;return}
-      taps=now-lastTap<MULTI+TAP_MAX?taps+1:1;lastTap=now;
-      if(taps>=TAPS){taps=0;noSel();setTimeout(noSel,60);setTimeout(noSel,400);
-        if(dead){wake();start()}else if(!on){start()}else{stop();swallowUntil=Date.now()+600}
-        return}
-      if(dead){return}
-      if(on&&!paused){pauseUntil=now+TAP_PAUSE}},{passive:true});
-    /* поки йде прокрутка — тапи й утримання нічого не відкривають і не виділяють */
-    var swallowUntil=0;
-    function block(e){if((on||Date.now()<swallowUntil)&&!(e.target.closest&&e.target.closest('.as-box'))){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation()}}
-    ['click','contextmenu','selectstart','dblclick','auxclick'].forEach(function(n){document.addEventListener(n,block,true)});
-    window.addEventListener('touchcancel',function(){touching=0;clearTimeout(twoTimer)},{passive:true});
-    /* кнопка */
-    var bx=0,by=0,bl=0,bt=0,bMoved=false,bLong=false,lp=null,bTaps=[],flush=null;
-    btn.addEventListener('touchstart',function(e){var t=e.touches[0];bx=t.clientX;by=t.clientY;
-      var r=btn.getBoundingClientRect();bl=r.left;bt=r.top;bMoved=false;bLong=false;btn.classList.add('act');clearTimeout(flush);
-      lp=setTimeout(function(){bLong=true;bTaps=[];openPanel()},LONG)},{passive:true});
-    btn.addEventListener('touchmove',function(e){e.preventDefault();var t=e.touches[0],dx=t.clientX-bx,dy=t.clientY-by;
-      if(!bMoved&&Math.hypot(dx,dy)>10){bMoved=true;clearTimeout(lp);bTaps=[]}
-      if(bMoved){btn.style.right='auto';btn.style.left=Math.max(0,Math.min(innerWidth-btn.offsetWidth,bl+dx))+'px';btn.style.top=Math.max(0,Math.min(innerHeight-btn.offsetHeight,bt+dy))+'px'}},{passive:false});
-    btn.addEventListener('touchend',function(e){e.preventDefault();clearTimeout(lp);btn.classList.remove('act');
-      if(bMoved){var r=btn.getBoundingClientRect();store.set('saa3.as2Pos',{x:Math.round(r.left),y:Math.round(r.top)});return}
-      if(bLong){return}
-      var t=e.changedTouches[0];bTaps.push([t.clientX,t.clientY]);
-      if(bTaps.length>=TAPS){bTaps=[];on?stop():start();return}
-      flush=setTimeout(function(){var p=bTaps.shift();bTaps=[];if(!p||on&&!paused){return}
-        /* 1–2 тапи проходять у сторінку під кнопкою */
-        btn.style.pointerEvents='none';var el=document.elementFromPoint(p[0],p[1]);btn.style.pointerEvents='';
-        if(el&&el.click){el.click()}},MULTI)},{passive:false});
-    /* шкала */
-    function openPanel(){stop();range.value=sp;val.textContent=fmt(sp);
-      var r=btn.getBoundingClientRect(),w=240;
-      panel.style.left=Math.max(8,Math.min(innerWidth-w-8,r.left+r.width/2-w/2))+'px';
-      var top=r.bottom+6; if(top+110>innerHeight){top=Math.max(8,r.top-116)}
-      panel.style.top=top+'px';panel.classList.add('open');btn.style.visibility='hidden'}
-    function closePanel(){panel.classList.remove('open');btn.style.visibility=''}
-    range.addEventListener('input',function(){sp=Math.round(+range.value*100)/100;val.textContent=fmt(sp);store.set('saa3.as3Speed',sp);draw()});
-    $('#as-up').addEventListener('click',function(){closePanel();start(false)});
-    $('#as-down').addEventListener('click',function(){closePanel();start(true)});
-    $('#as-x').addEventListener('click',function(){closePanel();shutdown()});
-    document.addEventListener('touchstart',function(e){if(panel.classList.contains('open')&&!e.target.closest('#as-panel')){closePanel()}},{passive:true,capture:true});
-    window.addEventListener('hashchange',stop);
-    draw()})();
   /* збільшення ілюстрацій */
   var figO=$('#fig-overlay');
   function openFig(f){var svg=f.querySelector('svg'); if(!svg){return}
@@ -2046,7 +1936,6 @@ PAGE = """<!DOCTYPE html>
 </div>
 <button class="hint-chip" id="hint-chip" type="button" hidden></button>
 <button class="to-top" id="to-top" type="button" aria-label="Нагору">↑</button>
-<div class="as-box"><button id="as-btn" type="button" aria-label="Автопрокрутка: 2 тапи — старт або стоп, утримання — шкала">⇅ 1,00×</button><div id="as-panel" role="dialog" aria-label="Автопрокрутка"><div class="as-row"><button id="as-up" type="button">▲ Вгору</button><button id="as-down" type="button">▼ Вниз</button><button id="as-x" type="button" aria-label="Закрити автопрокрутку">✕</button></div><div class="as-row"><input id="as-range" type="range" min="0.10" max="1.75" step="0.01" aria-label="Швидкість"><span id="as-val">1,00×</span></div></div></div>
 <script id="qdata" type="application/json">%%QDATA%%</script>
 <script id="sdata" type="application/json">%%SDATA%%</script>
 <script id="ldata" type="application/json">%%LDATA%%</script>
